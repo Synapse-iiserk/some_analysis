@@ -1,0 +1,384 @@
+{
+  "sectors": [
+    {
+      "state": "Andaman and Nicobar Islands",
+      "gdp_bn_usd": 10,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "gdp_bn_usd": 10,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "gdp_bn_usd": 1100,
+      "clusters": [
+        "Petrochemical",
+        "Pharma",
+        "Fertilizers"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 24.9
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "gdp_bn_usd": 35,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Assam",
+      "gdp_bn_usd": 500,
+      "clusters": [],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Bihar",
+      "gdp_bn_usd": 800,
+      "clusters": [],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Chandigarh",
+      "gdp_bn_usd": 50,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Chhattisgarh",
+      "gdp_bn_usd": 400,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Dadra and Nagar Haveli",
+      "gdp_bn_usd": 15,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "gdp_bn_usd": 15,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Daman and Diu",
+      "gdp_bn_usd": 10,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Daman And Diu",
+      "gdp_bn_usd": 10,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Delhi",
+      "gdp_bn_usd": 900,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Goa",
+      "gdp_bn_usd": 100,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "gdp_bn_usd": 2100,
+      "clusters": [
+        "Petrochemical",
+        "Refining",
+        "Chemicals",
+        "Diamond"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 52.0
+    },
+    {
+      "state": "Haryana",
+      "gdp_bn_usd": 900,
+      "clusters": [
+        "Auto",
+        "Chemicals",
+        "Fertilizers"
+      ],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "gdp_bn_usd": 200,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_bn_usd": 200,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_bn_usd": 0,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Jharkhand",
+      "gdp_bn_usd": 400,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Karnataka",
+      "gdp_bn_usd": 2300,
+      "clusters": [
+        "Petrochemical",
+        "IT",
+        "Pharma",
+        "Bio"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 2.4
+    },
+    {
+      "state": "Kerala",
+      "gdp_bn_usd": 1000,
+      "clusters": [
+        "Rubber",
+        "Spices",
+        "Chemicals"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0.0
+    },
+    {
+      "state": "Ladakh",
+      "gdp_bn_usd": 15,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Lakshadweep",
+      "gdp_bn_usd": 5,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "gdp_bn_usd": 1200,
+      "clusters": [],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Maharashtra",
+      "gdp_bn_usd": 3200,
+      "clusters": [
+        "Pharma",
+        "Petrochemical",
+        "Chemicals",
+        "Polymers"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 3.3
+    },
+    {
+      "state": "Manipur",
+      "gdp_bn_usd": 40,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Meghalaya",
+      "gdp_bn_usd": 50,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Mizoram",
+      "gdp_bn_usd": 30,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Nagaland",
+      "gdp_bn_usd": 40,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Odisha",
+      "gdp_bn_usd": 700,
+      "clusters": [
+        "Steel",
+        "Aluminum",
+        "Chemicals"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 5.3
+    },
+    {
+      "state": "Puducherry",
+      "gdp_bn_usd": 50,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 3.5
+    },
+    {
+      "state": "Punjab",
+      "gdp_bn_usd": 700,
+      "clusters": [
+        "Agriculture",
+        "Chemicals",
+        "Textiles"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Rajasthan",
+      "gdp_bn_usd": 1400,
+      "clusters": [
+        "Cement",
+        "Marble",
+        "Textiles"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Sikkim",
+      "gdp_bn_usd": 35,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Tamil Nadu",
+      "gdp_bn_usd": 2400,
+      "clusters": [
+        "Petrochemical",
+        "Auto",
+        "Textiles",
+        "Chemicals"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0.0
+    },
+    {
+      "state": "Telangana",
+      "gdp_bn_usd": 1100,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Tripura",
+      "gdp_bn_usd": 70,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "gdp_bn_usd": 2500,
+      "clusters": [
+        "Fertilizers",
+        "Chemicals",
+        "Cement"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "Uttarakhand",
+      "gdp_bn_usd": 350,
+      "clusters": [],
+      "refinery_count": 0,
+      "nat_gas": 0,
+      "port_imports": 0
+    },
+    {
+      "state": "West Bengal",
+      "gdp_bn_usd": 1500,
+      "clusters": [
+        "Petrochemical",
+        "Jute",
+        "Tea"
+      ],
+      "refinery_count": 1,
+      "nat_gas": 0,
+      "port_imports": 0.0
+    }
+  ]
+}

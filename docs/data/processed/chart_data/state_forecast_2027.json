@@ -1,0 +1,332 @@
+{
+  "forecasts": [
+    {
+      "state": "Andaman and Nicobar Islands",
+      "gdp_2027_estimated": 12.0,
+      "chem_imports_2027": 18.0,
+      "chem_exports_2027": 5.0,
+      "trade_balance_2027": -13.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "gdp_2027_estimated": 12.0,
+      "chem_imports_2027": 18.0,
+      "chem_exports_2027": 5.0,
+      "trade_balance_2027": -13.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "gdp_2027_estimated": 1348.0,
+      "chem_imports_2027": 1879.0,
+      "chem_exports_2027": 560.0,
+      "trade_balance_2027": -1319.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "gdp_2027_estimated": 43.0,
+      "chem_imports_2027": 59.0,
+      "chem_exports_2027": 18.0,
+      "trade_balance_2027": -41.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Assam",
+      "gdp_2027_estimated": 612.0,
+      "chem_imports_2027": 854.0,
+      "chem_exports_2027": 255.0,
+      "trade_balance_2027": -598.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Bihar",
+      "gdp_2027_estimated": 980.0,
+      "chem_imports_2027": 1366.0,
+      "chem_exports_2027": 407.0,
+      "trade_balance_2027": -959.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Chandigarh",
+      "gdp_2027_estimated": 61.0,
+      "chem_imports_2027": 86.0,
+      "chem_exports_2027": 25.0,
+      "trade_balance_2027": -61.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Chhattisgarh",
+      "gdp_2027_estimated": 490.0,
+      "chem_imports_2027": 683.0,
+      "chem_exports_2027": 204.0,
+      "trade_balance_2027": -480.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Dadra and Nagar Haveli",
+      "gdp_2027_estimated": 18.0,
+      "chem_imports_2027": 25.0,
+      "chem_exports_2027": 8.0,
+      "trade_balance_2027": -17.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "gdp_2027_estimated": 18.0,
+      "chem_imports_2027": 25.0,
+      "chem_exports_2027": 8.0,
+      "trade_balance_2027": -17.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Daman and Diu",
+      "gdp_2027_estimated": 12.0,
+      "chem_imports_2027": 18.0,
+      "chem_exports_2027": 5.0,
+      "trade_balance_2027": -13.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Daman And Diu",
+      "gdp_2027_estimated": 12.0,
+      "chem_imports_2027": 18.0,
+      "chem_exports_2027": 5.0,
+      "trade_balance_2027": -13.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Delhi",
+      "gdp_2027_estimated": 1102.0,
+      "chem_imports_2027": 1537.0,
+      "chem_exports_2027": 459.0,
+      "trade_balance_2027": -1078.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Goa",
+      "gdp_2027_estimated": 123.0,
+      "chem_imports_2027": 170.0,
+      "chem_exports_2027": 51.0,
+      "trade_balance_2027": -120.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Gujarat",
+      "gdp_2027_estimated": 2572.0,
+      "chem_imports_2027": 3587.0,
+      "chem_exports_2027": 1071.0,
+      "trade_balance_2027": -2516.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Haryana",
+      "gdp_2027_estimated": 1102.0,
+      "chem_imports_2027": 1537.0,
+      "chem_exports_2027": 459.0,
+      "trade_balance_2027": -1078.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "gdp_2027_estimated": 245.0,
+      "chem_imports_2027": 342.0,
+      "chem_exports_2027": 102.0,
+      "trade_balance_2027": -240.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_2027_estimated": 245.0,
+      "chem_imports_2027": 342.0,
+      "chem_exports_2027": 102.0,
+      "trade_balance_2027": -240.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_2027_estimated": 0.0,
+      "chem_imports_2027": 0.0,
+      "chem_exports_2027": 0.0,
+      "trade_balance_2027": 0.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Jharkhand",
+      "gdp_2027_estimated": 490.0,
+      "chem_imports_2027": 683.0,
+      "chem_exports_2027": 204.0,
+      "trade_balance_2027": -480.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Karnataka",
+      "gdp_2027_estimated": 2818.0,
+      "chem_imports_2027": 3928.0,
+      "chem_exports_2027": 1172.0,
+      "trade_balance_2027": -2756.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Kerala",
+      "gdp_2027_estimated": 1225.0,
+      "chem_imports_2027": 1708.0,
+      "chem_exports_2027": 509.0,
+      "trade_balance_2027": -1199.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Ladakh",
+      "gdp_2027_estimated": 18.0,
+      "chem_imports_2027": 25.0,
+      "chem_exports_2027": 8.0,
+      "trade_balance_2027": -17.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Lakshadweep",
+      "gdp_2027_estimated": 6.0,
+      "chem_imports_2027": 9.0,
+      "chem_exports_2027": 2.0,
+      "trade_balance_2027": -7.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "gdp_2027_estimated": 1470.0,
+      "chem_imports_2027": 2049.0,
+      "chem_exports_2027": 612.0,
+      "trade_balance_2027": -1438.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Maharashtra",
+      "gdp_2027_estimated": 3920.0,
+      "chem_imports_2027": 5466.0,
+      "chem_exports_2027": 1631.0,
+      "trade_balance_2027": -3835.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Manipur",
+      "gdp_2027_estimated": 49.0,
+      "chem_imports_2027": 68.0,
+      "chem_exports_2027": 21.0,
+      "trade_balance_2027": -48.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Meghalaya",
+      "gdp_2027_estimated": 61.0,
+      "chem_imports_2027": 86.0,
+      "chem_exports_2027": 25.0,
+      "trade_balance_2027": -61.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Mizoram",
+      "gdp_2027_estimated": 37.0,
+      "chem_imports_2027": 52.0,
+      "chem_exports_2027": 15.0,
+      "trade_balance_2027": -37.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Nagaland",
+      "gdp_2027_estimated": 49.0,
+      "chem_imports_2027": 68.0,
+      "chem_exports_2027": 21.0,
+      "trade_balance_2027": -48.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Odisha",
+      "gdp_2027_estimated": 858.0,
+      "chem_imports_2027": 1196.0,
+      "chem_exports_2027": 356.0,
+      "trade_balance_2027": -839.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Puducherry",
+      "gdp_2027_estimated": 61.0,
+      "chem_imports_2027": 86.0,
+      "chem_exports_2027": 25.0,
+      "trade_balance_2027": -61.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Punjab",
+      "gdp_2027_estimated": 858.0,
+      "chem_imports_2027": 1196.0,
+      "chem_exports_2027": 356.0,
+      "trade_balance_2027": -839.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "Rajasthan",
+      "gdp_2027_estimated": 1715.0,
+      "chem_imports_2027": 2391.0,
+      "chem_exports_2027": 713.0,
+      "trade_balance_2027": -1678.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Sikkim",
+      "gdp_2027_estimated": 43.0,
+      "chem_imports_2027": 59.0,
+      "chem_exports_2027": 18.0,
+      "trade_balance_2027": -41.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Tamil Nadu",
+      "gdp_2027_estimated": 2940.0,
+      "chem_imports_2027": 4100.0,
+      "chem_exports_2027": 1222.0,
+      "trade_balance_2027": -2877.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Telangana",
+      "gdp_2027_estimated": 1348.0,
+      "chem_imports_2027": 1879.0,
+      "chem_exports_2027": 560.0,
+      "trade_balance_2027": -1319.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Tripura",
+      "gdp_2027_estimated": 86.0,
+      "chem_imports_2027": 120.0,
+      "chem_exports_2027": 36.0,
+      "trade_balance_2027": -84.0,
+      "growth_5yr": "low"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "gdp_2027_estimated": 3062.0,
+      "chem_imports_2027": 4270.0,
+      "chem_exports_2027": 1274.0,
+      "trade_balance_2027": -2996.0,
+      "growth_5yr": "high"
+    },
+    {
+      "state": "Uttarakhand",
+      "gdp_2027_estimated": 429.0,
+      "chem_imports_2027": 597.0,
+      "chem_exports_2027": 178.0,
+      "trade_balance_2027": -419.0,
+      "growth_5yr": "medium"
+    },
+    {
+      "state": "West Bengal",
+      "gdp_2027_estimated": 1838.0,
+      "chem_imports_2027": 2562.0,
+      "chem_exports_2027": 765.0,
+      "trade_balance_2027": -1797.0,
+      "growth_5yr": "high"
+    }
+  ]
+}

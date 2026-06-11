@@ -1,0 +1,527 @@
+{
+  "flows": [
+    {
+      "state": "Andaman and Nicobar Islands",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -11.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -11.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Pharmaceuticals",
+        "Fertilizers"
+      ],
+      "net_trade_cr": -1221.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -39.0
+    },
+    {
+      "state": "Assam",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals"
+      ],
+      "net_trade_cr": -555.0
+    },
+    {
+      "state": "Bihar",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals"
+      ],
+      "net_trade_cr": -888.0
+    },
+    {
+      "state": "Chandigarh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -55.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -444.0
+    },
+    {
+      "state": "Dadra and Nagar Haveli",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -17.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -17.0
+    },
+    {
+      "state": "Daman and Diu",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -11.0
+    },
+    {
+      "state": "Daman And Diu",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -11.0
+    },
+    {
+      "state": "Delhi",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -999.0
+    },
+    {
+      "state": "Goa",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -111.0
+    },
+    {
+      "state": "Gujarat",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Specialty Chemicals"
+      ],
+      "net_trade_cr": -2330.0
+    },
+    {
+      "state": "Haryana",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Specialty Chemicals",
+        "Fertilizers"
+      ],
+      "net_trade_cr": -999.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -222.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -222.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": 0.0
+    },
+    {
+      "state": "Jharkhand",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -444.0
+    },
+    {
+      "state": "Karnataka",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Pharmaceuticals"
+      ],
+      "net_trade_cr": -2552.0
+    },
+    {
+      "state": "Kerala",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Specialty Chemicals"
+      ],
+      "net_trade_cr": -1110.0
+    },
+    {
+      "state": "Ladakh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -17.0
+    },
+    {
+      "state": "Lakshadweep",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -6.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals"
+      ],
+      "net_trade_cr": -1332.0
+    },
+    {
+      "state": "Maharashtra",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Pharmaceuticals",
+        "Specialty Chemicals"
+      ],
+      "net_trade_cr": -3551.0
+    },
+    {
+      "state": "Manipur",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -44.0
+    },
+    {
+      "state": "Meghalaya",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -55.0
+    },
+    {
+      "state": "Mizoram",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -33.0
+    },
+    {
+      "state": "Nagaland",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -44.0
+    },
+    {
+      "state": "Odisha",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Specialty Chemicals",
+        "Steel Products"
+      ],
+      "net_trade_cr": -777.0
+    },
+    {
+      "state": "Puducherry",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -55.0
+    },
+    {
+      "state": "Punjab",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Textiles",
+        "Specialty Chemicals"
+      ],
+      "net_trade_cr": -777.0
+    },
+    {
+      "state": "Rajasthan",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Textiles"
+      ],
+      "net_trade_cr": -1553.0
+    },
+    {
+      "state": "Sikkim",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -39.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Textiles",
+        "Specialty Chemicals"
+      ],
+      "net_trade_cr": -2663.0
+    },
+    {
+      "state": "Telangana",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -1221.0
+    },
+    {
+      "state": "Tripura",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -78.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals",
+        "Specialty Chemicals",
+        "Fertilizers"
+      ],
+      "net_trade_cr": -2774.0
+    },
+    {
+      "state": "Uttarakhand",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Agricultural Products"
+      ],
+      "net_trade_cr": -388.0
+    },
+    {
+      "state": "West Bengal",
+      "imports": [
+        "Crude Oil",
+        "Petrochemicals",
+        "Fertilizers"
+      ],
+      "exports": [
+        "Refined Products",
+        "Petrochemicals"
+      ],
+      "net_trade_cr": -1664.0
+    }
+  ]
+}

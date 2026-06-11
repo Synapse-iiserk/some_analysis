@@ -1,0 +1,444 @@
+{
+  "matrix": [
+    {
+      "state": "Andaman and Nicobar Islands",
+      "gdp_bn_usd": 10,
+      "risk_factors": [
+        "Fertilizer deficit"
+      ],
+      "opportunities": [],
+      "risk_score": 1,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Andaman And Nicobar Islands",
+      "gdp_bn_usd": 10,
+      "risk_factors": [
+        "Fertilizer deficit"
+      ],
+      "opportunities": [],
+      "risk_score": 1,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "gdp_bn_usd": 1100,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Petrochemical, Pharma",
+        "Active port infrastructure"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 2.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "gdp_bn_usd": 35,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Assam",
+      "gdp_bn_usd": 500,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Bihar",
+      "gdp_bn_usd": 800,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [],
+      "risk_score": 1,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Chandigarh",
+      "gdp_bn_usd": 50,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "gdp_bn_usd": 400,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Dadra and Nagar Haveli",
+      "gdp_bn_usd": 15,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Dadra And Nagar Haveli",
+      "gdp_bn_usd": 15,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Daman and Diu",
+      "gdp_bn_usd": 10,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Daman And Diu",
+      "gdp_bn_usd": 10,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Delhi",
+      "gdp_bn_usd": 900,
+      "risk_factors": [
+        "Fertilizer deficit",
+        "Low domestic gas production"
+      ],
+      "opportunities": [],
+      "risk_score": 2,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Goa",
+      "gdp_bn_usd": 100,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "gdp_bn_usd": 2100,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Major economic hub",
+        "Key sectors: Petrochemical, Refining",
+        "Active port infrastructure"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 3,
+      "risk_opp_ratio": 3.0
+    },
+    {
+      "state": "Haryana",
+      "gdp_bn_usd": 900,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Auto, Chemicals"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 1,
+      "risk_opp_ratio": 1.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "gdp_bn_usd": 200,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_bn_usd": 200,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "gdp_bn_usd": 0,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Jharkhand",
+      "gdp_bn_usd": 400,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "gdp_bn_usd": 2300,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Major economic hub",
+        "Key sectors: Petrochemical, IT"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 2.0
+    },
+    {
+      "state": "Kerala",
+      "gdp_bn_usd": 1000,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Rubber, Spices"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 1,
+      "risk_opp_ratio": 1.0
+    },
+    {
+      "state": "Ladakh",
+      "gdp_bn_usd": 15,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "gdp_bn_usd": 5,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "gdp_bn_usd": 1200,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [],
+      "risk_score": 1,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "gdp_bn_usd": 3200,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Major economic hub",
+        "Key sectors: Pharma, Petrochemical"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 2.0
+    },
+    {
+      "state": "Manipur",
+      "gdp_bn_usd": 40,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "gdp_bn_usd": 50,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "gdp_bn_usd": 30,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "gdp_bn_usd": 40,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Odisha",
+      "gdp_bn_usd": 700,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Steel, Aluminum",
+        "Active port infrastructure"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 2.0
+    },
+    {
+      "state": "Puducherry",
+      "gdp_bn_usd": 50,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Punjab",
+      "gdp_bn_usd": 700,
+      "risk_factors": [
+        "Fertilizer deficit",
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Agriculture, Chemicals"
+      ],
+      "risk_score": 2,
+      "opportunity_score": 1,
+      "risk_opp_ratio": 0.5
+    },
+    {
+      "state": "Rajasthan",
+      "gdp_bn_usd": 1400,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Cement, Marble"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 1,
+      "risk_opp_ratio": 1.0
+    },
+    {
+      "state": "Sikkim",
+      "gdp_bn_usd": 35,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "gdp_bn_usd": 2400,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Major economic hub",
+        "Key sectors: Petrochemical, Auto"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 2.0
+    },
+    {
+      "state": "Telangana",
+      "gdp_bn_usd": 1100,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [],
+      "risk_score": 1,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Tripura",
+      "gdp_bn_usd": 70,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "gdp_bn_usd": 2500,
+      "risk_factors": [
+        "Fertilizer deficit",
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Major economic hub",
+        "Key sectors: Fertilizers, Chemicals"
+      ],
+      "risk_score": 2,
+      "opportunity_score": 2,
+      "risk_opp_ratio": 1.0
+    },
+    {
+      "state": "Uttarakhand",
+      "gdp_bn_usd": 350,
+      "risk_factors": [],
+      "opportunities": [],
+      "risk_score": 0,
+      "opportunity_score": 0,
+      "risk_opp_ratio": 0.0
+    },
+    {
+      "state": "West Bengal",
+      "gdp_bn_usd": 1500,
+      "risk_factors": [
+        "Low domestic gas production"
+      ],
+      "opportunities": [
+        "Key sectors: Petrochemical, Jute"
+      ],
+      "risk_score": 1,
+      "opportunity_score": 1,
+      "risk_opp_ratio": 1.0
+    }
+  ]
+}

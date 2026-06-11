@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+{% set active_page = "states" %}
+{% block title %}State Analysis — India Trade & Economy{% endblock %}
+{% block content %}
+
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">STATE-LEVEL ANALYSIS</div>
+        <h1 class="display-lg">Interactive Indian Map — State Trade & Economy</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">Explore how petrochemical trade, petroleum consumption, fertilizer imports, and industrial clusters affect each Indian state. Click any state for detailed analysis.</p>
+    </div>
+</section>
+
+<!-- MAP SECTION -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <div class="tab-bar">
+            <button class="tab-btn active" onclick="switchTab('gdp')">GDP</button>
+            <button class="tab-btn" onclick="switchTab('petroleum')">Petroleum</button>
+            <button class="tab-btn" onclick="switchTab('chemical')">Chemical Trade</button>
+            <button class="tab-btn" onclick="switchTab('fertilizer')">Fertilizer</button>
+            <button class="tab-btn" onclick="switchTab('risk')">Risk Map</button>
+        </div>
+        <div class="grid-2" style="grid-template-columns: 1.5fr 1fr; align-items: start">
+            <div class="chart-container">
+                <div id="india-map" style="height:600px"></div>
+            </div>
+            <div>
+                <div id="state-detail" class="cream-card" style="min-height:400px">
+                    <p class="title-md" style="margin-bottom:8px">Click a state to see details</p>
+                    <p class="body-sm" style="color:var(--muted)">The interactive map shows state-level data across 37 states and UTs. Use the tabs above to switch between different metrics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATE LEADERBOARD -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">State Leaderboard</h2>
+        <div class="tab-bar">
+            <button class="tab-btn active" onclick="switchLeaderboard('gdp')">By GDP</button>
+            <button class="tab-btn" onclick="switchLeaderboard('petroleum')">By Petroleum Use</button>
+            <button class="tab-btn" onclick="switchLeaderboard('chemical')">By Chem Imports</button>
+            <button class="tab-btn" onclick="switchLeaderboard('fertilizer')">By Fertilizer Gap</button>
+        </div>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table" id="leaderboard-table">
+                <thead>
+                    <tr><th>Rank</th><th>State</th><th>Value</th><th>GDP Share</th><th>Key Sectors</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- RISK & OPPORTUNITY -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Risk & Opportunity Matrix</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-risk-scatter" style="height:500px"></div>
+            </div>
+            <div>
+                <h3 class="title-lg" style="margin-bottom:16px">State Risk Factors</h3>
+                <div id="risk-list"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TRADE FLOWS -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">State Trade Flows</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">What each state imports and exports based on industrial clusters and port infrastructure.</p>
+        <div class="chart-container">
+            <div id="chart-trade-sankey" style="height:500px"></div>
+        </div>
+    </div>
+</section>
+
+<!-- STATE FORECAST -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">State Forecasts (2026-2027)</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Projected GDP and chemical trade per state based on growth assumptions.</p>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-gdp-forecast" style="height:450px"></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-trade-balance-forecast" style="height:450px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTOR BREAKDOWN -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Industrial Clusters by State</h2>
+        <div class="chart-container">
+            <div id="chart-cluster-bars" style="height:500px"></div>
+        </div>
+    </div>
+</section>
+
+<!-- INFERENCE -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <div class="dark-card">
+            <h2 class="display-sm" style="color:var(--on-dark);margin-bottom:24px">Key Inferences for State-Level Strategy</h2>
+            <div class="grid-2">
+                <div>
+                    <p class="title-sm" style="color:var(--accent-teal);margin-bottom:8px">Economic Concentration</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">The top 5 states (Maharashtra, UP, Tamil Nadu, Karnataka, Gujarat) account for 53% of India's GDP and ~55% of chemical imports. Any policy shock disproportionately affects these states.</p>
+                </div>
+                <div>
+                    <p class="title-sm" style="color:var(--error);margin-bottom:8px">Import Dependency</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">Gujarat has the highest petroleum consumption per capita (5.3 kg/cap) and major port infrastructure (Kandla, Mundra). Karnataka and Tamil Nadu have the highest per-capita petroleum use among non-refinery states.</p>
+                </div>
+                <div>
+                    <p class="title-sm" style="color:var(--accent-amber);margin-bottom:8px">Refinery Hubs</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">Refinery concentration in Maharashtra (Mumbai), Gujarat (Jamnagar/Koyali), and Tamil Nadu (Chennai) creates regional supply dependency. Eastern states like Odisha, West Bengal, and Assam have refining capacity but lower downstream conversion.</p>
+                </div>
+                <div>
+                    <p class="title-sm" style="color:var(--success);margin-bottom:8px">Growth Opportunity</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">States with <1% import share but high population (UP, Bihar) represent the largest untapped market. Investment in domestic petrochemical capacity in these states could capture 15-20% of national demand.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let statesData = [];
+let geojson = null;
+let stateCenters = null;
+let currentMapMetric = 'gdp';
+
+function switchTab(metric) {
+    currentMapMetric = metric;
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    renderMap();
+}
+
+function switchLeaderboard(metric) {
+    event.target.parentElement.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    renderLeaderboard(metric);
+}
+
+Promise.all([
+    fetch('data/processed/chart_data/states_comprehensive.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/india_states_geojson.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_centers.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_risk_opportunity.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_trade_flows.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_forecast_2027.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_clusters.json').then(r=>r.json()),
+    fetch('data/processed/chart_data/state_sectors.json').then(r=>r.json())
+]).then(([states, gj, centers, risk, flows, forecast, clusters, sectors]) => {
+    statesData = states.states;
+    geojson = gj;
+    stateCenters = centers;
+    window._risk = risk;
+    window._flows = flows;
+    window._forecast = forecast;
+    window._clusters = clusters;
+    window._sectors = sectors;
+
+    renderMap();
+    renderLeaderboard('gdp');
+    renderRiskScatter();
+    renderTradeSankey();
+    renderForecasts();
+    renderClusterBars();
+    renderRiskList();
+}).catch(e => console.error('State data error:', e));
+
+function getMetric(s, metric) {
+    if (metric === 'gdp') return s['gdp bn_usd'];
+    if (metric === 'petroleum') return s['petroleum_per_capita'];
+    if (metric === 'chemical') return -s['chem_trade_balance_cr'];
+    if (metric === 'fertilizer') return -s['fertilizer_gap_kt'];
+    if (metric === 'risk') return s['sector_count'] * 10;
+    return 0;
+}
+
+function renderMap() {
+    const states = geojson.features.map(f => {
+        const name = f.properties.name;
+        const s = statesData.find(d => d.state === name);
+        return { ...f.properties, data: s };
+    });
+
+    // Show all states including those without data
+    const labels = states.map(s => s.name);
+    const values = states.map(s => s.data ? getMetric(s.data, currentMapMetric) : 0);
+    const hoverText = states.map(s => {
+        if (!s.data) return `${s.name}: No data`;
+        return `<b>${s.name}</b><br>GDP: ₹${s.data['gdp bn_usd']}B<br>Population: ${s.data.population_mn}M<br>Pet Consumption: ${s.data.petroleum_per_capita} kg/cap<br>Chem Trade Balance: ₹${s.data.chem_trade_balance_cr}Cr`;
+    });
+
+    const metricLabel = {gdp: 'GDP (₹B USD)', petroleum: 'Petroleum Use (kg/cap)', chemical: 'Chem Trade Deficit (₹Cr)', fertilizer: 'Fertilizer Deficit (kt)', risk: 'Sector Count'}[currentMapMetric];
+
+    const centerLookup = stateCenters;
+
+    Plotly.newPlot('india-map', [{
+        type: 'scattergeo',
+        mode: 'markers+text',
+        geojson: geojson,
+        featureidkey: 'properties.name',
+        locations: labels,
+        marker: {size: 14, color: values, colorscale: 'RdBu', showscale: true, colorbar: {title: metricLabel, thickness: 12}, line: {color: '#141413', width: 0.5}},
+        text: labels.map(l => l.length > 8 ? l.substring(0,7)+'.' : l),
+        textposition: 'top center',
+        textfont: {size: 8},
+        hovertext: hoverText,
+        hoverinfo: 'text',
+        showlegend: false
+    }], {
+        geo: {scope: 'asia', showland: true, landcolor: '#faf9f5', showcountries: true, countrycolor: '#e6dfd8', showlakes: false, showrivers: false, showocean: true, oceancolor: '#f5f0e8', center: {lon: 78, lat: 22}, projection: {type: 'mercator'}, lataxis: {range: [6, 38]}, lonaxis: {range: [68, 98]}},
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        margin: {l: 0, r: 0, t: 0, b: 0},
+        height: 600
+    }, {
+        responsive: true,
+        displayModeBar: false
+    }).then(() => {
+        document.querySelectorAll('#india-map .scatterlayer .trace path.point').forEach(path => {
+            path.style.cursor = 'pointer';
+            path.addEventListener('click', (e) => {
+                const point = e.target;
+                const location = point.getAttribute('data-unformatted') || point.getAttribute('d')?.split(',')[0];
+                if (location) showStateDetail(location.replace(/^"|"$/g, ''));
+            });
+        });
+    });
+}
+
+function showStateDetail(name) {
+    const s = statesData.find(d => d.state === name);
+    if (!s) return;
+    document.getElementById('state-detail').innerHTML = `
+        <p class="title-sm" style="color:var(--primary);margin-bottom:4px">${s.state}</p>
+        <p class="title-md" style="margin-bottom:12px">${s['gdp bn_usd'] ? '₹' + s['gdp bn_usd'] + 'B GDP' : ''} · ${s.population_mn}M Population</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+            <div style="background:var(--surface-soft);padding:8px 12px;border-radius:6px">
+                <p class="caption" style="color:var(--muted)">Pet Use/cap</p>
+                <p class="title-sm">${s.petroleum_per_capita} kg</p>
+            </div>
+            <div style="background:var(--surface-soft);padding:8px 12px;border-radius:6px">
+                <p class="caption" style="color:var(--muted)">Chem Balance</p>
+                <p class="title-sm" style="color:${s.chem_trade_balance_cr < 0 ? 'var(--error)' : 'var(--success)'}">₹${s.chem_trade_balance_cr}Cr</p>
+            </div>
+            <div style="background:var(--surface-soft);padding:8px 12px;border-radius:6px">
+                <p class="caption" style="color:var(--muted)">Fertilizer Gap</p>
+                <p class="title-sm" style="color:${s.fertilizer_gap_kt < 0 ? 'var(--error)' : 'var(--success)'}">${s.fertilizer_gap_kt}kt</p>
+            </div>
+            <div style="background:var(--surface-soft);padding:8px 12px;border-radius:6px">
+                <p class="caption" style="color:var(--muted)">Refineries</p>
+                <p class="title-sm">${s.refinery_count}</p>
+            </div>
+        </div>
+        ${s.industrial_clusters ? `<p class="caption" style="color:var(--muted);margin-bottom:8px"><b style="color:var(--ink)">Key Sectors:</b> ${s.industrial_clusters}</p>` : ''}
+        ${s.refinery_locations ? `<p class="caption" style="color:var(--muted);margin-bottom:8px"><b style="color:var(--ink)">Refineries:</b> ${s.refinery_locations}</p>` : ''}
+        ${s.port_names ? `<p class="caption" style="color:var(--muted);margin-bottom:8px"><b style="color:var(--ink)">Ports:</b> ${s.port_names}</p>` : ''}
+        ${s.risk_factors.length > 0 ? `<div style="background:#fef2f2;padding:8px 12px;border-radius:6px;margin-top:8px"><p class="caption" style="color:var(--error)"><b>Risks:</b> ${s.risk_factors.join(', ')}</p></div>` : ''}
+        ${s.opportunities.length > 0 ? `<div style="background:#f0fdf4;padding:8px 12px;border-radius:6px;margin-top:8px"><p class="caption" style="color:var(--success)"><b>Opportunities:</b> ${s.opportunities.join(', ')}</p></div>` : ''}
+    `;
+}
+
+function renderLeaderboard(metric) {
+    const valueField = {gdp: 'gdp bn_usd', petroleum: 'petroleum_per_capita', chemical: 'chem_imports_estimated_cr', fertilizer: 'fertilizer_demand_kt'}[metric];
+    const label = {gdp: 'GDP (₹B)', petroleum: 'Pet Use (kg/cap)', chemical: 'Chem Imports (₹Cr)', fertilizer: 'Demand (kt)'}[metric];
+    const sorted = [...statesData].sort((a,b) => b[valueField] - a[valueField]).slice(0, 15);
+    const tbody = document.querySelector('#leaderboard-table tbody');
+    tbody.innerHTML = sorted.map((s, i) => `
+        <tr onclick="showStateDetail('${s.state}')" style="cursor:pointer">
+            <td style="font-weight:500">${i+1}</td>
+            <td style="font-weight:500">${s.state}</td>
+            <td>${metric === 'gdp' ? '₹' + s[valueField] + 'B' : metric === 'chemical' ? '₹' + s[valueField] + 'Cr' : s[valueField]}</td>
+            <td>${s.gdp_share_pct}%</td>
+            <td style="color:var(--muted);font-size:13px">${(s.industrial_clusters||'').split(',').slice(0,2).join(', ')}</td>
+        </tr>
+    `).join('');
+}
+
+function renderRiskScatter() {
+    if (!window._risk) return;
+    const r = window._risk.matrix;
+    Plotly.newPlot('chart-risk-scatter', [{
+        x: r.map(d => d.risk_score),
+        y: r.map(d => d.opportunity_score),
+        text: r.map(d => d.state),
+        mode: 'markers+text',
+        textposition: 'top center',
+        textfont: {size: 9},
+        marker: {size: r.map(d => Math.sqrt(d.gdp_bn_usd) * 1.5), color: r.map(d => d.gdp_bn_usd > 2000 ? '#cc785c' : d.gdp_bn_usd > 500 ? '#e8a55a' : '#5db8a6'), line: {color: '#141413', width: 1}},
+        hovertemplate: '%{text}<br>Risk: %{x}<br>Opportunity: %{y}<extra></extra>'
+    }], mergeLayout({xaxis: {title: 'Risk Factors (count)'}, yaxis: {title: 'Opportunities (count)'}, title: 'Risk vs Opportunity by State'}), plotlyConfig);
+}
+
+function renderRiskList() {
+    if (!window._risk) return;
+    const r = window._risk.matrix.filter(d => d.risk_score > 0).sort((a,b) => b.risk_score - a.risk_score);
+    document.getElementById('risk-list').innerHTML = r.slice(0, 10).map(d => `
+        <div class="verdict-card verdict-high" style="margin-bottom:8px;padding:12px">
+            <p class="title-sm">${d.state} <span class="badge-warning" style="float:right">${d.risk_score} risks</span></p>
+            ${d.risk_factors.map(r => `<p class="body-sm" style="color:var(--muted)">• ${r}</p>`).join('')}
+        </div>
+    `).join('');
+}
+
+function renderTradeSankey() {
+    if (!window._flows) return;
+    const f = window._flows.flows;
+    const sources = f.map(x => 'India Import').concat(f.map(x => x.state));
+    const targets = f.map(x => x.state).concat(f.map(x => 'India Export'));
+    const values = f.map(x => Math.abs(x.net_trade_cr) + 100).concat(f.map(x => 500));
+    const labels = ['India Imports', ...f.map(x => x.state), ...f.map(x => x.state), 'India Exports'];
+    // Simpler: use 2 links per state
+    const links = {source: [...f.map((x,i) => 0), ...f.map((x,i) => i+1)], target: [...f.map((x,i) => i+1), ...f.map((x,i) => labels.length-1)], value: f.map(x => Math.abs(x.net_trade_cr) + 100).concat(f.map(x => 500))};
+    Plotly.newPlot('chart-trade-sankey', [{
+        type: 'sankey', orientation: 'h',
+        node: {pad: 10, thickness: 12, label: ['India Imports', ...f.map(x=>x.state), 'India Exports'], color: ['#cc785c', ...f.map(x => x.net_trade_cr < 0 ? '#5db8a6' : '#e8a55a'), '#cc785c']},
+        link: links
+    }], {title: 'Trade Flow: India → State → Exports', height: 500}, plotlyConfig);
+}
+
+function renderForecasts() {
+    if (!window._forecast) return;
+    const f = window._forecast.forecasts;
+    const sorted = [...f].sort((a,b) => b.gdp_2027_estimated - a.gdp_2027_estimated);
+    Plotly.newPlot('chart-gdp-forecast', [{
+        x: sorted.slice(0, 15).map(d => d.state),
+        y: sorted.slice(0, 15).map(d => d.gdp_2027_estimated),
+        type: 'bar', marker: {color: sorted.slice(0, 15).map(d => d.growth_5yr === 'high' ? '#cc785c' : d.growth_5yr === 'medium' ? '#e8a55a' : '#5db8a6')},
+        text: sorted.slice(0, 15).map(d => '₹' + d.gdp_2027_estimated + 'B'),
+        textposition: 'outside',
+        hovertemplate: '%{x}: ₹%{y}B by 2027<extra></extra>'
+    }], mergeLayout({yaxis: {title: 'GDP (₹B USD)'}, title: {text: 'Top 15 States: Projected GDP 2027'}}), plotlyConfig);
+
+    Plotly.newPlot('chart-trade-balance-forecast', [{
+        x: f.slice(0, 15).map(d => d.state),
+        y: f.slice(0, 15).map(d => d.trade_balance_2027),
+        type: 'bar', marker: {color: f.slice(0, 15).map(d => d.trade_balance_2027 > 0 ? '#5db872' : '#c64545')},
+        text: f.slice(0, 15).map(d => '₹' + d.trade_balance_2027 + 'Cr'),
+        textposition: 'outside',
+        hovertemplate: '%{x}: ₹%{y}Cr<extra></extra>'
+    }], mergeLayout({yaxis: {title: 'Trade Balance (₹Cr)'}, title: {text: 'Chemical Trade Balance 2027 (Top 15)'}}), plotlyConfig);
+}
+
+function renderClusterBars() {
+    if (!window._clusters) return;
+    const c = window._clusters.clusters;
+    const states = Object.keys(c);
+    const sectorData = {};
+    states.forEach(s => {
+        c[s].forEach(sector => {
+            sectorData[sector] = (sectorData[sector] || 0) + 1;
+        });
+    });
+    const sorted = Object.entries(sectorData).sort((a,b) => b[1] - a[1]).slice(0, 10);
+    Plotly.newPlot('chart-cluster-bars', [{
+        y: sorted.map(d => d[0]).reverse(),
+        x: sorted.map(d => d[1]).reverse(),
+        type: 'bar', orientation: 'h',
+        marker: {color: sorted.map(d => d[1]).reverse()},
+        text: sorted.map(d => d[1]).reverse(),
+        textposition: 'outside',
+        hovertemplate: '%{y}: %{x} states<extra></extra>'
+    }], mergeLayout({xaxis: {title: 'Number of States'}, title: {text: 'Top 10 Industrial Sectors Across States'}}), plotlyConfig);
+}
+</script>
+{% endblock %}

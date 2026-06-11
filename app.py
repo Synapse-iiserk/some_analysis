@@ -117,6 +117,12 @@ def datasets():
     return render_template("datasets.html")
 
 
+@app.route("/states")
+def states():
+    """State-level analysis — interactive India map."""
+    return render_template("states.html")
+
+
 # ============ API ENDPOINTS ============
 
 @app.route("/api/trade-balance")
@@ -200,6 +206,38 @@ def api_milestones():
 @app.route("/api/cumulative-impact")
 def api_cumulative_impact():
     return jsonify(load_json(CHART_DATA_DIR / "cumulative_impact.json"))
+
+
+# ============ STATE ANALYSIS APIs ============
+
+@app.route("/api/states")
+def api_states():
+    return jsonify(load_json(CHART_DATA_DIR / "states_comprehensive.json"))
+
+
+@app.route("/api/state-clusters")
+def api_state_clusters():
+    return jsonify(load_json(CHART_DATA_DIR / "state_clusters.json"))
+
+
+@app.route("/api/state-risk")
+def api_state_risk():
+    return jsonify(load_json(CHART_DATA_DIR / "state_risk_opportunity.json"))
+
+
+@app.route("/api/state-sectors")
+def api_state_sectors():
+    return jsonify(load_json(CHART_DATA_DIR / "state_sectors.json"))
+
+
+@app.route("/api/state-trade-flows")
+def api_state_trade_flows():
+    return jsonify(load_json(CHART_DATA_DIR / "state_trade_flows.json"))
+
+
+@app.route("/api/state-forecast")
+def api_state_forecast():
+    return jsonify(load_json(CHART_DATA_DIR / "state_forecast_2027.json"))
 
 
 # ============ STATIC FILES ============

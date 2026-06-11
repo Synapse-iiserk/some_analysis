@@ -1,0 +1,156 @@
+{
+  "clusters": {
+    "Maharashtra": [
+      "Pharma",
+      "Petrochemical",
+      "Chemicals",
+      "Polymers"
+    ],
+    "Gujarat": [
+      "Petrochemical",
+      "Refining",
+      "Chemicals",
+      "Diamond"
+    ],
+    "Tamil Nadu": [
+      "Petrochemical",
+      "Auto",
+      "Textiles",
+      "Chemicals"
+    ],
+    "Karnataka": [
+      "Petrochemical",
+      "IT",
+      "Pharma",
+      "Bio"
+    ],
+    "Andhra Pradesh": [
+      "Petrochemical",
+      "Pharma",
+      "Fertilizers"
+    ],
+    "Uttar Pradesh": [
+      "Fertilizers",
+      "Chemicals",
+      "Cement"
+    ],
+    "West Bengal": [
+      "Petrochemical",
+      "Jute",
+      "Tea"
+    ],
+    "Odisha": [
+      "Steel",
+      "Aluminum",
+      "Chemicals"
+    ],
+    "Rajasthan": [
+      "Cement",
+      "Marble",
+      "Textiles"
+    ],
+    "Kerala": [
+      "Rubber",
+      "Spices",
+      "Chemicals"
+    ],
+    "Haryana": [
+      "Auto",
+      "Chemicals",
+      "Fertilizers"
+    ],
+    "Punjab": [
+      "Agriculture",
+      "Chemicals",
+      "Textiles"
+    ]
+  },
+  "refineries": {
+    "Maharashtra": [
+      "Mumbai",
+      "Mahul"
+    ],
+    "Gujarat": [
+      "Koyali",
+      "Jamnagar (Reliance)"
+    ],
+    "Uttar Pradesh": [
+      "Mathura",
+      "Bareilly"
+    ],
+    "West Bengal": [
+      "Haldia"
+    ],
+    "Andhra Pradesh": [
+      "Visakhapatnam"
+    ],
+    "Karnataka": [
+      "Mangalore"
+    ],
+    "Kerala": [
+      "Kochi",
+      "BPCL"
+    ],
+    "Bihar": [
+      "Barauni"
+    ],
+    "Rajasthan": [
+      "Barmer"
+    ],
+    "Madhya Pradesh": [
+      "Bina"
+    ],
+    "Odisha": [
+      "Paradip"
+    ],
+    "Punjab": [
+      "Guru Gobind Singh (Bathinda)"
+    ],
+    "Assam": [
+      "Numaligarh",
+      "Indian Oil Guwahati"
+    ],
+    "Tamil Nadu": [
+      "Chennai (Manali)",
+      "CPCL"
+    ]
+  },
+  "ports": {
+    "Maharashtra": [
+      "Mumbai",
+      "JNPT (Nhava Sheva)"
+    ],
+    "Gujarat": [
+      "Kandla",
+      "Mundra",
+      "Sikka"
+    ],
+    "Tamil Nadu": [
+      "Chennai",
+      "Tuticorin"
+    ],
+    "Andhra Pradesh": [
+      "Visakhapatnam",
+      "Krishnapatnam",
+      "Gangavaram"
+    ],
+    "Karnataka": [
+      "Mangalore",
+      "Karwar"
+    ],
+    "West Bengal": [
+      "Haldia",
+      "Kolkata"
+    ],
+    "Odisha": [
+      "Paradip"
+    ],
+    "Kerala": [
+      "Kochi",
+      "Vizhinjam"
+    ],
+    "Goa": [
+      "Mormugao"
+    ]
+  }
+}

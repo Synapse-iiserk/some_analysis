@@ -38,6 +38,12 @@ API_TO_FILE = {
     "/api/model-forecast": "data/processed/chart_data/model_forecast.json",
     "/api/milestones": "data/processed/chart_data/milestones.json",
     "/api/cumulative-impact": "data/processed/chart_data/cumulative_impact.json",
+    "/api/states": "data/processed/chart_data/states_comprehensive.json",
+    "/api/state-clusters": "data/processed/chart_data/state_clusters.json",
+    "/api/state-risk": "data/processed/chart_data/state_risk_opportunity.json",
+    "/api/state-sectors": "data/processed/chart_data/state_sectors.json",
+    "/api/state-trade-flows": "data/processed/chart_data/state_trade_flows.json",
+    "/api/state-forecast": "data/processed/chart_data/state_forecast_2027.json",
 }
 
 
@@ -84,6 +90,7 @@ def render_templates():
         "forecast.html": {"title": "forecast"},
         "models.html": {"title": "models"},
         "analysis.html": {"title": "analysis"},
+        "states.html": {"title": "states"},
         "datasets.html": {"title": "datasets"},
     }
 

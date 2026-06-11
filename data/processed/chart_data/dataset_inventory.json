@@ -1,0 +1,685 @@
+[
+  {
+    "filename": "demand_energy_requirementof_power_from_central_generating_",
+    "records": 35,
+    "states": 35,
+    "sample_fields": [
+      "state",
+      "_2013_14___demand__energy_requirement______mu__",
+      "_2014_15___demand__energy_requirement______mu__",
+      "_2015_16___demand__energy_requirement__up_to_november_____mu__"
+    ]
+  },
+  {
+    "filename": "district_and_social_category_wise_total_msme_registered_manu",
+    "records": 100,
+    "states": 0,
+    "sample_fields": [
+      "statename",
+      "state_id",
+      "districtname",
+      "district_id",
+      "totaluam",
+      "general"
+    ]
+  },
+  {
+    "filename": "district_wise_total_msme_registered_enterprises_till_last_da",
+    "records": 100,
+    "states": 0,
+    "sample_fields": [
+      "statename",
+      "state_id",
+      "districtname",
+      "district_id",
+      "totalnoofapplication",
+      "totalnoof_micro"
+    ]
+  },
+  {
+    "filename": "district_wise_total_msme_registered_manufacturing_enterprise",
+    "records": 100,
+    "states": 0,
+    "sample_fields": [
+      "statename",
+      "state_id",
+      "districtname",
+      "district_id",
+      "totalnoofapplication",
+      "totalnoof_micro"
+    ]
+  },
+  {
+    "filename": "district_wise_total_msme_registered_service_enterprises_till",
+    "records": 100,
+    "states": 0,
+    "sample_fields": [
+      "statename",
+      "state_id",
+      "districtname",
+      "district_id",
+      "totalnoofapplication",
+      "totalnoof_micro"
+    ]
+  },
+  {
+    "filename": "revenue_deficit_as_percentage_of_gsdp_from_199798_to_20131",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "state",
+      "1997_98",
+      "1998_99",
+      "1999_00",
+      "2000_01",
+      "2001_02"
+    ]
+  },
+  {
+    "filename": "state_ut_wise_worker_population_ratio_per_1000_for_persons",
+    "records": 36,
+    "states": 36,
+    "sample_fields": [
+      "state_ut",
+      "rural_male",
+      "rural_female",
+      "rural_male_rural_female",
+      "urban_male",
+      "urban_female"
+    ]
+  },
+  {
+    "filename": "state_utswise_estimated_electrical_energy_requirement_and_p",
+    "records": 74,
+    "states": 36,
+    "sample_fields": [
+      "category",
+      "state_ut",
+      "_2021_22",
+      "_2022_23",
+      "_2023_24",
+      "_2024_25"
+    ]
+  },
+  {
+    "filename": "state_utswise_state_government_health_expenditure_sghe_as",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "gross_state_domestic_product__gsdp___rs__in_crore_",
+      "state_government_health_expenditure__sghe___rs__in_crore_",
+      "state_government_health_expenditure__sghe__as___of_gsdp"
+    ]
+  },
+  {
+    "filename": "state_utswise_unemployment_rate_ur_according_to_usual_sta",
+    "records": 38,
+    "states": 37,
+    "sample_fields": [
+      "state_ut",
+      "_2017_18___rural",
+      "_2017_18___urban",
+      "_2018_19___rural",
+      "_2018_19___urban",
+      "_2019_20___rural"
+    ]
+  },
+  {
+    "filename": "state_utwise_datails_of_expenditure_on_education_and_training",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "gross_state_domestic_product_at_current_prices__base_year_2011_12__rupees_in_crores_",
+      "total_expenditure_on_education___training_by_education___other_departments__rupees_in_crores_",
+      "percetnage_of_expenditure_on_education___training_by_education___other_departments_to_gsdp"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_government_health_expenditure_ghe",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "_2017_18",
+      "_2018_19",
+      "_2019_20",
+      "_2020_21"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_kyc_filled_by_the_prospective_custo",
+    "records": 37,
+    "states": 36,
+    "sample_fields": [
+      "_sl_no",
+      "state_ut",
+      "kyc_filled",
+      "cleared_applications",
+      "connections_released"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_lpg_connections_released_as_on_211",
+    "records": 36,
+    "states": 35,
+    "sample_fields": [
+      "sr_no",
+      "state_ut",
+      "connections_released"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_lpg_connections_released_under_prad",
+    "records": 35,
+    "states": 35,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "_2021_22",
+      "_2022_23"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_meat_export_to_world_from_202122_t",
+    "records": 66,
+    "states": 21,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "meat_category",
+      "usd_million___2021_22",
+      "usd_million___2022_23",
+      "usd_million___2023_24"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_share_of_agriculture_and_allied_sec",
+    "records": 33,
+    "states": 33,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "_2020_21",
+      "_2021_22",
+      "_2022_23"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_total_outstanding_liabilities_of_st",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "_at_the_end_march____2021__actual_",
+      "_at_the_end_march____2022__re_",
+      "_at_the_end_march____2023__be_"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_total_outstanding_liabilities_outs",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "state_ut",
+      "outstanding_liabilities__rs__in_crore_",
+      "outstanding_liabilities_as_percentage_of_gsdp",
+      "per_capita_outstanding_liabilities__in_rs__"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_unemployment_rate_according_to_usua",
+    "records": 38,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "_2019_20",
+      "_2020_21",
+      "_2021_22",
+      "_2022_23"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_unemployment_rate_for_persons_of_al",
+    "records": 37,
+    "states": 0,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut_wise",
+      "unemployment_rate___in______rural",
+      "unemployment_rate___in______urban",
+      "unemployment_rate___in______rural_urban"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_unemployment_rate_ur_on_usual_sta",
+    "records": 37,
+    "states": 0,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut_wise",
+      "_2023_24"
+    ]
+  },
+  {
+    "filename": "state_utwise_details_of_worker_population_ratio_for_women_o",
+    "records": 37,
+    "states": 0,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut_wise",
+      "_2021_22",
+      "_2022_23",
+      "_2023_24"
+    ]
+  },
+  {
+    "filename": "state_utwise_estimated_unemployment_rate_ur_in__on_usu",
+    "records": 38,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "_2019_20___15_29_years",
+      "_2019_20___15_59_years",
+      "_2019_20___15_years___above",
+      "_2019_20___all_ages"
+    ]
+  },
+  {
+    "filename": "state_utwise_estimated_unemployment_rate_ur_on_usual_stat",
+    "records": 37,
+    "states": 0,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut_wise",
+      "_2023_24"
+    ]
+  },
+  {
+    "filename": "state_utwise_exports_of_textiles_and_garments_during_20161",
+    "records": 38,
+    "states": 38,
+    "sample_fields": [
+      "state_ut",
+      "__2016_17",
+      "_2017_18"
+    ]
+  },
+  {
+    "filename": "state_utwise_gross_state_domestic_product_gsdp_and_percen",
+    "records": 34,
+    "states": 34,
+    "sample_fields": [
+      "_sl__no_",
+      "state_ut",
+      "gross_state_domestic_product__gsdp_at_current_prices___2017_18",
+      "gross_state_domestic_product__gsdp_at_current_prices___2018_19",
+      "gross_state_domestic_product__gsdp_at_current_prices___2019_20",
+      "gross_state_domestic_product__gsdp_at_current_prices___2020_21"
+    ]
+  },
+  {
+    "filename": "state_utwise_indias_export_of_agriculture_products_from_20",
+    "records": 38,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "_2017_18",
+      "_2018_19",
+      "_2019_20",
+      "_2020_21"
+    ]
+  },
+  {
+    "filename": "state_utwise_lpg_connections_released_under_pradhan_mantri_",
+    "records": 36,
+    "states": 35,
+    "sample_fields": [
+      "s_no",
+      "state_ut",
+      "connections_released_under_pmuy",
+      "_"
+    ]
+  },
+  {
+    "filename": "state_utwise_number_of_total_women_owned_msme_registered_and_",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "si__no_",
+      "state_ut",
+      "micro",
+      "small",
+      "medium",
+      "_total"
+    ]
+  },
+  {
+    "filename": "state_utwise_number_of_valid_passports_issued_in_the_countr",
+    "records": 38,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "female",
+      "male",
+      "grand_total"
+    ]
+  },
+  {
+    "filename": "state_utwise_total_msme_registered_and_classified_under_udyam",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "micro",
+      "small",
+      "medium",
+      "_total"
+    ]
+  },
+  {
+    "filename": "state_utwise_total_new_lpg_connections_including_lpg_conne",
+    "records": 36,
+    "states": 36,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "lpg__connections_released_during_financial_year_2020_21_and_2021_22"
+    ]
+  },
+  {
+    "filename": "state_utwise_unemployment_rate_among_sc_and_st_for_aged_15_",
+    "records": 36,
+    "states": 35,
+    "sample_fields": [
+      "sl_no",
+      "state_ut",
+      "unemployment_rate__in______2012_13___sc",
+      "unemployment_rate__in______2012_13___st",
+      "unemployment_rate__in______2013_14___sc",
+      "unemployment_rate__in______2013_14___st"
+    ]
+  },
+  {
+    "filename": "state_utwise_unemployment_rate_for_persons_of_age_15_years_",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "male",
+      "female",
+      "person"
+    ]
+  },
+  {
+    "filename": "state_utwise_unemployment_rate_for_persons_of_all_ages_acco",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "male",
+      "female",
+      "person"
+    ]
+  },
+  {
+    "filename": "state_utwise_unemployment_rate_in_usual_status_psss_for_",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "state_ut",
+      "rural___male",
+      "rural___female",
+      "rural___person",
+      "urban___male",
+      "urban___female"
+    ]
+  },
+  {
+    "filename": "state_utwise_worker_population_ratio_according_to_usual_sta",
+    "records": 39,
+    "states": 39,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "wpr___2017_18",
+      "wpr___2018_19",
+      "wpr___2019_20"
+    ]
+  },
+  {
+    "filename": "state_utwise_worker_population_ratio_for_all_persons_accord",
+    "records": 36,
+    "states": 36,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "worker_population_ratio_for_all_persons_______male_female___2009_10",
+      "worker_population_ratio_for_all_persons_______male_female___2011_12"
+    ]
+  },
+  {
+    "filename": "state_utwise_worker_population_ratio_for_persons_aged_15_ye",
+    "records": 38,
+    "states": 38,
+    "sample_fields": [
+      "state_ut",
+      "worker_population_ratio__in______2018_19",
+      "worker_population_ratio__in______2019_20"
+    ]
+  },
+  {
+    "filename": "state_utwise_worker_population_ratio_wpr_according_to_usu",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "state_ut",
+      "wpr"
+    ]
+  },
+  {
+    "filename": "state_wise_and_month_wise_requirement_and_availability_of_ch",
+    "records": 100,
+    "states": 8,
+    "sample_fields": [
+      "_year",
+      "month",
+      "product",
+      "state",
+      "requirement_in__mt_",
+      "availability_in__mt_"
+    ]
+  },
+  {
+    "filename": "states_budget_and_finance_accounts_of_the_state_of_telangan",
+    "records": 2,
+    "states": 2,
+    "sample_fields": [
+      "state",
+      "_2014_15_fa_",
+      "_2015_16_fa_",
+      "_2016_17_fa_",
+      "_2017_18_re_",
+      "_2018_19_be_"
+    ]
+  },
+  {
+    "filename": "statewise_and_monthwise_requirement_and_availability_of_ch",
+    "records": 100,
+    "states": 8,
+    "sample_fields": [
+      "_year",
+      "month",
+      "product",
+      "state",
+      "requirement_in__mt_",
+      "availability_in__mt_"
+    ]
+  },
+  {
+    "filename": "statewise_breakup_of_exports_from_sezs_during_201314_to_20",
+    "records": 17,
+    "states": 17,
+    "sample_fields": [
+      "sl_no_",
+      "state",
+      "__2013_14",
+      "__2014_15",
+      "_2015_16_till_december_2015_"
+    ]
+  },
+  {
+    "filename": "statewise_details_of_government_health_expenditure_central",
+    "records": 31,
+    "states": 31,
+    "sample_fields": [
+      "_sl__no_",
+      "state",
+      "government_health_expenditure__in_crores_"
+    ]
+  },
+  {
+    "filename": "statewise_details_of_outofpocket_expenditure_as_a_percent",
+    "records": 20,
+    "states": 0,
+    "sample_fields": [
+      "_sl__no_",
+      "state_wise",
+      "__2016_17"
+    ]
+  },
+  {
+    "filename": "statewise_details_of_per_capita_gross_state_domestic_produc",
+    "records": 28,
+    "states": 28,
+    "sample_fields": [
+      "_sl__no_",
+      "state",
+      "per_capita_gsdp___2019_2020",
+      "per_capita_gsdp___2020_2021",
+      "per_capita_gsdp___2021_22",
+      "per_capita_gsdp___2022_23"
+    ]
+  },
+  {
+    "filename": "statewise_fiscal_deficit_to_gross_state_domestic_product_g",
+    "records": 29,
+    "states": 29,
+    "sample_fields": [
+      "__sl_no_",
+      "state",
+      "_2016_17_accounts_",
+      "_2017_18_revised_estimates_",
+      "_2018_19_budget_estimates_"
+    ]
+  },
+  {
+    "filename": "statewise_list_of_passports_issued_in_201415_from_minist",
+    "records": 37,
+    "states": 36,
+    "sample_fields": [
+      "state_ut",
+      "passports_issued"
+    ]
+  },
+  {
+    "filename": "statewise_marine_products_export_development_authority_mpe",
+    "records": 30,
+    "states": 10,
+    "sample_fields": [
+      "sl__no_",
+      "state",
+      "q__quantity_in_m_t__v__value_in_rs__crore_____us_dollar_million",
+      "_2018_19",
+      "_2019_20",
+      "_2020_21"
+    ]
+  },
+  {
+    "filename": "statewise_monthwise_requirement_and_availability_of_chemic",
+    "records": 100,
+    "states": 8,
+    "sample_fields": [
+      "_year",
+      "month",
+      "product",
+      "state",
+      "requirement_in_mt_",
+      "availability_in_mt_"
+    ]
+  },
+  {
+    "filename": "statewise_per_capita_government_expenditure_and_out_of_pock",
+    "records": 21,
+    "states": 21,
+    "sample_fields": [
+      "state",
+      "government_health_expenditure__ghe____per_capita_in_rs_",
+      "out_of_pocket_expenditure___per_capita_in_rs_"
+    ]
+  },
+  {
+    "filename": "statewise_revenue_deficit_surplus_from_201516_to_201718_",
+    "records": 29,
+    "states": 29,
+    "sample_fields": [
+      "_sl__no_",
+      "state",
+      "_2015_16____accounts_",
+      "_2016_17____accounts_",
+      "_2017_18____revised_estimates_"
+    ]
+  },
+  {
+    "filename": "statewise_unemployment_rate_per_1000__during_201112",
+    "records": 36,
+    "states": 36,
+    "sample_fields": [
+      "state_ut",
+      "unemployment_rate_ur_"
+    ]
+  },
+  {
+    "filename": "statewise_worker_population_ratio_per_1000_",
+    "records": 39,
+    "states": 38,
+    "sample_fields": [
+      "state_ut",
+      "worker_population_ratio_wpr_"
+    ]
+  },
+  {
+    "filename": "worker_population_ratio_wpr_according_to_usual_status_prin",
+    "records": 37,
+    "states": 37,
+    "sample_fields": [
+      "sl__no_",
+      "state_ut",
+      "plfs"
+    ]
+  },
+  {
+    "filename": "yearwise_details_of_lpg_connections_released_under_pradhan_",
+    "records": 2,
+    "states": 2,
+    "sample_fields": [
+      "_sl__no_",
+      "state",
+      "__2020_21",
+      "_2021_22",
+      "_2022_23"
+    ]
+  }
+]

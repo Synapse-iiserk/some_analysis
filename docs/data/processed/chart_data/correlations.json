@@ -1,0 +1,20 @@
+[
+  {
+    "metric1": "Per-Capita GSDP",
+    "metric2": "GSDP Growth",
+    "correlation": -0.076,
+    "n": 27
+  },
+  {
+    "metric1": "Unemployment Rate",
+    "metric2": "GSDP Growth",
+    "correlation": -0.274,
+    "n": 31
+  },
+  {
+    "metric1": "GSDP",
+    "metric2": "Total Exports",
+    "correlation": 0.67,
+    "n": 32
+  }
+]

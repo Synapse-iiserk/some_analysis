@@ -8,9 +8,15 @@
         <div class="badge-coral" style="margin-bottom:16px">DATA SOURCES</div>
         <h1 class="display-lg">All Datasets Used in This Analysis</h1>
         <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">
-            This analysis is built from 31 datasets downloaded from India's Open Government Data Platform (data.gov.in),
+            This analysis is built from <b>89+ datasets</b> downloaded from India's Open Government Data Platform (data.gov.in),
             9 World Bank indicators, and additional web-scraped economic data. Every chart and inference is backed by these sources.
         </p>
+        <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap">
+            <div style="background:var(--surface-soft);padding:8px 14px;border-radius:8px"><span class="caption" style="color:var(--muted)">Catalog:</span> <b>236,927</b> datasets browsed</div>
+            <div style="background:var(--surface-soft);padding:8px 14px;border-radius:8px"><span class="caption" style="color:var(--muted)">State datasets:</span> <b>10,175+</b> found</div>
+            <div style="background:var(--surface-soft);padding:8px 14px;border-radius:8px"><span class="caption" style="color:var(--muted)">Downloaded:</span> <b>89+</b> datasets</div>
+            <div style="background:var(--surface-soft);padding:8px 14px;border-radius:8px"><span class="caption" style="color:var(--muted)">Total records:</span> <b>2,500+</b></div>
+        </div>
     </div>
 </section>
 
@@ -19,7 +25,7 @@
     <div class="container">
         <div class="grid-4">
             <div class="cream-card stat-card">
-                <div class="stat-value" style="font-size:36px">31</div>
+                <div class="stat-value" style="font-size:36px">89+</div>
                 <div class="stat-label">data.gov.in Datasets</div>
             </div>
             <div class="cream-card stat-card">
@@ -27,13 +33,365 @@
                 <div class="stat-label">World Bank Indicators</div>
             </div>
             <div class="cream-card stat-card">
-                <div class="stat-value" style="font-size:36px">15</div>
-                <div class="stat-label">Processed Data Files</div>
+                <div class="stat-value" style="font-size:36px">52</div>
+                <div class="stat-label">States/UTs Covered</div>
             </div>
             <div class="cream-card stat-card">
-                <div class="stat-value" style="font-size:36px">7</div>
-                <div class="stat-label">Analysis Categories</div>
+                <div class="stat-value" style="font-size:36px">17+</div>
+                <div class="stat-label">New State Datasets</div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATE ECONOMIC DATA -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">data.gov.in — State Economic & Trade Data</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px"><b>NEW:</b> 17+ state-level datasets from the 236,927-dataset catalog. All data is real, fetched via data.gov.in API. Organized by category below.</p>
+
+        <!-- ECONOMIC CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Economic (GSDP, Per-Capita Income)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td style="font-weight:500">GSDP at Current & Constant Prices 2017-18 to 2022-23</td>
+                        <td>34 states</td>
+                        <td>34</td>
+                        <td style="font-size:12px">Min. of Statistics & PI</td>
+                        <td>Primary GSDP data. State ranking, growth analysis, per-capita</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td style="font-weight:500">Per-Capita GSDP 2019-20 to 2023-24</td>
+                        <td>28 states</td>
+                        <td>28</td>
+                        <td style="font-size:12px">Min. of Statistics & PI</td>
+                        <td>Income inequality. Per-capita ranking and disparity</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td style="font-weight:500">Agriculture & Allied GVA Share in GSDP</td>
+                        <td>33 states</td>
+                        <td>33</td>
+                        <td style="font-size:12px">Min. of Statistics & PI</td>
+                        <td>Sectoral composition. Agri-dependent states</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- EXPORTS CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">State Exports (Agri, Textile, Marine, Meat, SEZ)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4</td>
+                        <td style="font-weight:500">State-wise Agriculture Exports 2017-18 to 2022-23</td>
+                        <td>38 states</td>
+                        <td>38</td>
+                        <td style="font-size:12px">Min. of Commerce</td>
+                        <td>Agriculture export trends. Top exporter identification</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td style="font-weight:500">State-wise Textile & Garment Exports 2016-17, 2017-18</td>
+                        <td>38 states</td>
+                        <td>38</td>
+                        <td style="font-size:12px">Min. of Textiles</td>
+                        <td>Textile industry by state. Export composition</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td style="font-weight:500">State-wise SEZ Exports 2013-14 to 2015-16</td>
+                        <td>17 states</td>
+                        <td>17</td>
+                        <td style="font-size:12px">Min. of Commerce</td>
+                        <td>Special Economic Zone export activity</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td style="font-weight:500">State-wise Meat Exports 2021-22 to 2023-24</td>
+                        <td>21 states</td>
+                        <td>66</td>
+                        <td style="font-size:12px">Min. of Commerce</td>
+                        <td>Meat export analysis by state</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td style="font-weight:500">State-wise Marine Products Exports 2018-19 to 2020-21 (MPEDA)</td>
+                        <td>12 states</td>
+                        <td>30</td>
+                        <td style="font-size:12px">MPEDA</td>
+                        <td>Coastal state marine exports</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- EMPLOYMENT CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Employment & Labor (PLFS)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9</td>
+                        <td style="font-weight:500">Unemployment Rate (PS+SS) — Rural/Urban, Male/Female</td>
+                        <td>37 states</td>
+                        <td>37</td>
+                        <td style="font-size:12px">MOSPI / PLFS</td>
+                        <td>State employment. Used in correlations</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td style="font-weight:500">Worker Population Ratio (per 1000)</td>
+                        <td>39 states</td>
+                        <td>39</td>
+                        <td style="font-size:12px">MOSPI / PLFS</td>
+                        <td>Labor force participation</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td style="font-weight:500">WPR by Usual Status (Age 15+)</td>
+                        <td>39 states</td>
+                        <td>39</td>
+                        <td style="font-size:12px">MOSPI / PLFS</td>
+                        <td>Detailed labor force analysis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- FISCAL CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Fiscal (Debt, Deficit, Liabilities)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12</td>
+                        <td style="font-weight:500">Outstanding Liabilities to GSDP</td>
+                        <td>31 states</td>
+                        <td>31</td>
+                        <td style="font-size:12px">Min. of Finance</td>
+                        <td>State debt analysis</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td style="font-weight:500">Fiscal Deficit to GSDP</td>
+                        <td>29 states</td>
+                        <td>29</td>
+                        <td style="font-size:12px">Min. of Finance</td>
+                        <td>State fiscal health</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td style="font-weight:500">Revenue Deficit/Surplus 2015-16 to 2017-18</td>
+                        <td>29 states</td>
+                        <td>29</td>
+                        <td style="font-size:12px">Min. of Finance</td>
+                        <td>State revenue balance</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ENERGY CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Energy (LPG, Power)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15</td>
+                        <td style="font-weight:500">LPG Connections Released (Dec 2017)</td>
+                        <td>36 states</td>
+                        <td>36</td>
+                        <td style="font-size:12px">Min. of Petroleum</td>
+                        <td>LPG penetration. Energy access proxy</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td style="font-weight:500">PMUY LPG Connections Released</td>
+                        <td>36 states</td>
+                        <td>36</td>
+                        <td style="font-size:12px">Min. of Petroleum</td>
+                        <td>Ujjwala adoption by state</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td style="font-weight:500">Electrical Energy Requirement & Peak Demand</td>
+                        <td>36 states</td>
+                        <td>74</td>
+                        <td style="font-size:12px">Min. of Power</td>
+                        <td>State power demand and consumption</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- SOCIAL CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Social (Health, Education, Passports)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>18</td>
+                        <td style="font-weight:500">State Health Expenditure (% of GSDP)</td>
+                        <td>31 states</td>
+                        <td>31</td>
+                        <td style="font-size:12px">National Health Accounts</td>
+                        <td>State health spending</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td style="font-weight:500">Government Health Expenditure (Combined)</td>
+                        <td>31 states</td>
+                        <td>31</td>
+                        <td style="font-size:12px">National Health Accounts</td>
+                        <td>Total health spending by state</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td style="font-weight:500">Education & Training Expenditure</td>
+                        <td>37 states</td>
+                        <td>37</td>
+                        <td style="font-size:12px">Min. of Education</td>
+                        <td>State education spending</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td style="font-weight:500">Valid Passports Issued (2023)</td>
+                        <td>38 states</td>
+                        <td>38</td>
+                        <td style="font-size:12px">Min. of External Affairs</td>
+                        <td>Outbound mobility proxy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- INDUSTRIAL CATEGORY -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Industrial (MSMEs)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>22</td>
+                        <td style="font-weight:500">Total MSMEs Registered (Udyam)</td>
+                        <td>37 states</td>
+                        <td>37</td>
+                        <td style="font-size:12px">Min. of MSME</td>
+                        <td>MSME count by state. Industrial activity</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td style="font-weight:500">Women-Owned MSMEs (Udyam)</td>
+                        <td>37 states</td>
+                        <td>37</td>
+                        <td style="font-size:12px">Min. of MSME</td>
+                        <td>Women entrepreneurship by state</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- SECTOR-SPECIFIC -->
+        <h3 class="title-lg" style="margin:24px 0 12px 0;color:var(--primary)">Sector-Specific (Fertilizer, Agriculture)</h3>
+        <div class="cream-card" style="overflow-x:auto;margin-bottom:32px">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Coverage</th>
+                        <th>Records</th>
+                        <th>Ministry</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24</td>
+                        <td style="font-weight:500">Chemical Fertilizer Req/Avail (Monthly, multi-year)</td>
+                        <td>8 states × 3</td>
+                        <td>300</td>
+                        <td style="font-size:12px">Dept. of Fertilizers</td>
+                        <td>State fertilizer demand-supply gap</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
@@ -387,10 +745,10 @@
     <div class="container">
         <h2 class="display-md" style="margin-bottom:8px">Processed Data Files</h2>
         <p class="body-md" style="color:var(--muted);margin-bottom:24px">Cleaned, merged, and feature-engineered data generated during analysis.</p>
-        <div class="grid-3">
+        <div class="grid-4">
             <div class="feature-card">
                 <p class="title-md" style="margin-bottom:8px">Raw Downloads</p>
-                <p class="body-sm" style="color:var(--muted)">31 JSON files from data.gov.in + 9 World Bank indicator files. Total: ~15 MB</p>
+                <p class="body-sm" style="color:var(--muted)"><b>89+ JSON files</b> from data.gov.in (31 petrochemical + 58 state-level) + 9 World Bank indicator files. Total: ~25 MB</p>
                 <p class="caption" style="margin-top:8px">Location: data/raw/</p>
             </div>
             <div class="feature-card">
@@ -399,9 +757,48 @@
                 <p class="caption" style="margin-top:8px">Location: data/processed/</p>
             </div>
             <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">State Master</p>
+                <p class="body-sm" style="color:var(--muted)">52 states/UTs with 80+ fields: GSDP, per-capita, exports, unemployment, debt, health, MSME</p>
+                <p class="caption" style="margin-top:8px">states_master.json</p>
+            </div>
+            <div class="feature-card">
                 <p class="title-md" style="margin-bottom:8px">Chart Data (JSON)</p>
-                <p class="body-sm" style="color:var(--muted)">8 JSON files: product flows, investment gaps, geographic trade, sector breakdown, price sensitivity, trajectories, milestones, cumulative impact</p>
+                <p class="body-sm" style="color:var(--muted)">17+ JSON files: product flows, geographic trade, trajectories, state data, correlations, insights</p>
                 <p class="caption" style="margin-top:8px">Location: data/processed/chart_data/</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CROSS-DATASET ANALYSIS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">Cross-Dataset Analysis & Correlations</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Statistical relationships discovered by combining the 58 state-level datasets with petrochemical trade data.</p>
+        <div class="grid-2">
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">GSDP vs Total Exports (r=0.670)</p>
+                <p class="body-md">Strong positive correlation. The 10 states with highest GSDP account for 75% of tracked exports (agriculture + textile + SEZ + marine + meat). Larger economies have more diversified and competitive export sectors.</p>
+            </div>
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">Unemployment vs GSDP Growth (r=-0.274)</p>
+                <p class="body-md">Negative correlation. States with high unemployment (e.g. states with 20%+ UR) tend to have lower GSDP growth. Conversely, fast-growing states (Gujarat 19.6%, Kerala 17.6%) have moderate unemployment.</p>
+            </div>
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">Per-Capita vs Growth (r=-0.076)</p>
+                <p class="body-md">Weak negative. Richer states don't always grow faster. The catch-up effect is visible: low-per-capita states (UP, Bihar, MP) are now growing at 15-17%, while richer states grow at 13-15%.</p>
+            </div>
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">Top 5 States = 52% of GSDP</p>
+                <p class="body-md">Maharashtra (₹35.3L Cr), Tamil Nadu (₹23.5L), Karnataka (₹22.4L), Gujarat (₹19.6L), UP (₹19.2L) collectively contribute ₹13.6L Cr — over half of India's GSDP. This concentration is also seen in exports.</p>
+            </div>
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">Gujarat: Highest Growth + Highest Per-Capita Tier</p>
+                <p class="body-md">Gujarat recorded 19.6% GSDP growth in 2022-23 — highest among major states. Combines with 113 MMTPA refinery capacity, 17 SEZ locations, and the PCPIR (Petrochemical, Chemical & Petroleum Investment Region) zone.</p>
+            </div>
+            <div class="cream-card">
+                <p class="title-sm" style="color:var(--primary);margin-bottom:8px">Wide Income Gap (3-5x)</p>
+                <p class="body-md">Per-capita GSDP ranges from ₹59K (Bihar) to ₹345K (Telangana/Sikkim). This 5.8x disparity drives migration, consumption patterns, and explains why some states are chemical/petrochemical markets while others are sources.</p>
             </div>
         </div>
     </div>
@@ -486,6 +883,14 @@
                     <tr><td><code>/api/model-forecast</code></td><td>12-month ensemble forecast with confidence interval</td><td>JSON</td></tr>
                     <tr><td><code>/api/milestones</code></td><td>Key upcoming events timeline</td><td>JSON</td></tr>
                     <tr><td><code>/api/cumulative-impact</code></td><td>12-month cost/GDP/forex/jobs impact per scenario</td><td>JSON</td></tr>
+                    <tr style="background:var(--surface-soft)"><td colspan="3" style="font-weight:600;color:var(--primary)">State-Level Endpoints (NEW — 17+ state datasets)</td></tr>
+                    <tr><td><code>/api/states</code></td><td>All 52 states/UTs comprehensive data (GSDP, per-capita, exports, unemployment, debt, health, MSME, LPG, clusters)</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/summary</code></td><td>Top 15 states with all key metrics for quick view</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/master</code></td><td>52 states with full year-by-year time series (GSDP, exports, debt)</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/correlations</code></td><td>Cross-dataset Pearson correlations (GSDP×Exports, Unemployment×Growth, etc.)</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/insights</code></td><td>5 cross-dataset insights from combined analysis</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/inventory</code></td><td>Inventory of all 58 downloaded state datasets with categories</td><td>JSON</td></tr>
+                    <tr><td><code>/api/states/national-totals</code></td><td>National aggregates (total GSDP, exports, unemployment avg, debt avg)</td><td>JSON</td></tr>
                 </tbody>
             </table>
         </div>

@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Economic Concentration",
+    "insight": "Top 5 states contribute 45.7% of India GSDP",
+    "data": "Maharashtra, Tamil Nadu, Karnataka, Gujarat, UP = \u20b9119.92L Cr of \u20b9262.23L Cr total",
+    "source": "data.gov.in GSDP 2022-23"
+  },
+  {
+    "category": "Growth Leader",
+    "insight": "Gujarat has highest GSDP growth at 19.6%",
+    "data": "Outpacing national average by significant margin. Indicates strong industrial expansion.",
+    "source": "data.gov.in GSDP Growth 2022-23"
+  },
+  {
+    "category": "Income Inequality",
+    "insight": "Per-capita GSDP ratio of 10.5x between top and bottom states",
+    "data": "Top: \u20b9622,120 vs Bottom: \u20b959,244. Wide disparity reflects uneven industrial development.",
+    "source": "data.gov.in Per-Capita GSDP"
+  },
+  {
+    "category": "Export Concentration",
+    "insight": "Top 5 states account for 14.1% of agricultural/textile exports",
+    "data": "Total tracked exports: $2225772B. Concentration in coastal states with port infrastructure.",
+    "source": "data.gov.in Agriculture/Textile/SEZ/Meat/Marine Exports"
+  },
+  {
+    "category": "Employment",
+    "insight": "State unemployment ranges from 1.1% to 56.0%",
+    "data": "Average: 21.7%. Wide variation reflects regional economic dynamics.",
+    "source": "data.gov.in PLFS 2017-18"
+  }
+]

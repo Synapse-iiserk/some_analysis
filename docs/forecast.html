@@ -312,7 +312,7 @@
     </script>
     
 <script>
-fetch('results/04_scenario_forecasts.csv').then(r=>r.json()).then(d=>{
+fetch('data/processed/chart_data/scenarios.json').then(r=>r.json()).then(d=>{
     if(!d||!d.length) return;
     const base=d.filter(r=>r.scenario==='base_case');
     const bull=d.filter(r=>r.scenario==='bull_case');

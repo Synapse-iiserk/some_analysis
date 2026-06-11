@@ -29,7 +29,7 @@ API_TO_FILE = {
     "/api/sectors": "data/processed/chart_data/sector_breakdown.json",
     "/api/insights": "data/processed/chart_data/key_insights.json",
     "/api/model-performance": "data/processed/chart_data/model_performance.json",
-    "/api/scenarios": "results/04_scenario_forecasts.csv",
+    "/api/scenarios": "data/processed/chart_data/scenarios.json",
     "/api/forecast-csv": "results/03_forecasts.csv",
     "/api/trajectory-crude": "data/processed/chart_data/trajectory_crude.json",
     "/api/trajectory-inr": "data/processed/chart_data/trajectory_inr.json",
@@ -39,6 +39,29 @@ API_TO_FILE = {
     "/api/milestones": "data/processed/chart_data/milestones.json",
     "/api/cumulative-impact": "data/processed/chart_data/cumulative_impact.json",
 }
+
+
+def convert_csv_to_json():
+    """Convert CSV files used in JS fetches to JSON."""
+    import csv
+    
+    csv_to_convert = {
+        RESULTS_DIR / "04_scenario_forecasts.csv": CHART_DATA_DIR / "scenarios.json",
+    }
+    
+    for csv_path, json_path in csv_to_convert.items():
+        if not csv_path.exists():
+            print(f"  WARN: {csv_path} not found")
+            continue
+        try:
+            with open(csv_path) as f:
+                reader = csv.DictReader(f)
+                records = list(reader)
+            with open(json_path, "w") as f:
+                json.dump(records, f, default=str)
+            print(f"  Converted {csv_path.name} -> {json_path.name} ({len(records)} records)")
+        except Exception as e:
+            print(f"  ERROR converting {csv_path.name}: {e}")
 
 
 def replace_fetch_urls(html):
@@ -64,7 +87,29 @@ def render_templates():
         "datasets.html": {"title": "datasets"},
     }
 
+    # Convert CSV files to JSON for JavaScript fetches
+    print("Converting CSV files to JSON...")
+    convert_csv_to_json()
+
     DOCS_DIR.mkdir(exist_ok=True)
+    (DOCS_DIR / "data" / "processed" / "chart_data").mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / "data" / "processed").mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / "figures").mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / "results").mkdir(parents=True, exist_ok=True)
+
+    # Copy data files
+    import shutil
+    for src_dir, dst_dir in [
+        (DATA_DIR, DOCS_DIR / "data" / "processed"),
+        (CHART_DATA_DIR, DOCS_DIR / "data" / "processed" / "chart_data"),
+        (BASE_DIR / "figures", DOCS_DIR / "figures"),
+        (RESULTS_DIR, DOCS_DIR / "results"),
+    ]:
+        if src_dir.exists():
+            for f in src_dir.iterdir():
+                if f.is_file():
+                    shutil.copy2(f, dst_dir)
+                    print(f"  Copied {f.name} -> {dst_dir}")
 
     for filename, context in pages.items():
         print(f"Rendering {filename}...")

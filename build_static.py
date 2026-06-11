@@ -97,6 +97,9 @@ def render_templates():
     (DOCS_DIR / "figures").mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "results").mkdir(parents=True, exist_ok=True)
 
+    # Add .nojekyll to prevent Jekyll processing on GitHub Pages
+    (DOCS_DIR / ".nojekyll").touch()
+
     # Copy data files
     import shutil
     for src_dir, dst_dir in [

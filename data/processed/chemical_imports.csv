@@ -1,0 +1,701 @@
+category,product,fiscal_year,quantity,value,metric_type
+Alkali Chemicals,Caustic Soda,201516,484133,116303,chemical_import
+Alkali Chemicals,Caustic Soda,201617,425795,112391,chemical_import
+Alkali Chemicals,Caustic Soda,201718,421298,153382,chemical_import
+Alkali Chemicals,Caustic Soda,201819,208267,79927,chemical_import
+Alkali Chemicals,Caustic Soda,201920,309345,87982,chemical_import
+Alkali Chemicals,Caustic Soda,202021,248057,55495,chemical_import
+Alkali Chemicals,Caustic Soda,202122,203275,77347,chemical_import
+Alkali Chemicals,Caustic Soda,202223,135823,74227,chemical_import
+Alkali Chemicals,Caustic Soda,202324,221353,77453,chemical_import
+Alkali Chemicals,Caustic Soda,202425,152055,63674,chemical_import
+Alkali Chemicals,Liquid Chlorine,201516,482,189,chemical_import
+Alkali Chemicals,Liquid Chlorine,201617,35,170,chemical_import
+Alkali Chemicals,Liquid Chlorine,201718,58,208,chemical_import
+Alkali Chemicals,Liquid Chlorine,201819,266,696,chemical_import
+Alkali Chemicals,Liquid Chlorine,201920,81,255,chemical_import
+Alkali Chemicals,Liquid Chlorine,202021,39,200,chemical_import
+Alkali Chemicals,Liquid Chlorine,202122,149,383,chemical_import
+Alkali Chemicals,Liquid Chlorine,202223,64,412,chemical_import
+Alkali Chemicals,Liquid Chlorine,202324,13,136,chemical_import
+Alkali Chemicals,Liquid Chlorine,202425,2,16,chemical_import
+Alkali Chemicals,Soda Ash,201516,633263,101707,chemical_import
+Alkali Chemicals,Soda Ash,201617,695307,102490,chemical_import
+Alkali Chemicals,Soda Ash,201718,772622,111757,chemical_import
+Alkali Chemicals,Soda Ash,201819,840591,144900,chemical_import
+Alkali Chemicals,Soda Ash,201920,847704,152515,chemical_import
+Alkali Chemicals,Soda Ash,202021,719731,114804,chemical_import
+Alkali Chemicals,Soda Ash,202122,563140,97002,chemical_import
+Alkali Chemicals,Soda Ash,202223,577480,195359,chemical_import
+Alkali Chemicals,Soda Ash,202324,1041138,251975,chemical_import
+Alkali Chemicals,Soda Ash,202425,1024036,198020,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),201516,312,1685,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),201617,188,1348,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),201718,248,1942,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),201819,322,2639,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),201920,133,1295,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),202021,163,1073,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),202122,125,1548,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),202223,90,1582,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),202324,123,1738,chemical_import
+Dyes and Pigments,Acid Direct Dyes(Other Than Azo),202425,117,2048,chemical_import
+Dyes and Pigments,Azo Dyes,201516,716,4016,chemical_import
+Dyes and Pigments,Azo Dyes,201617,630,3509,chemical_import
+Dyes and Pigments,Azo Dyes,201718,514,3734,chemical_import
+Dyes and Pigments,Azo Dyes,201819,437,4207,chemical_import
+Dyes and Pigments,Azo Dyes,201920,306,4096,chemical_import
+Dyes and Pigments,Azo Dyes,202021,298,3880,chemical_import
+Dyes and Pigments,Azo Dyes,202122,408,4775,chemical_import
+Dyes and Pigments,Azo Dyes,202223,323,5548,chemical_import
+Dyes and Pigments,Azo Dyes,202324,321,8211,chemical_import
+Dyes and Pigments,Azo Dyes,202425,410,7040,chemical_import
+Dyes and Pigments,Basic Dyes,201516,475,4135,chemical_import
+Dyes and Pigments,Basic Dyes,201617,560,4183,chemical_import
+Dyes and Pigments,Basic Dyes,201718,647,5445,chemical_import
+Dyes and Pigments,Basic Dyes,201819,487,6868,chemical_import
+Dyes and Pigments,Basic Dyes,201920,529,8213,chemical_import
+Dyes and Pigments,Basic Dyes,202021,735,9836,chemical_import
+Dyes and Pigments,Basic Dyes,202122,636,8916,chemical_import
+Dyes and Pigments,Basic Dyes,202223,399,5824,chemical_import
+Dyes and Pigments,Basic Dyes,202324,305,3925,chemical_import
+Dyes and Pigments,Basic Dyes,202425,293,4702,chemical_import
+Dyes and Pigments,Disperse Dyes,201516,6199,28647,chemical_import
+Dyes and Pigments,Disperse Dyes,201617,4970,23618,chemical_import
+Dyes and Pigments,Disperse Dyes,201718,4051,23972,chemical_import
+Dyes and Pigments,Disperse Dyes,201819,1731,19295,chemical_import
+Dyes and Pigments,Disperse Dyes,201920,2322,23128,chemical_import
+Dyes and Pigments,Disperse Dyes,202021,2314,20496,chemical_import
+Dyes and Pigments,Disperse Dyes,202122,2266,20665,chemical_import
+Dyes and Pigments,Disperse Dyes,202223,2264,19214,chemical_import
+Dyes and Pigments,Disperse Dyes,202324,1997,18367,chemical_import
+Dyes and Pigments,Disperse Dyes,202425,1673,16753,chemical_import
+Dyes and Pigments,Fast Colour Bases,201516,510,3058,chemical_import
+Dyes and Pigments,Fast Colour Bases,201617,426,2314,chemical_import
+Dyes and Pigments,Fast Colour Bases,201718,379,2113,chemical_import
+Dyes and Pigments,Fast Colour Bases,201819,169,1743,chemical_import
+Dyes and Pigments,Fast Colour Bases,201920,265,2149,chemical_import
+Dyes and Pigments,Fast Colour Bases,202021,260,2414,chemical_import
+Dyes and Pigments,Fast Colour Bases,202122,45,773,chemical_import
+Dyes and Pigments,Fast Colour Bases,202223,253,1897,chemical_import
+Dyes and Pigments,Fast Colour Bases,202324,156,1008,chemical_import
+Dyes and Pigments,Fast Colour Bases,202425,239,1347,chemical_import
+Dyes and Pigments,Food Colours,201516,1083,5225,chemical_import
+Dyes and Pigments,Food Colours,201617,1041,4859,chemical_import
+Dyes and Pigments,Food Colours,201718,1162,5057,chemical_import
+Dyes and Pigments,Food Colours,201819,1364,6747,chemical_import
+Dyes and Pigments,Food Colours,201920,1215,6695,chemical_import
+Dyes and Pigments,Food Colours,202021,375,6268,chemical_import
+Dyes and Pigments,Food Colours,202122,449,6638,chemical_import
+Dyes and Pigments,Food Colours,202223,350,7628,chemical_import
+Dyes and Pigments,Food Colours,202324,400,9456,chemical_import
+Dyes and Pigments,Food Colours,202425,549,11356,chemical_import
+Dyes and Pigments,Inorganic Pigments,201516,10514,28331,chemical_import
+Dyes and Pigments,Inorganic Pigments,201617,9597,24784,chemical_import
+Dyes and Pigments,Inorganic Pigments,201718,13128,30075,chemical_import
+Dyes and Pigments,Inorganic Pigments,201819,12790,43319,chemical_import
+Dyes and Pigments,Inorganic Pigments,201920,12173,57140,chemical_import
+Dyes and Pigments,Inorganic Pigments,202021,12017,63057,chemical_import
+Dyes and Pigments,Inorganic Pigments,202122,11430,53765,chemical_import
+Dyes and Pigments,Inorganic Pigments,202223,10079,51574,chemical_import
+Dyes and Pigments,Inorganic Pigments,202324,12857,50678,chemical_import
+Dyes and Pigments,Inorganic Pigments,202425,14327,62857,chemical_import
+Dyes and Pigments,Napthols,201516,1051,3824,chemical_import
+Dyes and Pigments,Napthols,201617,1107,3750,chemical_import
+Dyes and Pigments,Napthols,201718,1286,4446,chemical_import
+Dyes and Pigments,Napthols,201819,1255,5267,chemical_import
+Dyes and Pigments,Napthols,201920,1374,6559,chemical_import
+Dyes and Pigments,Napthols,202021,1465,5757,chemical_import
+Dyes and Pigments,Napthols,202122,1355,8239,chemical_import
+Dyes and Pigments,Napthols,202223,1408,6248,chemical_import
+Dyes and Pigments,Napthols,202324,2047,6843,chemical_import
+Dyes and Pigments,Napthols,202425,1331,4864,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),201516,689,5967,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),201617,762,5446,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),201718,846,6414,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),201819,710,7812,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),201920,590,6250,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),202021,525,6140,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),202122,894,14411,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),202223,918,13174,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),202324,720,8745,chemical_import
+Dyes and Pigments,Oil Soluble (Solvent Dyes),202425,814,11228,chemical_import
+Dyes and Pigments,Optical Whitening Agents,201516,664,5376,chemical_import
+Dyes and Pigments,Optical Whitening Agents,201617,612,5455,chemical_import
+Dyes and Pigments,Optical Whitening Agents,201718,593,5540,chemical_import
+Dyes and Pigments,Optical Whitening Agents,201819,565,6978,chemical_import
+Dyes and Pigments,Optical Whitening Agents,201920,738,8746,chemical_import
+Dyes and Pigments,Optical Whitening Agents,202021,588,6492,chemical_import
+Dyes and Pigments,Optical Whitening Agents,202122,742,8961,chemical_import
+Dyes and Pigments,Optical Whitening Agents,202223,556,7156,chemical_import
+Dyes and Pigments,Optical Whitening Agents,202324,570,5446,chemical_import
+Dyes and Pigments,Optical Whitening Agents,202425,484,5491,chemical_import
+Dyes and Pigments,Organic Pigment,201516,190,889,chemical_import
+Dyes and Pigments,Organic Pigment,201617,100,678,chemical_import
+Dyes and Pigments,Organic Pigment,201718,65,271,chemical_import
+Dyes and Pigments,Organic Pigment,201819,138,471,chemical_import
+Dyes and Pigments,Organic Pigment,201920,98,272,chemical_import
+Dyes and Pigments,Organic Pigment,202021,107,646,chemical_import
+Dyes and Pigments,Organic Pigment,202122,93,444,chemical_import
+Dyes and Pigments,Organic Pigment,202223,275,870,chemical_import
+Dyes and Pigments,Organic Pigment,202324,181,1099,chemical_import
+Dyes and Pigments,Organic Pigment,202425,615,1894,chemical_import
+Dyes and Pigments,Other Dyes,201516,177,1531,chemical_import
+Dyes and Pigments,Other Dyes,201617,183,1533,chemical_import
+Dyes and Pigments,Other Dyes,201718,512,2239,chemical_import
+Dyes and Pigments,Other Dyes,201819,2337,7151,chemical_import
+Dyes and Pigments,Other Dyes,201920,2265,7188,chemical_import
+Dyes and Pigments,Other Dyes,202021,2332,7239,chemical_import
+Dyes and Pigments,Other Dyes,202122,2439,8260,chemical_import
+Dyes and Pigments,Other Dyes,202223,2671,9706,chemical_import
+Dyes and Pigments,Other Dyes,202324,2308,10164,chemical_import
+Dyes and Pigments,Other Dyes,202425,1949,9788,chemical_import
+Dyes and Pigments,Pigment Emulsion,201516,6578,47122,chemical_import
+Dyes and Pigments,Pigment Emulsion,201617,7085,47759,chemical_import
+Dyes and Pigments,Pigment Emulsion,201718,8261,52679,chemical_import
+Dyes and Pigments,Pigment Emulsion,201819,7985,57272,chemical_import
+Dyes and Pigments,Pigment Emulsion,201920,7303,54365,chemical_import
+Dyes and Pigments,Pigment Emulsion,202021,6443,53389,chemical_import
+Dyes and Pigments,Pigment Emulsion,202122,7080,65345,chemical_import
+Dyes and Pigments,Pigment Emulsion,202223,7314,69850,chemical_import
+Dyes and Pigments,Pigment Emulsion,202324,7519,71245,chemical_import
+Dyes and Pigments,Pigment Emulsion,202425,9777,83097,chemical_import
+Dyes and Pigments,Reactive Dyes,201516,3148,27009,chemical_import
+Dyes and Pigments,Reactive Dyes,201617,3460,28744,chemical_import
+Dyes and Pigments,Reactive Dyes,201718,3340,24642,chemical_import
+Dyes and Pigments,Reactive Dyes,201819,3117,26440,chemical_import
+Dyes and Pigments,Reactive Dyes,201920,3661,27931,chemical_import
+Dyes and Pigments,Reactive Dyes,202021,2962,21959,chemical_import
+Dyes and Pigments,Reactive Dyes,202122,3461,28663,chemical_import
+Dyes and Pigments,Reactive Dyes,202223,2819,22464,chemical_import
+Dyes and Pigments,Reactive Dyes,202324,3335,26109,chemical_import
+Dyes and Pigments,Reactive Dyes,202425,4003,31038,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,201516,473,1007,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,201617,337,756,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,201718,319,764,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,201819,358,1289,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,201920,170,810,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,202021,108,463,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,202122,22,261,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,202223,19,444,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,202324,23,363,chemical_import
+Dyes and Pigments,Solubilised Vat Dyes,202425,34,412,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),201516,1332,2636,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),201617,1283,2638,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),201718,1252,2916,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),201819,1116,3286,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),201920,1041,3128,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),202021,1337,3294,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),202122,1810,5523,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),202223,3363,9298,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),202324,4111,9424,chemical_import
+Dyes and Pigments,Sulphur Dyes (Sulphur Black),202425,4724,10862,chemical_import
+Dyes and Pigments,Vat Dyes,201516,20580,48846,chemical_import
+Dyes and Pigments,Vat Dyes,201617,23527,53539,chemical_import
+Dyes and Pigments,Vat Dyes,201718,26368,59134,chemical_import
+Dyes and Pigments,Vat Dyes,201819,21571,77638,chemical_import
+Dyes and Pigments,Vat Dyes,201920,16400,63470,chemical_import
+Dyes and Pigments,Vat Dyes,202021,13310,40263,chemical_import
+Dyes and Pigments,Vat Dyes,202122,20402,89474,chemical_import
+Dyes and Pigments,Vat Dyes,202223,11536,57921,chemical_import
+Dyes and Pigments,Vat Dyes,202324,12660,51920,chemical_import
+Dyes and Pigments,Vat Dyes,202425,13603,54443,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,201516,27258,18102,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,201617,46564,26437,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,201718,49758,29075,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,201819,62374,56075,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,201920,40362,37910,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,202021,61224,48059,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,202122,74347,52878,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,202223,54655,56217,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,202324,54863,51207,chemical_import
+Inorganic Chemicals,Aluminium Fluoride,202425,72955,70501,chemical_import
+Inorganic Chemicals,Calcium Carbide,201516,61935,25429,chemical_import
+Inorganic Chemicals,Calcium Carbide,201617,55692,23652,chemical_import
+Inorganic Chemicals,Calcium Carbide,201718,55651,23941,chemical_import
+Inorganic Chemicals,Calcium Carbide,201819,45321,21554,chemical_import
+Inorganic Chemicals,Calcium Carbide,201920,31218,14507,chemical_import
+Inorganic Chemicals,Calcium Carbide,202021,32666,17749,chemical_import
+Inorganic Chemicals,Calcium Carbide,202122,22008,15761,chemical_import
+Inorganic Chemicals,Calcium Carbide,202223,22133,17150,chemical_import
+Inorganic Chemicals,Calcium Carbide,202324,25223,13347,chemical_import
+Inorganic Chemicals,Calcium Carbide,202425,21869,12003,chemical_import
+Inorganic Chemicals,Calcium Carbonate,201516,715606,65090,chemical_import
+Inorganic Chemicals,Calcium Carbonate,201617,700559,60902,chemical_import
+Inorganic Chemicals,Calcium Carbonate,201718,846195,64587,chemical_import
+Inorganic Chemicals,Calcium Carbonate,201819,1080252,86942,chemical_import
+Inorganic Chemicals,Calcium Carbonate,201920,1169457,90705,chemical_import
+Inorganic Chemicals,Calcium Carbonate,202021,855385,69433,chemical_import
+Inorganic Chemicals,Calcium Carbonate,202122,1027322,103502,chemical_import
+Inorganic Chemicals,Calcium Carbonate,202223,1063109,111870,chemical_import
+Inorganic Chemicals,Calcium Carbonate,202324,620224,52667,chemical_import
+Inorganic Chemicals,Calcium Carbonate,202425,602650,56670,chemical_import
+Inorganic Chemicals,Carbon Black,201516,124059,83401,chemical_import
+Inorganic Chemicals,Carbon Black,201617,128740,82424,chemical_import
+Inorganic Chemicals,Carbon Black,201718,186224,143618,chemical_import
+Inorganic Chemicals,Carbon Black,201819,278531,249368,chemical_import
+Inorganic Chemicals,Carbon Black,201920,197491,153367,chemical_import
+Inorganic Chemicals,Carbon Black,202021,190469,127583,chemical_import
+Inorganic Chemicals,Carbon Black,202122,156331,155878,chemical_import
+Inorganic Chemicals,Carbon Black,202223,126675,165212,chemical_import
+Inorganic Chemicals,Carbon Black,202324,156731,170990,chemical_import
+Inorganic Chemicals,Carbon Black,202425,152897,171754,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,201516,44084,11211,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,201617,57068,15910,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,201718,68474,19305,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,201819,84261,36931,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,201920,52727,15858,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,202021,22355,8150,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,202122,33475,11293,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,202223,44550,14499,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,202324,46641,13624,chemical_import
+Inorganic Chemicals,Hydrogen Peroxide,202425,38594,12000,chemical_import
+Inorganic Chemicals,Potassium Chlorate,201516,3160,2026,chemical_import
+Inorganic Chemicals,Potassium Chlorate,201617,100,61,chemical_import
+Inorganic Chemicals,Potassium Chlorate,201718,29,22,chemical_import
+Inorganic Chemicals,Potassium Chlorate,201819,128,272,chemical_import
+Inorganic Chemicals,Potassium Chlorate,201920,55,119,chemical_import
+Inorganic Chemicals,Potassium Chlorate,202021,909,884,chemical_import
+Inorganic Chemicals,Potassium Chlorate,202122,0,9,chemical_import
+Inorganic Chemicals,Potassium Chlorate,202223,0,2,chemical_import
+Inorganic Chemicals,Potassium Chlorate,202324,173,10,chemical_import
+Inorganic Chemicals,Potassium Chlorate,202425,67,93,chemical_import
+Inorganic Chemicals,Red Phosphorus,201516,0,0,chemical_import
+Inorganic Chemicals,Red Phosphorus,201617,0,1,chemical_import
+Inorganic Chemicals,Red Phosphorus,201718,0,3,chemical_import
+Inorganic Chemicals,Red Phosphorus,201819,14,51,chemical_import
+Inorganic Chemicals,Red Phosphorus,201920,18,57,chemical_import
+Inorganic Chemicals,Red Phosphorus,202021,4,18,chemical_import
+Inorganic Chemicals,Red Phosphorus,202122,0,1,chemical_import
+Inorganic Chemicals,Red Phosphorus,202223,0,0,chemical_import
+Inorganic Chemicals,Red Phosphorus,202324,7,55,chemical_import
+Inorganic Chemicals,Red Phosphorus,202425,0,0,chemical_import
+Inorganic Chemicals,Sodium Chlorate,201516,17298,6400,chemical_import
+Inorganic Chemicals,Sodium Chlorate,201617,7447,2907,chemical_import
+Inorganic Chemicals,Sodium Chlorate,201718,8822,3041,chemical_import
+Inorganic Chemicals,Sodium Chlorate,201819,14240,5884,chemical_import
+Inorganic Chemicals,Sodium Chlorate,201920,24082,11254,chemical_import
+Inorganic Chemicals,Sodium Chlorate,202021,11589,5118,chemical_import
+Inorganic Chemicals,Sodium Chlorate,202122,16655,6822,chemical_import
+Inorganic Chemicals,Sodium Chlorate,202223,21823,14720,chemical_import
+Inorganic Chemicals,Sodium Chlorate,202324,20338,16634,chemical_import
+Inorganic Chemicals,Sodium Chlorate,202425,20160,15361,chemical_import
+Inorganic Chemicals,Titanium Dioxide,201516,16421,25709,chemical_import
+Inorganic Chemicals,Titanium Dioxide,201617,13901,22943,chemical_import
+Inorganic Chemicals,Titanium Dioxide,201718,13701,24771,chemical_import
+Inorganic Chemicals,Titanium Dioxide,201819,14546,28686,chemical_import
+Inorganic Chemicals,Titanium Dioxide,201920,16416,30825,chemical_import
+Inorganic Chemicals,Titanium Dioxide,202021,13389,25107,chemical_import
+Inorganic Chemicals,Titanium Dioxide,202122,15134,36230,chemical_import
+Inorganic Chemicals,Titanium Dioxide,202223,18505,53925,chemical_import
+Inorganic Chemicals,Titanium Dioxide,202324,17584,47209,chemical_import
+Inorganic Chemicals,Titanium Dioxide,202425,18882,49258,chemical_import
+Organic Chemicals,Acetaldehyde,201516,74,299,chemical_import
+Organic Chemicals,Acetaldehyde,201617,130,357,chemical_import
+Organic Chemicals,Acetaldehyde,201718,81,243,chemical_import
+Organic Chemicals,Acetaldehyde,201819,94,275,chemical_import
+Organic Chemicals,Acetaldehyde,201920,113,375,chemical_import
+Organic Chemicals,Acetaldehyde,202021,82,568,chemical_import
+Organic Chemicals,Acetaldehyde,202122,150,497,chemical_import
+Organic Chemicals,Acetaldehyde,202223,141,454,chemical_import
+Organic Chemicals,Acetaldehyde,202324,187,463,chemical_import
+Organic Chemicals,Acetaldehyde,202425,88,334,chemical_import
+Organic Chemicals,Acetic Acid,201516,792775,206305,chemical_import
+Organic Chemicals,Acetic Acid,201617,847808,193958,chemical_import
+Organic Chemicals,Acetic Acid,201718,884515,290624,chemical_import
+Organic Chemicals,Acetic Acid,201819,937298,422360,chemical_import
+Organic Chemicals,Acetic Acid,201920,926492,273709,chemical_import
+Organic Chemicals,Acetic Acid,202021,904345,275694,chemical_import
+Organic Chemicals,Acetic Acid,202122,1054823,778838,chemical_import
+Organic Chemicals,Acetic Acid,202223,1134506,512714,chemical_import
+Organic Chemicals,Acetic Acid,202324,1112214,417696,chemical_import
+Organic Chemicals,Acetic Acid,202425,1161521,403433,chemical_import
+Organic Chemicals,Acetic Anhydride,201516,2918,1780,chemical_import
+Organic Chemicals,Acetic Anhydride,201617,2272,1118,chemical_import
+Organic Chemicals,Acetic Anhydride,201718,4381,2346,chemical_import
+Organic Chemicals,Acetic Anhydride,201819,12275,9700,chemical_import
+Organic Chemicals,Acetic Anhydride,201920,20529,11716,chemical_import
+Organic Chemicals,Acetic Anhydride,202021,18807,10479,chemical_import
+Organic Chemicals,Acetic Anhydride,202122,20896,22339,chemical_import
+Organic Chemicals,Acetic Anhydride,202223,13400,10112,chemical_import
+Organic Chemicals,Acetic Anhydride,202324,17689,12671,chemical_import
+Organic Chemicals,Acetic Anhydride,202425,11647,7624,chemical_import
+Organic Chemicals,Acetone,201516,138402,55796,chemical_import
+Organic Chemicals,Acetone,201617,135887,63055,chemical_import
+Organic Chemicals,Acetone,201718,146878,74975,chemical_import
+Organic Chemicals,Acetone,201819,116760,52108,chemical_import
+Organic Chemicals,Acetone,201920,72402,28094,chemical_import
+Organic Chemicals,Acetone,202021,82056,53673,chemical_import
+Organic Chemicals,Acetone,202122,118656,82777,chemical_import
+Organic Chemicals,Acetone,202223,110027,65925,chemical_import
+Organic Chemicals,Acetone,202324,125368,91229,chemical_import
+Organic Chemicals,Acetone,202425,136271,112610,chemical_import
+Organic Chemicals,Aniline,201516,38341,26965,chemical_import
+Organic Chemicals,Aniline,201617,44650,29368,chemical_import
+Organic Chemicals,Aniline,201718,65416,58924,chemical_import
+Organic Chemicals,Aniline,201819,88454,81524,chemical_import
+Organic Chemicals,Aniline,201920,80946,53293,chemical_import
+Organic Chemicals,Aniline,202021,72770,47402,chemical_import
+Organic Chemicals,Aniline,202122,92072,113186,chemical_import
+Organic Chemicals,Aniline,202223,101437,137516,chemical_import
+Organic Chemicals,Aniline,202324,148740,182205,chemical_import
+Organic Chemicals,Aniline,202425,202003,259141,chemical_import
+Organic Chemicals,Chloro Methanes,201516,608,364,chemical_import
+Organic Chemicals,Chloro Methanes,201617,258,223,chemical_import
+Organic Chemicals,Chloro Methanes,201718,519,429,chemical_import
+Organic Chemicals,Chloro Methanes,201819,1413,1089,chemical_import
+Organic Chemicals,Chloro Methanes,201920,2404,2122,chemical_import
+Organic Chemicals,Chloro Methanes,202021,2469,2111,chemical_import
+Organic Chemicals,Chloro Methanes,202122,1905,2163,chemical_import
+Organic Chemicals,Chloro Methanes,202223,1406,1720,chemical_import
+Organic Chemicals,Chloro Methanes,202324,0,3,chemical_import
+Organic Chemicals,Chloro Methanes,202425,433,1382,chemical_import
+Organic Chemicals,Citric Acid,201516,75978,36119,chemical_import
+Organic Chemicals,Citric Acid,201617,81681,39558,chemical_import
+Organic Chemicals,Citric Acid,201718,84262,45489,chemical_import
+Organic Chemicals,Citric Acid,201819,95283,45136,chemical_import
+Organic Chemicals,Citric Acid,201920,90958,38453,chemical_import
+Organic Chemicals,Citric Acid,202021,94966,47550,chemical_import
+Organic Chemicals,Citric Acid,202122,99929,100565,chemical_import
+Organic Chemicals,Citric Acid,202223,131440,140713,chemical_import
+Organic Chemicals,Citric Acid,202324,117653,79801,chemical_import
+Organic Chemicals,Citric Acid,202425,140955,90071,chemical_import
+Organic Chemicals,Ethanolamines,201516,10072,10321,chemical_import
+Organic Chemicals,Ethanolamines,201617,11662,10202,chemical_import
+Organic Chemicals,Ethanolamines,201718,16101,16140,chemical_import
+Organic Chemicals,Ethanolamines,201819,16648,19347,chemical_import
+Organic Chemicals,Ethanolamines,201920,16694,16398,chemical_import
+Organic Chemicals,Ethanolamines,202021,19070,17807,chemical_import
+Organic Chemicals,Ethanolamines,202122,18605,24326,chemical_import
+Organic Chemicals,Ethanolamines,202223,16431,23742,chemical_import
+Organic Chemicals,Ethanolamines,202324,22672,26567,chemical_import
+Organic Chemicals,Ethanolamines,202425,22079,23546,chemical_import
+Organic Chemicals,Ethyl Acetate,201516,290,909,chemical_import
+Organic Chemicals,Ethyl Acetate,201617,1664,861,chemical_import
+Organic Chemicals,Ethyl Acetate,201718,43,127,chemical_import
+Organic Chemicals,Ethyl Acetate,201819,2917,2358,chemical_import
+Organic Chemicals,Ethyl Acetate,201920,2157,1768,chemical_import
+Organic Chemicals,Ethyl Acetate,202021,141,1697,chemical_import
+Organic Chemicals,Ethyl Acetate,202122,3778,5336,chemical_import
+Organic Chemicals,Ethyl Acetate,202223,262,1630,chemical_import
+Organic Chemicals,Ethyl Acetate,202324,2266,2728,chemical_import
+Organic Chemicals,Ethyl Acetate,202425,362,1087,chemical_import
+Organic Chemicals,Formaldehyde,201516,66,42,chemical_import
+Organic Chemicals,Formaldehyde,201617,84,248,chemical_import
+Organic Chemicals,Formaldehyde,201718,46,44,chemical_import
+Organic Chemicals,Formaldehyde,201819,22,13,chemical_import
+Organic Chemicals,Formaldehyde,201920,5,111,chemical_import
+Organic Chemicals,Formaldehyde,202021,6,148,chemical_import
+Organic Chemicals,Formaldehyde,202122,8,194,chemical_import
+Organic Chemicals,Formaldehyde,202223,6,108,chemical_import
+Organic Chemicals,Formaldehyde,202324,4,59,chemical_import
+Organic Chemicals,Formaldehyde,202425,5,60,chemical_import
+Organic Chemicals,Isobutylbenzene,201516,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,201617,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,201718,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,201819,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,201920,2,4,chemical_import
+Organic Chemicals,Isobutylbenzene,202021,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,202122,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,202223,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,202324,0,0,chemical_import
+Organic Chemicals,Isobutylbenzene,202425,0,0,chemical_import
+Organic Chemicals,Maleic Anhydride,201516,47399,31392,chemical_import
+Organic Chemicals,Maleic Anhydride,201617,50813,34618,chemical_import
+Organic Chemicals,Maleic Anhydride,201718,52627,42928,chemical_import
+Organic Chemicals,Maleic Anhydride,201819,69920,61694,chemical_import
+Organic Chemicals,Maleic Anhydride,201920,66942,46858,chemical_import
+Organic Chemicals,Maleic Anhydride,202021,59533,46705,chemical_import
+Organic Chemicals,Maleic Anhydride,202122,74467,107691,chemical_import
+Organic Chemicals,Maleic Anhydride,202223,82414,94533,chemical_import
+Organic Chemicals,Maleic Anhydride,202324,87083,69005,chemical_import
+Organic Chemicals,Maleic Anhydride,202425,100397,85152,chemical_import
+Organic Chemicals,Mek,201516,40883,26950,chemical_import
+Organic Chemicals,Mek,201617,30901,16629,chemical_import
+Organic Chemicals,Mek,201718,45331,36027,chemical_import
+Organic Chemicals,Mek,201819,47158,40994,chemical_import
+Organic Chemicals,Mek,201920,25509,19145,chemical_import
+Organic Chemicals,Mek,202021,42542,33013,chemical_import
+Organic Chemicals,Mek,202122,42363,44585,chemical_import
+Organic Chemicals,Mek,202223,49348,61386,chemical_import
+Organic Chemicals,Mek,202324,41470,36591,chemical_import
+Organic Chemicals,Mek,202425,48514,44862,chemical_import
+Organic Chemicals,Menthol,201516,936,7112,chemical_import
+Organic Chemicals,Menthol,201617,1511,10211,chemical_import
+Organic Chemicals,Menthol,201718,1372,8573,chemical_import
+Organic Chemicals,Menthol,201819,1334,12718,chemical_import
+Organic Chemicals,Menthol,201920,3057,30181,chemical_import
+Organic Chemicals,Menthol,202021,4521,45226,chemical_import
+Organic Chemicals,Menthol,202122,4056,40528,chemical_import
+Organic Chemicals,Menthol,202223,4250,42794,chemical_import
+Organic Chemicals,Menthol,202324,11349,109119,chemical_import
+Organic Chemicals,Menthol,202425,0,0,chemical_import
+Organic Chemicals,Methanol,201516,1711879,285259,chemical_import
+Organic Chemicals,Methanol,201617,1637457,295762,chemical_import
+Organic Chemicals,Methanol,201718,1783293,400004,chemical_import
+Organic Chemicals,Methanol,201819,1986712,519474,chemical_import
+Organic Chemicals,Methanol,201920,2286274,425567,chemical_import
+Organic Chemicals,Methanol,202021,2219944,434805,chemical_import
+Organic Chemicals,Methanol,202122,2397912,743153,chemical_import
+Organic Chemicals,Methanol,202223,2815926,752424,chemical_import
+Organic Chemicals,Methanol,202324,3068795,743116,chemical_import
+Organic Chemicals,Methanol,202425,2996136,775516,chemical_import
+Organic Chemicals,Nitrobenzene,201516,5838,2733,chemical_import
+Organic Chemicals,Nitrobenzene,201617,14429,6944,chemical_import
+Organic Chemicals,Nitrobenzene,201718,15384,8207,chemical_import
+Organic Chemicals,Nitrobenzene,201819,18204,10721,chemical_import
+Organic Chemicals,Nitrobenzene,201920,15533,8073,chemical_import
+Organic Chemicals,Nitrobenzene,202021,9866,5008,chemical_import
+Organic Chemicals,Nitrobenzene,202122,7816,6361,chemical_import
+Organic Chemicals,Nitrobenzene,202223,3887,4235,chemical_import
+Organic Chemicals,Nitrobenzene,202324,304,275,chemical_import
+Organic Chemicals,Nitrobenzene,202425,1073,1179,chemical_import
+Organic Chemicals,Oncb,201516,237,192,chemical_import
+Organic Chemicals,Oncb,201617,839,628,chemical_import
+Organic Chemicals,Oncb,201718,0,0,chemical_import
+Organic Chemicals,Oncb,201819,0,0,chemical_import
+Organic Chemicals,Oncb,201920,0,0,chemical_import
+Organic Chemicals,Oncb,202021,0,0,chemical_import
+Organic Chemicals,Oncb,202122,0,0,chemical_import
+Organic Chemicals,Oncb,202223,0,0,chemical_import
+Organic Chemicals,Oncb,202324,0,0,chemical_import
+Organic Chemicals,Oncb,202425,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,201516,117,77,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,201617,579,436,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,201718,267,212,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,201819,74,57,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,201920,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,202021,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,202122,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,202223,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,202324,0,0,chemical_import
+Organic Chemicals,Ortho Nitro Toluene,202425,0,0,chemical_import
+Organic Chemicals,Pentaerythritol,201516,19486,21468,chemical_import
+Organic Chemicals,Pentaerythritol,201617,19380,20690,chemical_import
+Organic Chemicals,Pentaerythritol,201718,17963,19614,chemical_import
+Organic Chemicals,Pentaerythritol,201819,18407,23000,chemical_import
+Organic Chemicals,Pentaerythritol,201920,21311,23116,chemical_import
+Organic Chemicals,Pentaerythritol,202021,13613,13022,chemical_import
+Organic Chemicals,Pentaerythritol,202122,16340,25537,chemical_import
+Organic Chemicals,Pentaerythritol,202223,17553,25392,chemical_import
+Organic Chemicals,Pentaerythritol,202324,23682,26745,chemical_import
+Organic Chemicals,Pentaerythritol,202425,18155,23612,chemical_import
+Organic Chemicals,Phenol,201516,248769,147715,chemical_import
+Organic Chemicals,Phenol,201617,282187,176601,chemical_import
+Organic Chemicals,Phenol,201718,288572,202842,chemical_import
+Organic Chemicals,Phenol,201819,231808,217710,chemical_import
+Organic Chemicals,Phenol,201920,144005,99070,chemical_import
+Organic Chemicals,Phenol,202021,170993,89789,chemical_import
+Organic Chemicals,Phenol,202122,206208,210164,chemical_import
+Organic Chemicals,Phenol,202223,218476,242182,chemical_import
+Organic Chemicals,Phenol,202324,238165,198775,chemical_import
+Organic Chemicals,Phenol,202425,260078,226274,chemical_import
+Organic Chemicals,Pncb,201516,8408,3886,chemical_import
+Organic Chemicals,Pncb,201617,6095,2899,chemical_import
+Organic Chemicals,Pncb,201718,0,0,chemical_import
+Organic Chemicals,Pncb,201819,0,0,chemical_import
+Organic Chemicals,Pncb,201920,0,0,chemical_import
+Organic Chemicals,Pncb,202021,0,0,chemical_import
+Organic Chemicals,Pncb,202122,0,0,chemical_import
+Organic Chemicals,Pncb,202223,0,0,chemical_import
+Organic Chemicals,Pncb,202324,0,0,chemical_import
+Organic Chemicals,Pncb,202425,0,0,chemical_import
+Pesticides and Insecticides,"2, 4-D",201516,72,123,chemical_import
+Pesticides and Insecticides,"2, 4-D",201617,16,27,chemical_import
+Pesticides and Insecticides,"2, 4-D",201718,1824,2735,chemical_import
+Pesticides and Insecticides,"2, 4-D",201819,2819,5935,chemical_import
+Pesticides and Insecticides,"2, 4-D",201920,2382,4311,chemical_import
+Pesticides and Insecticides,"2, 4-D",202021,2412,3657,chemical_import
+Pesticides and Insecticides,"2, 4-D",202122,601,2315,chemical_import
+Pesticides and Insecticides,"2, 4-D",202223,746,2078,chemical_import
+Pesticides and Insecticides,"2, 4-D",202324,264,509,chemical_import
+Pesticides and Insecticides,"2, 4-D",202425,606,1046,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,201516,6,98,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,201617,0,0,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,201718,0,0,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,201819,5,39,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,201920,1,27,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,202021,7,40,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,202122,0,1,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,202223,0,1,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,202324,83,3751,chemical_import
+Pesticides and Insecticides,Aluminium Phosphide,202425,182,7981,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,201516,0,0,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,201617,0,1,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,201718,0,1,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,201819,0,2,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,201920,0,0,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,202021,0,0,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,202122,40,138,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,202223,0,0,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,202324,0,2,chemical_import
+Pesticides and Insecticides,Copper-Oxychloride,202425,0,0,chemical_import
+Pesticides and Insecticides,Cypermethrin,201516,0,0,chemical_import
+Pesticides and Insecticides,Cypermethrin,201617,0,0,chemical_import
+Pesticides and Insecticides,Cypermethrin,201718,8,47,chemical_import
+Pesticides and Insecticides,Cypermethrin,201819,5,53,chemical_import
+Pesticides and Insecticides,Cypermethrin,201920,93,849,chemical_import
+Pesticides and Insecticides,Cypermethrin,202021,6,57,chemical_import
+Pesticides and Insecticides,Cypermethrin,202122,3,45,chemical_import
+Pesticides and Insecticides,Cypermethrin,202223,0,0,chemical_import
+Pesticides and Insecticides,Cypermethrin,202324,24,108,chemical_import
+Pesticides and Insecticides,Cypermethrin,202425,109,620,chemical_import
+Pesticides and Insecticides,D.D.V.P.,201516,64,116,chemical_import
+Pesticides and Insecticides,D.D.V.P.,201617,16,28,chemical_import
+Pesticides and Insecticides,D.D.V.P.,201718,35,66,chemical_import
+Pesticides and Insecticides,D.D.V.P.,201819,1561,3167,chemical_import
+Pesticides and Insecticides,D.D.V.P.,201920,0,0,chemical_import
+Pesticides and Insecticides,D.D.V.P.,202021,0,0,chemical_import
+Pesticides and Insecticides,D.D.V.P.,202122,0,0,chemical_import
+Pesticides and Insecticides,D.D.V.P.,202223,0,0,chemical_import
+Pesticides and Insecticides,D.D.V.P.,202324,0,0,chemical_import
+Pesticides and Insecticides,D.D.V.P.,202425,0,1,chemical_import
+Pesticides and Insecticides,Dimethoate,201516,0,0,chemical_import
+Pesticides and Insecticides,Dimethoate,201617,0,0,chemical_import
+Pesticides and Insecticides,Dimethoate,201718,0,0,chemical_import
+Pesticides and Insecticides,Dimethoate,201819,0,0,chemical_import
+Pesticides and Insecticides,Dimethoate,201920,0,0,chemical_import
+Pesticides and Insecticides,Dimethoate,202021,63,326,chemical_import
+Pesticides and Insecticides,Dimethoate,202122,153,723,chemical_import
+Pesticides and Insecticides,Dimethoate,202223,334,1382,chemical_import
+Pesticides and Insecticides,Dimethoate,202324,236,941,chemical_import
+Pesticides and Insecticides,Dimethoate,202425,69,303,chemical_import
+Pesticides and Insecticides,Isoproturon,201516,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,201617,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,201718,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,201819,3,4,chemical_import
+Pesticides and Insecticides,Isoproturon,201920,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,202021,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,202122,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,202223,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,202324,0,0,chemical_import
+Pesticides and Insecticides,Isoproturon,202425,0,0,chemical_import
+Pesticides and Insecticides,Malathion,201516,0,0,chemical_import
+Pesticides and Insecticides,Malathion,201617,0,0,chemical_import
+Pesticides and Insecticides,Malathion,201718,0,0,chemical_import
+Pesticides and Insecticides,Malathion,201819,0,0,chemical_import
+Pesticides and Insecticides,Malathion,201920,0,0,chemical_import
+Pesticides and Insecticides,Malathion,202021,0,0,chemical_import
+Pesticides and Insecticides,Malathion,202122,0,0,chemical_import
+Pesticides and Insecticides,Malathion,202223,540,1758,chemical_import
+Pesticides and Insecticides,Malathion,202324,0,0,chemical_import
+Pesticides and Insecticides,Malathion,202425,0,0,chemical_import
+Pesticides and Insecticides,Methyl Bromide,201516,53,250,chemical_import
+Pesticides and Insecticides,Methyl Bromide,201617,24,70,chemical_import
+Pesticides and Insecticides,Methyl Bromide,201718,18,107,chemical_import
+Pesticides and Insecticides,Methyl Bromide,201819,2,14,chemical_import
+Pesticides and Insecticides,Methyl Bromide,201920,28,141,chemical_import
+Pesticides and Insecticides,Methyl Bromide,202021,12,63,chemical_import
+Pesticides and Insecticides,Methyl Bromide,202122,30,170,chemical_import
+Pesticides and Insecticides,Methyl Bromide,202223,0,0,chemical_import
+Pesticides and Insecticides,Methyl Bromide,202324,7,55,chemical_import
+Pesticides and Insecticides,Methyl Bromide,202425,20,161,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,201516,6550,78424,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,201617,7143,85350,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,201718,7798,98502,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,201819,7738,97341,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,201920,7770,101554,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,202021,11418,145713,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,202122,16117,226512,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,202223,16287,257417,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,202324,12225,210712,chemical_import
+Pesticides and Insecticides,Other Fungicide Nes,202425,21325,307357,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,201516,10171,85167,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,201617,16149,104626,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,201718,15248,100387,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,201819,18044,122207,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,201920,14232,104807,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,202021,30307,189422,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,202122,24959,213811,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,202223,31871,311738,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,202324,33297,196835,chemical_import
+Pesticides and Insecticides,Other Herbicides-Anti Sprouting Products,202425,40348,240556,chemical_import
+Pesticides and Insecticides,Other Insecticides,201516,15634,213829,chemical_import
+Pesticides and Insecticides,Other Insecticides,201617,18067,208838,chemical_import
+Pesticides and Insecticides,Other Insecticides,201718,17307,239549,chemical_import
+Pesticides and Insecticides,Other Insecticides,201819,17188,240036,chemical_import
+Pesticides and Insecticides,Other Insecticides,201920,13525,268040,chemical_import
+Pesticides and Insecticides,Other Insecticides,202021,16512,343526,chemical_import
+Pesticides and Insecticides,Other Insecticides,202122,16376,385766,chemical_import
+Pesticides and Insecticides,Other Insecticides,202223,16776,385652,chemical_import
+Pesticides and Insecticides,Other Insecticides,202324,14853,379509,chemical_import
+Pesticides and Insecticides,Other Insecticides,202425,12373,362937,chemical_import
+Pesticides and Insecticides,Other Pesticides,201516,1318,12700,chemical_import
+Pesticides and Insecticides,Other Pesticides,201617,1176,91641,chemical_import
+Pesticides and Insecticides,Other Pesticides,201718,1907,139991,chemical_import
+Pesticides and Insecticides,Other Pesticides,201819,1868,163792,chemical_import
+Pesticides and Insecticides,Other Pesticides,201920,4534,131268,chemical_import
+Pesticides and Insecticides,Other Pesticides,202021,5453,216253,chemical_import
+Pesticides and Insecticides,Other Pesticides,202122,1443,143124,chemical_import
+Pesticides and Insecticides,Other Pesticides,202223,891,65176,chemical_import
+Pesticides and Insecticides,Other Pesticides,202324,997,9611,chemical_import
+Pesticides and Insecticides,Other Pesticides,202425,604,9332,chemical_import
+Pesticides and Insecticides,Quinalphos,201516,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,201617,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,201718,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,201819,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,201920,15,81,chemical_import
+Pesticides and Insecticides,Quinalphos,202021,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,202122,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,202223,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,202324,0,0,chemical_import
+Pesticides and Insecticides,Quinalphos,202425,0,0,chemical_import
+Total - Alkali Chemicals,Total,201516,1117878,218199,chemical_import
+Total - Alkali Chemicals,Total,201617,1121137,215051,chemical_import
+Total - Alkali Chemicals,Total,201718,1193978,265347,chemical_import
+Total - Alkali Chemicals,Total,201819,1049124,225523,chemical_import
+Total - Alkali Chemicals,Total,201920,1157130,240752,chemical_import
+Total - Alkali Chemicals,Total,202021,967827,170499,chemical_import
+Total - Alkali Chemicals,Total,202122,766564,174732,chemical_import
+Total - Alkali Chemicals,Total,202223,713367,269998,chemical_import
+Total - Alkali Chemicals,Total,202324,1262504,329564,chemical_import
+Total - Alkali Chemicals,Total,202425,1176093,261710,chemical_import
+Total - Dyes and Pigments,Total,201516,54691,219304,chemical_import
+Total - Dyes and Pigments,Total,201617,55868,214913,chemical_import
+Total - Dyes and Pigments,Total,201718,62971,231383,chemical_import
+Total - Dyes and Pigments,Total,201819,56452,278422,chemical_import
+Total - Dyes and Pigments,Total,201920,50583,281435,chemical_import
+Total - Dyes and Pigments,Total,202021,45339,252666,chemical_import
+Total - Dyes and Pigments,Total,202122,53657,326661,chemical_import
+Total - Dyes and Pigments,Total,202223,44637,290398,chemical_import
+Total - Dyes and Pigments,Total,202324,49633,284741,chemical_import
+Total - Dyes and Pigments,Total,202425,54942,319220,chemical_import
+Total - Inorganic Chemicals,Total,201516,1009821,237368,chemical_import
+Total - Inorganic Chemicals,Total,201617,1010071,235237,chemical_import
+Total - Inorganic Chemicals,Total,201718,1228854,308363,chemical_import
+Total - Inorganic Chemicals,Total,201819,1579667,485763,chemical_import
+Total - Inorganic Chemicals,Total,201920,1531826,354602,chemical_import
+Total - Inorganic Chemicals,Total,202021,1187990,302101,chemical_import
+Total - Inorganic Chemicals,Total,202122,1345272,382374,chemical_import
+Total - Inorganic Chemicals,Total,202223,1351450,433595,chemical_import
+Total - Inorganic Chemicals,Total,202324,941784,365743,chemical_import
+Total - Inorganic Chemicals,Total,202425,928074,387640,chemical_import
+Total - Organic Chemicals,Total,201516,3143476,865684,chemical_import
+Total - Organic Chemicals,Total,201617,3170287,904366,chemical_import
+Total - Organic Chemicals,Total,201718,3407051,1207748,chemical_import
+Total - Organic Chemicals,Total,201819,3644781,1520278,chemical_import
+Total - Organic Chemicals,Total,201920,3775333,1078053,chemical_import
+Total - Organic Chemicals,Total,202021,3715724,1124697,chemical_import
+Total - Organic Chemicals,Total,202122,4159984,2308240,chemical_import
+Total - Organic Chemicals,Total,202223,4700910,2117580,chemical_import
+Total - Organic Chemicals,Total,202324,5017641,1997048,chemical_import
+Total - Organic Chemicals,Total,202425,5099717,2055883,chemical_import
+Total - Pesticides and Insecticides,Total,201516,33868,390707,chemical_import
+Total - Pesticides and Insecticides,Total,201617,42591,490581,chemical_import
+Total - Pesticides and Insecticides,Total,201718,44145,581385,chemical_import
+Total - Pesticides and Insecticides,Total,201819,49233,632590,chemical_import
+Total - Pesticides and Insecticides,Total,201920,42580,611078,chemical_import
+Total - Pesticides and Insecticides,Total,202021,66190,899057,chemical_import
+Total - Pesticides and Insecticides,Total,202122,59722,972605,chemical_import
+Total - Pesticides and Insecticides,Total,202223,67445,1025202,chemical_import
+Total - Pesticides and Insecticides,Total,202324,61986,802033,chemical_import
+Total - Pesticides and Insecticides,Total,202425,75636,930294,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,201516,5359734,1931262,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,201617,5399954,2060148,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,201718,5936999,2594226,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,201819,6379257,3142576,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,201920,6557452,2565920,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,202021,5983070,2749020,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,202122,6385199,4164612,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,202223,6877809,4136773,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,202324,7333548,3779129,chemical_import
+Total Import Of Major Chemicals,Total Import of Major Chemicals,202425,7334462,3954747,chemical_import

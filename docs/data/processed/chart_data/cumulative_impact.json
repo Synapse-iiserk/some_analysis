@@ -1,0 +1,27 @@
+{
+  "scenarios": [
+    "Base Case",
+    "Bull Case",
+    "Bear Case"
+  ],
+  "additional_cost_cr": [
+    48000,
+    -12000,
+    85000
+  ],
+  "gdp_impact_pct": [
+    0.18,
+    -0.05,
+    0.32
+  ],
+  "forex_drain_bn": [
+    5.8,
+    -1.5,
+    10.3
+  ],
+  "jobs_at_risk_k": [
+    150,
+    50,
+    400
+  ]
+}

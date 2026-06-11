@@ -1,0 +1,781 @@
+category,product,fiscal_year,quantity,value,metric_type
+Aromatics,Benzene,201516,914875,371288,petrochemical_export
+Aromatics,Benzene,201617,789425,366822,petrochemical_export
+Aromatics,Benzene,201718,1286323,662408,petrochemical_export
+Aromatics,Benzene,201819,1651123,822052,petrochemical_export
+Aromatics,Benzene,201920,1408477,635303,petrochemical_export
+Aromatics,Benzene,202021,1507626,559554,petrochemical_export
+Aromatics,Benzene,202122,1922951,1388168,petrochemical_export
+Aromatics,Benzene,202223,1451638,1156971,petrochemical_export
+Aromatics,Benzene,202324,1473996,1093052,petrochemical_export
+Aromatics,Benzene,202425,1461230,1188862,petrochemical_export
+Aromatics,Mixed xylene,201516,8,49,petrochemical_export
+Aromatics,Mixed xylene,201617,66,110,petrochemical_export
+Aromatics,Mixed xylene,201718,418,278,petrochemical_export
+Aromatics,Mixed xylene,201819,981,668,petrochemical_export
+Aromatics,Mixed xylene,201920,410,297,petrochemical_export
+Aromatics,Mixed xylene,202021,535,330,petrochemical_export
+Aromatics,Mixed xylene,202122,46,57,petrochemical_export
+Aromatics,Mixed xylene,202223,127,167,petrochemical_export
+Aromatics,Mixed xylene,202324,254,302,petrochemical_export
+Aromatics,Mixed xylene,202425,135,186,petrochemical_export
+Aromatics,Ortho-xylene,201516,234386,107621,petrochemical_export
+Aromatics,Ortho-xylene,201617,154347,74761,petrochemical_export
+Aromatics,Ortho-xylene,201718,185675,86881,petrochemical_export
+Aromatics,Ortho-xylene,201819,225703,122734,petrochemical_export
+Aromatics,Ortho-xylene,201920,177267,100950,petrochemical_export
+Aromatics,Ortho-xylene,202021,309550,127934,petrochemical_export
+Aromatics,Ortho-xylene,202122,234328,148221,petrochemical_export
+Aromatics,Ortho-xylene,202223,121303,108059,petrochemical_export
+Aromatics,Ortho-xylene,202324,11698,11119,petrochemical_export
+Aromatics,Ortho-xylene,202425,2269,2029,petrochemical_export
+Aromatics,Paraxylene,201516,878606,460535,petrochemical_export
+Aromatics,Paraxylene,201617,799492,439679,petrochemical_export
+Aromatics,Paraxylene,201718,1826522,1002659,petrochemical_export
+Aromatics,Paraxylene,201819,2659503,1925344,petrochemical_export
+Aromatics,Paraxylene,201920,2677199,1595294,petrochemical_export
+Aromatics,Paraxylene,202021,2825251,1157076,petrochemical_export
+Aromatics,Paraxylene,202122,2259427,1447757,petrochemical_export
+Aromatics,Paraxylene,202223,1072227,852213,petrochemical_export
+Aromatics,Paraxylene,202324,259632,215210,petrochemical_export
+Aromatics,Paraxylene,202425,213763,171633,petrochemical_export
+Aromatics,Toluene,201516,5268,3314,petrochemical_export
+Aromatics,Toluene,201617,5843,3764,petrochemical_export
+Aromatics,Toluene,201718,4103,2772,petrochemical_export
+Aromatics,Toluene,201819,13601,9501,petrochemical_export
+Aromatics,Toluene,201920,8124,5564,petrochemical_export
+Aromatics,Toluene,202021,17834,9791,petrochemical_export
+Aromatics,Toluene,202122,17804,13832,petrochemical_export
+Aromatics,Toluene,202223,14714,15295,petrochemical_export
+Aromatics,Toluene,202324,29372,26908,petrochemical_export
+Aromatics,Toluene,202425,19793,18639,petrochemical_export
+Fibre Intermediates,Acrylonitrile,201516,2323,2132,petrochemical_export
+Fibre Intermediates,Acrylonitrile,201617,6,39,petrochemical_export
+Fibre Intermediates,Acrylonitrile,201718,1514,1900,petrochemical_export
+Fibre Intermediates,Acrylonitrile,201819,1872,3059,petrochemical_export
+Fibre Intermediates,Acrylonitrile,201920,2988,3262,petrochemical_export
+Fibre Intermediates,Acrylonitrile,202021,8533,8178,petrochemical_export
+Fibre Intermediates,Acrylonitrile,202122,1956,3401,petrochemical_export
+Fibre Intermediates,Acrylonitrile,202223,12005,15568,petrochemical_export
+Fibre Intermediates,Acrylonitrile,202324,4013,4241,petrochemical_export
+Fibre Intermediates,Acrylonitrile,202425,7021,7588,petrochemical_export
+Fibre Intermediates,Caprolactum,201516,0,8,petrochemical_export
+Fibre Intermediates,Caprolactum,201617,1010,867,petrochemical_export
+Fibre Intermediates,Caprolactum,201718,53,93,petrochemical_export
+Fibre Intermediates,Caprolactum,201819,77,129,petrochemical_export
+Fibre Intermediates,Caprolactum,201920,258,327,petrochemical_export
+Fibre Intermediates,Caprolactum,202021,6225,4672,petrochemical_export
+Fibre Intermediates,Caprolactum,202122,25,554,petrochemical_export
+Fibre Intermediates,Caprolactum,202223,62,130,petrochemical_export
+Fibre Intermediates,Caprolactum,202324,109,185,petrochemical_export
+Fibre Intermediates,Caprolactum,202425,173,543,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,201516,1,1,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,201617,1,1,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,201718,0,0,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,201819,1,2,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,201920,0,1,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,202021,0,0,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,202122,0,0,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,202223,58,113,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,202324,17,29,petrochemical_export
+Fibre Intermediates,Dimethyl Terephthalate,202425,70,63,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,201516,72239,52081,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,201617,62199,45932,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,201718,137462,90499,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,201819,292583,175325,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,201920,151301,81361,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,202021,325429,105684,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,202122,71204,48936,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,202223,39649,37248,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,202324,29635,29487,petrochemical_export
+Fibre Intermediates,Mono Ehylene Glycol,202425,26710,30142,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,201516,172977,67172,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,201617,259880,106735,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,201718,212329,88577,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,201819,162422,97404,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,201920,79825,38661,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,202021,134978,44395,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,202122,54397,33649,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,202223,4439,7745,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,202324,1987,4282,petrochemical_export
+Fibre Intermediates,Purified Terephthalic Acid,202425,2945,5098,petrochemical_export
+Olefins,Butadiene,201516,129808,66961,petrochemical_export
+Olefins,Butadiene,201617,106838,97268,petrochemical_export
+Olefins,Butadiene,201718,103426,73371,petrochemical_export
+Olefins,Butadiene,201819,136191,113889,petrochemical_export
+Olefins,Butadiene,201920,174252,103916,petrochemical_export
+Olefins,Butadiene,202021,166809,72272,petrochemical_export
+Olefins,Butadiene,202122,144095,89886,petrochemical_export
+Olefins,Butadiene,202223,121316,86424,petrochemical_export
+Olefins,Butadiene,202324,153080,101981,petrochemical_export
+Olefins,Butadiene,202425,171456,179840,petrochemical_export
+Olefins,Ethylene,201516,5119,3789,petrochemical_export
+Olefins,Ethylene,201617,27,23,petrochemical_export
+Olefins,Ethylene,201718,136426,97327,petrochemical_export
+Olefins,Ethylene,201819,193233,140672,petrochemical_export
+Olefins,Ethylene,201920,152230,79955,petrochemical_export
+Olefins,Ethylene,202021,102895,57712,petrochemical_export
+Olefins,Ethylene,202122,111502,83997,petrochemical_export
+Olefins,Ethylene,202223,40432,30837,petrochemical_export
+Olefins,Ethylene,202324,36026,25578,petrochemical_export
+Olefins,Ethylene,202425,16888,12449,petrochemical_export
+Olefins,Propylene,201516,14462,5305,petrochemical_export
+Olefins,Propylene,201617,10500,4451,petrochemical_export
+Olefins,Propylene,201718,20745,9106,petrochemical_export
+Olefins,Propylene,201819,39290,22140,petrochemical_export
+Olefins,Propylene,201920,9658,4229,petrochemical_export
+Olefins,Propylene,202021,15284,6118,petrochemical_export
+Olefins,Propylene,202122,0,0,petrochemical_export
+Olefins,Propylene,202223,0,1,petrochemical_export
+Olefins,Propylene,202324,0,0,petrochemical_export
+Olefins,Propylene,202425,0,2,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,201516,746,654,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,201617,2055,1437,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,201718,2636,1701,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,201819,3175,2781,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,201920,46,54,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,202021,1408,1412,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,202122,3463,5010,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,202223,754,1104,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,202324,545,647,petrochemical_export
+Other Petro-based Chemicals,2-ethyl Hexanol,202425,102,404,petrochemical_export
+Other Petro-based Chemicals,Butanol,201516,195,162,petrochemical_export
+Other Petro-based Chemicals,Butanol,201617,2292,1189,petrochemical_export
+Other Petro-based Chemicals,Butanol,201718,863,703,petrochemical_export
+Other Petro-based Chemicals,Butanol,201819,452,655,petrochemical_export
+Other Petro-based Chemicals,Butanol,201920,282,287,petrochemical_export
+Other Petro-based Chemicals,Butanol,202021,1032,1288,petrochemical_export
+Other Petro-based Chemicals,Butanol,202122,577,887,petrochemical_export
+Other Petro-based Chemicals,Butanol,202223,627,781,petrochemical_export
+Other Petro-based Chemicals,Butanol,202324,3285,3550,petrochemical_export
+Other Petro-based Chemicals,Butanol,202425,4325,4424,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201516,6,81,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201617,8,30,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201718,1,18,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201819,1,15,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201920,0,0,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202021,9,39,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202122,0,2,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202223,0,0,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202324,0,0,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202425,0,0,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201516,34,116,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201617,85,178,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201718,59,145,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201819,22,79,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201920,33,106,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202021,25,102,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202122,13,39,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202223,4,15,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202324,1,7,petrochemical_export
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202425,1,4,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201516,3,5,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201617,19,14,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201718,2,5,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201819,7,24,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201920,5,9,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202021,4,31,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202122,2,13,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202223,2,11,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202324,1,3,petrochemical_export
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202425,5,11,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,201516,28,33,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,201617,54,55,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,201718,49,76,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,201819,48,90,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,201920,106,183,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,202021,58,306,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,202122,28,275,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,202223,5248,10478,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,202324,7201,8143,petrochemical_export
+Other Petro-based Chemicals,Epichlohydrine,202425,11880,13205,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,201516,15839,3103,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,201617,16,8,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,201718,44861,6510,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,201819,19181,4478,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,201920,80857,20134,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,202021,37412,8605,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,202122,5902,3221,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,202223,450,358,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,202324,117,125,petrochemical_export
+Other Petro-based Chemicals,Ethylene Dichloride,202425,134,90,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,201516,28,249,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,201617,1,3,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,201718,0,2,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,201819,0,1,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,201920,18085,9028,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,202021,6048,2593,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,202122,18588,12966,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,202223,14076,12958,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,202324,16763,15508,petrochemical_export
+Other Petro-based Chemicals,ISO butylene,202425,1995,1929,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,201516,3716,2805,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,201617,7385,5106,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,201718,11004,7850,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,201819,6281,5336,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,201920,10442,7773,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,202021,8298,9567,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,202122,11100,11539,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,202223,10780,11247,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,202324,7706,9224,petrochemical_export
+Other Petro-based Chemicals,Isopropanol,202425,9225,14212,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,201516,7993,2541,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,201617,10124,3072,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,201718,14754,3747,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,201819,16578,4758,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,201920,21691,6495,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,202021,21800,6695,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,202122,32531,11571,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,202223,42319,17085,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,202324,53985,21947,petrochemical_export
+Other Petro-based Chemicals,Melamine Moulding Powder,202425,61865,19302,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,201516,46,140,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,201617,64,217,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,201718,4,263,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,201819,15,282,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,201920,35,587,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,202021,18,857,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,202122,20,676,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,202223,41,711,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,202324,9,452,petrochemical_export
+Other Petro-based Chemicals,Metaxylene,202425,10331,9334,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201516,287,266,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201617,918,788,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201718,940,878,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201819,2038,1817,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201920,2165,1525,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202021,667,882,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202122,1350,2681,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202223,809,1271,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202324,1652,2412,petrochemical_export
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202425,1206,1851,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,201516,582,565,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,201617,1271,731,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,201718,890,682,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,201819,2935,1505,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,201920,1328,1146,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,202021,740,2021,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,202122,988,5590,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,202223,1293,7097,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,202324,1293,5882,petrochemical_export
+Other Petro-based Chemicals,OXO Alcohol,202425,1149,5588,petrochemical_export
+Other Petro-based Chemicals,PIB,201516,6128,7200,petrochemical_export
+Other Petro-based Chemicals,PIB,201617,2237,2448,petrochemical_export
+Other Petro-based Chemicals,PIB,201718,2620,2711,petrochemical_export
+Other Petro-based Chemicals,PIB,201819,4297,4788,petrochemical_export
+Other Petro-based Chemicals,PIB,201920,5828,5839,petrochemical_export
+Other Petro-based Chemicals,PIB,202021,9729,8097,petrochemical_export
+Other Petro-based Chemicals,PIB,202122,6327,7754,petrochemical_export
+Other Petro-based Chemicals,PIB,202223,11191,15029,petrochemical_export
+Other Petro-based Chemicals,PIB,202324,16147,21298,petrochemical_export
+Other Petro-based Chemicals,PIB,202425,12463,17732,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,201516,40448,22378,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,201617,42033,25960,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,201718,37869,25156,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,201819,26495,18956,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,201920,28898,17976,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,202021,23296,12668,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,202122,32492,25529,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,202223,20742,20677,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,202324,31074,28547,petrochemical_export
+Other Petro-based Chemicals,Phthalic Anhydride,202425,20827,19695,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,201516,312,383,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,201617,387,439,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,201718,141,279,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,201819,276,402,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,201920,334,540,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,202021,590,1081,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,202122,1636,3556,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,202223,1547,4220,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,202324,1749,4679,petrochemical_export
+Other Petro-based Chemicals,Polyacetal Resin,202425,725,1808,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,201516,4790,4597,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,201617,3990,3284,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,201718,4926,5370,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,201819,3432,4605,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,201920,3331,3621,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,202021,4447,5685,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,202122,4603,6563,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,202223,2980,6280,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,202324,3257,4833,petrochemical_export
+Other Petro-based Chemicals,Polycarbonate,202425,3067,4105,petrochemical_export
+Other Petro-based Chemicals,Polyol,201516,21099,26760,petrochemical_export
+Other Petro-based Chemicals,Polyol,201617,28458,32760,petrochemical_export
+Other Petro-based Chemicals,Polyol,201718,23427,39008,petrochemical_export
+Other Petro-based Chemicals,Polyol,201819,22316,43162,petrochemical_export
+Other Petro-based Chemicals,Polyol,201920,25825,77010,petrochemical_export
+Other Petro-based Chemicals,Polyol,202021,7820,60051,petrochemical_export
+Other Petro-based Chemicals,Polyol,202122,13483,40516,petrochemical_export
+Other Petro-based Chemicals,Polyol,202223,0,0,petrochemical_export
+Other Petro-based Chemicals,Polyol,202324,0,0,petrochemical_export
+Other Petro-based Chemicals,Polyol,202425,0,0,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201516,11259,11415,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201617,8767,8927,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201718,6958,6522,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201819,8510,8622,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201920,9048,7767,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202021,8175,7358,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202122,9527,15019,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202223,9247,18218,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202324,11799,18262,petrochemical_export
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202425,14514,21120,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,201516,531,724,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,201617,865,1113,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,201718,1117,1713,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,201819,1697,2419,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,201920,5934,6573,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,202021,3254,3931,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,202122,1706,5187,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,202223,3175,7345,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,202324,5850,7934,petrochemical_export
+Other Petro-based Chemicals,Propylene Glycol,202425,2086,5137,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,201516,0,0,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,201617,0,1,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,201718,0,0,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,201819,0,0,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,201920,0,1,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,202021,0,1,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,202122,0,3,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,202223,0,1,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,202324,0,0,petrochemical_export
+Other Petro-based Chemicals,Propylene Oxide,202425,0,6,petrochemical_export
+Other Petro-based Chemicals,Styrene,201516,793,669,petrochemical_export
+Other Petro-based Chemicals,Styrene,201617,5088,4176,petrochemical_export
+Other Petro-based Chemicals,Styrene,201718,4524,3842,petrochemical_export
+Other Petro-based Chemicals,Styrene,201819,6531,6690,petrochemical_export
+Other Petro-based Chemicals,Styrene,201920,4366,3326,petrochemical_export
+Other Petro-based Chemicals,Styrene,202021,17361,7081,petrochemical_export
+Other Petro-based Chemicals,Styrene,202122,41340,42223,petrochemical_export
+Other Petro-based Chemicals,Styrene,202223,38041,38529,petrochemical_export
+Other Petro-based Chemicals,Styrene,202324,9853,10065,petrochemical_export
+Other Petro-based Chemicals,Styrene,202425,21442,21965,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,201516,12112,15025,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,201617,16263,18552,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,201718,14436,18212,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,201819,14667,21668,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,201920,15498,22694,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,202021,17443,27544,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,202122,22071,42671,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,202223,23605,47919,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,202324,28603,43137,petrochemical_export
+Other Petro-based Chemicals,Unsaturated Polyster Resin,202425,26081,43977,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,201516,1695,1388,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,201617,11755,6285,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,201718,21261,13220,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,201819,8344,6623,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,201920,3434,2260,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,202021,1834,1231,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,202122,4545,6316,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,202223,2117,2775,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,202324,7743,6225,petrochemical_export
+Other Petro-based Chemicals,Vinyl Actate Monomer,202425,13046,10029,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201516,0,0,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201617,0,0,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201718,0,0,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201819,0,3,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201920,0,0,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202021,0,1,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202122,6,8,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202223,25,52,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202324,0,1,petrochemical_export
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202425,0,4,petrochemical_export
+Performance Plastics,Abs Resin,201516,465,682,petrochemical_export
+Performance Plastics,Abs Resin,201617,294,473,petrochemical_export
+Performance Plastics,Abs Resin,201718,273,445,petrochemical_export
+Performance Plastics,Abs Resin,201819,449,622,petrochemical_export
+Performance Plastics,Abs Resin,201920,328,598,petrochemical_export
+Performance Plastics,Abs Resin,202021,407,673,petrochemical_export
+Performance Plastics,Abs Resin,202122,1744,2197,petrochemical_export
+Performance Plastics,Abs Resin,202223,393,879,petrochemical_export
+Performance Plastics,Abs Resin,202324,499,955,petrochemical_export
+Performance Plastics,Abs Resin,202425,928,1387,petrochemical_export
+Performance Plastics,Nylon-6,201516,14577,25321,petrochemical_export
+Performance Plastics,Nylon-6,201617,17656,29593,petrochemical_export
+Performance Plastics,Nylon-6,201718,21353,34774,petrochemical_export
+Performance Plastics,Nylon-6,201819,19744,38965,petrochemical_export
+Performance Plastics,Nylon-6,201920,21214,40855,petrochemical_export
+Performance Plastics,Nylon-6,202021,0,0,petrochemical_export
+Performance Plastics,Nylon-6,202122,0,0,petrochemical_export
+Performance Plastics,Nylon-6,202223,0,0,petrochemical_export
+Performance Plastics,Nylon-6,202324,0,0,petrochemical_export
+Performance Plastics,Nylon-6,202425,0,0,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,201516,783106,460787,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,201617,937251,557185,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,201718,1014588,655326,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,201819,1043386,889691,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,201920,930982,618181,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,202021,202297,117960,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,202122,262129,221810,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,202223,163189,156350,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,202324,135681,117466,petrochemical_export
+Performance Plastics,Polyester Chips/Pet Chips,202425,122692,106310,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,201516,9158,10541,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,201617,8557,10230,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,201718,3563,3584,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,201819,4323,5218,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,201920,4632,5586,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,202021,3296,4774,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,202122,4104,6781,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,202223,3381,5101,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,202324,3201,5080,petrochemical_export
+Performance Plastics,Polymethyl Methacrylate,202425,2766,5113,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),201516,6082,29947,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),201617,8321,38519,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),201718,9592,52460,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),201819,11997,83897,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),201920,11175,73428,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),202021,10912,75124,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),202122,14928,121908,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),202223,12359,122621,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),202324,10496,101614,petrochemical_export
+Performance Plastics,Polytetrafluoroethylene(PTFE),202425,12320,109417,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,201516,579,459,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,201617,671,450,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,201718,1179,682,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,201819,387,380,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,201920,460,362,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,202021,230,212,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,202122,817,990,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,202223,2606,2616,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,202324,7541,6256,petrochemical_export
+Performance Plastics,Styrene Acrylonitrile,202425,3010,2502,petrochemical_export
+Polymers,Expandable Polyestyrene,201516,3762,3735,petrochemical_export
+Polymers,Expandable Polyestyrene,201617,3697,3548,petrochemical_export
+Polymers,Expandable Polyestyrene,201718,3119,3272,petrochemical_export
+Polymers,Expandable Polyestyrene,201819,3064,3818,petrochemical_export
+Polymers,Expandable Polyestyrene,201920,2745,2762,petrochemical_export
+Polymers,Expandable Polyestyrene,202021,894,895,petrochemical_export
+Polymers,Expandable Polyestyrene,202122,944,1279,petrochemical_export
+Polymers,Expandable Polyestyrene,202223,2403,3127,petrochemical_export
+Polymers,Expandable Polyestyrene,202324,2615,2721,petrochemical_export
+Polymers,Expandable Polyestyrene,202425,4266,5104,petrochemical_export
+Polymers,High Density Polythylene,201516,116114,97840,petrochemical_export
+Polymers,High Density Polythylene,201617,148142,117815,petrochemical_export
+Polymers,High Density Polythylene,201718,205797,155550,petrochemical_export
+Polymers,High Density Polythylene,201819,457416,365235,petrochemical_export
+Polymers,High Density Polythylene,201920,486892,315945,petrochemical_export
+Polymers,High Density Polythylene,202021,398659,247524,petrochemical_export
+Polymers,High Density Polythylene,202122,198169,192824,petrochemical_export
+Polymers,High Density Polythylene,202223,70053,95448,petrochemical_export
+Polymers,High Density Polythylene,202324,178419,173281,petrochemical_export
+Polymers,High Density Polythylene,202425,176074,168398,petrochemical_export
+Polymers,Linear Low Density Polythylene,201516,15825,14160,petrochemical_export
+Polymers,Linear Low Density Polythylene,201617,53215,41558,petrochemical_export
+Polymers,Linear Low Density Polythylene,201718,228952,163632,petrochemical_export
+Polymers,Linear Low Density Polythylene,201819,508135,380841,petrochemical_export
+Polymers,Linear Low Density Polythylene,201920,395076,247196,petrochemical_export
+Polymers,Linear Low Density Polythylene,202021,134318,85759,petrochemical_export
+Polymers,Linear Low Density Polythylene,202122,66494,65425,petrochemical_export
+Polymers,Linear Low Density Polythylene,202223,39851,40881,petrochemical_export
+Polymers,Linear Low Density Polythylene,202324,47341,43068,petrochemical_export
+Polymers,Linear Low Density Polythylene,202425,61011,55373,petrochemical_export
+Polymers,Low Density Polyethylene,201516,24007,26531,petrochemical_export
+Polymers,Low Density Polyethylene,201617,26909,27321,petrochemical_export
+Polymers,Low Density Polyethylene,201718,108257,88430,petrochemical_export
+Polymers,Low Density Polyethylene,201819,164142,132765,petrochemical_export
+Polymers,Low Density Polyethylene,201920,140022,98135,petrochemical_export
+Polymers,Low Density Polyethylene,202021,39442,35801,petrochemical_export
+Polymers,Low Density Polyethylene,202122,49187,66522,petrochemical_export
+Polymers,Low Density Polyethylene,202223,72626,100016,petrochemical_export
+Polymers,Low Density Polyethylene,202324,66552,81472,petrochemical_export
+Polymers,Low Density Polyethylene,202425,46536,62541,petrochemical_export
+Polymers,PVC Compound,201516,13877,11534,petrochemical_export
+Polymers,PVC Compound,201617,16901,12902,petrochemical_export
+Polymers,PVC Compound,201718,13630,9774,petrochemical_export
+Polymers,PVC Compound,201819,17222,13273,petrochemical_export
+Polymers,PVC Compound,201920,0,0,petrochemical_export
+Polymers,PVC Compound,202021,0,0,petrochemical_export
+Polymers,PVC Compound,202122,12721,13919,petrochemical_export
+Polymers,PVC Compound,202223,9476,10777,petrochemical_export
+Polymers,PVC Compound,202324,277,243,petrochemical_export
+Polymers,PVC Compound,202425,0,0,petrochemical_export
+Polymers,Poly Vinyl Chloride,201516,3054,3272,petrochemical_export
+Polymers,Poly Vinyl Chloride,201617,6484,6127,petrochemical_export
+Polymers,Poly Vinyl Chloride,201718,6662,6015,petrochemical_export
+Polymers,Poly Vinyl Chloride,201819,2133,1788,petrochemical_export
+Polymers,Poly Vinyl Chloride,201920,2060,1471,petrochemical_export
+Polymers,Poly Vinyl Chloride,202021,16985,8467,petrochemical_export
+Polymers,Poly Vinyl Chloride,202122,2537,2894,petrochemical_export
+Polymers,Poly Vinyl Chloride,202223,967,1337,petrochemical_export
+Polymers,Poly Vinyl Chloride,202324,1929,1614,petrochemical_export
+Polymers,Poly Vinyl Chloride,202425,1858,1607,petrochemical_export
+Polymers,Polyestyrene,201516,86290,72301,petrochemical_export
+Polymers,Polyestyrene,201617,82542,75483,petrochemical_export
+Polymers,Polyestyrene,201718,69814,67452,petrochemical_export
+Polymers,Polyestyrene,201819,63990,64060,petrochemical_export
+Polymers,Polyestyrene,201920,49611,43139,petrochemical_export
+Polymers,Polyestyrene,202021,36502,27805,petrochemical_export
+Polymers,Polyestyrene,202122,44494,52518,petrochemical_export
+Polymers,Polyestyrene,202223,39224,46728,petrochemical_export
+Polymers,Polyestyrene,202324,59050,62781,petrochemical_export
+Polymers,Polyestyrene,202425,53246,60801,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),201516,735410,503124,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),201617,574234,382678,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),201718,552002,397646,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),201819,718053,596611,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),201920,539045,386684,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),202021,861712,561818,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),202122,546609,547136,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),202223,351751,324200,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),202324,349110,324624,petrochemical_export
+Polymers,Polypropylene (inc. Co-polymer),202425,400176,350896,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,201516,378,734,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,201617,618,1125,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,201718,483,659,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,201819,725,1167,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,201920,851,1226,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,202021,950,983,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,202122,1089,1239,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,202223,1388,2011,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,202324,1358,1900,petrochemical_export
+Synthetic Detergent Intermediates,Ethylene Oxide,202425,1247,1721,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201516,9256,7034,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201617,6440,4816,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201718,930,809,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201819,323,367,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201920,193,253,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202021,926,956,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202122,6402,7462,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202223,1135,1096,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202324,2328,3804,petrochemical_export
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202425,1911,3241,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,201516,47911,58966,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,201617,48332,60060,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,201718,39213,52227,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,201819,45932,71700,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,201920,40505,59726,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,202021,25569,33923,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,202122,23743,43557,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,202223,28587,61652,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,202324,20908,45729,petrochemical_export
+Synthetic Fibres,Acrylic Fibre,202425,18194,39253,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201516,699,2774,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201617,305,1015,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201718,685,1979,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201819,1536,4834,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201920,766,2375,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202021,1666,5218,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202122,5958,44903,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202223,2585,11458,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202324,8407,27672,petrochemical_export
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202425,8704,27316,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,201516,1639,6236,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,201617,1857,6462,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,201718,4014,12111,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,201819,5794,18888,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,201920,7748,22360,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,202021,6098,15495,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,202122,9363,29452,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,202223,8708,28857,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,202324,9387,29703,petrochemical_export
+Synthetic Fibres,Nylon Filament Yarn,202425,11367,36187,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,201516,1122,1471,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,201617,1474,1872,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,201718,1620,2239,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,201819,1895,2827,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,201920,3624,5116,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,202021,4296,5939,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,202122,5312,9033,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,202223,6586,12303,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,202324,8696,14032,petrochemical_export
+Synthetic Fibres,Nylon Industrial Yarn/Tyre Cord,202425,10785,18298,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,201516,634799,624444,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,201617,748037,690836,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,201718,717714,730282,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,201819,696668,839555,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,201920,711319,750466,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,202021,540650,545550,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,202122,762473,966876,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,202223,472031,665983,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,202324,417895,572320,petrochemical_export
+Synthetic Fibres,Polyester Filament Yarn,202425,469178,609962,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,201516,181813,129129,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,201617,213903,150316,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,201718,227441,169364,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,201819,255455,225045,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,201920,285157,204876,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,202021,291399,172242,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,202122,383703,329736,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,202223,227366,228194,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,202324,207111,185686,petrochemical_export
+Synthetic Fibres,Polyester Staple Fibre,202425,275758,245958,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,201516,2844,3878,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,201617,2077,2690,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,201718,869,1117,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,201819,494,713,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,201920,720,965,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,202021,729,1005,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,202122,798,1297,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,202223,1015,1629,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,202324,1187,1813,petrochemical_export
+Synthetic Fibres,Polypropylene Filament Yarn,202425,1199,1845,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,201516,7531,6885,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,201617,9755,8767,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,201718,9497,8663,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,201819,7892,8446,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,201920,9509,9103,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,202021,8212,7668,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,202122,10896,14033,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,202223,12126,16028,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,202324,9897,12607,petrochemical_export
+Synthetic Fibres,Polypropylene Staple Fibre,202425,11213,15034,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,201516,1248,3089,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,201617,724,1648,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,201718,328,693,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,201819,696,1288,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,201920,4774,5724,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,202021,25715,26343,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,202122,21719,29524,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,202223,16942,30399,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,202324,21736,33262,petrochemical_export
+Synthetic Rubber (Elastomers),Butyl Rubber,202425,27290,43199,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201516,2725,8882,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201617,3282,9531,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201718,2517,7696,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201819,2463,7958,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201920,2292,7284,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202021,1371,3275,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202122,1429,3438,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202223,1067,3222,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202324,831,2316,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202425,1549,3889,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201516,1274,1510,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201617,1494,1751,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201718,901,1314,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201819,530,1251,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201920,999,1614,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202021,1042,1650,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202122,1381,3351,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202223,4906,8986,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202324,1722,2996,petrochemical_export
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202425,2498,3748,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201516,400,970,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201617,451,1092,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201718,427,1128,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201819,507,1316,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201920,719,1316,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202021,3823,4326,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202122,7134,9282,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202223,8097,8482,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202324,14873,10650,petrochemical_export
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202425,26029,20011,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201516,5988,4008,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201617,5114,4942,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201718,7012,7376,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201819,13175,15311,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201920,20323,19289,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202021,23329,15059,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202122,22558,28190,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202223,2556,3863,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202324,4594,6238,petrochemical_export
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202425,2716,4580,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201516,31053,23969,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201617,27139,27423,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201718,40704,36382,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201819,46179,43572,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201920,44929,37838,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202021,39757,28768,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202122,35715,38037,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202223,36863,42498,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202324,48685,48453,petrochemical_export
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202425,51128,57277,petrochemical_export
+Total - Aromatics,Total,201516,2033143,942807,petrochemical_export
+Total - Aromatics,Total,201617,1749173,885136,petrochemical_export
+Total - Aromatics,Total,201718,3303041,1754998,petrochemical_export
+Total - Aromatics,Total,201819,4550911,2880299,petrochemical_export
+Total - Aromatics,Total,201920,4271477,2337408,petrochemical_export
+Total - Aromatics,Total,202021,4660796,1854685,petrochemical_export
+Total - Aromatics,Total,202122,4434556,2998035,petrochemical_export
+Total - Aromatics,Total,202223,2660009,2132705,petrochemical_export
+Total - Aromatics,Total,202324,1774952,1346591,petrochemical_export
+Total - Aromatics,Total,202425,1697190,1381349,petrochemical_export
+Total - Fibre Intermediates,Total,201516,247540,121394,petrochemical_export
+Total - Fibre Intermediates,Total,201617,323096,153574,petrochemical_export
+Total - Fibre Intermediates,Total,201718,351358,181069,petrochemical_export
+Total - Fibre Intermediates,Total,201819,456955,275919,petrochemical_export
+Total - Fibre Intermediates,Total,201920,234372,123612,petrochemical_export
+Total - Fibre Intermediates,Total,202021,475165,162929,petrochemical_export
+Total - Fibre Intermediates,Total,202122,127582,86540,petrochemical_export
+Total - Fibre Intermediates,Total,202223,56213,60804,petrochemical_export
+Total - Fibre Intermediates,Total,202324,35761,38224,petrochemical_export
+Total - Fibre Intermediates,Total,202425,36919,43434,petrochemical_export
+Total - Olefins,Total,201516,149389,76055,petrochemical_export
+Total - Olefins,Total,201617,117365,101742,petrochemical_export
+Total - Olefins,Total,201718,260597,179804,petrochemical_export
+Total - Olefins,Total,201819,368714,276701,petrochemical_export
+Total - Olefins,Total,201920,336140,188100,petrochemical_export
+Total - Olefins,Total,202021,284988,136102,petrochemical_export
+Total - Olefins,Total,202122,255597,173883,petrochemical_export
+Total - Olefins,Total,202223,161748,117262,petrochemical_export
+Total - Olefins,Total,202324,189106,127559,petrochemical_export
+Total - Olefins,Total,202425,188344,192291,petrochemical_export
+Total - Other Petro-based Chemicals,Total,201516,128670,101259,petrochemical_export
+Total - Other Petro-based Chemicals,Total,201617,144135,116773,petrochemical_export
+Total - Other Petro-based Chemicals,Total,201718,193342,138613,petrochemical_export
+Total - Other Petro-based Chemicals,Total,201819,147298,139759,petrochemical_export
+Total - Other Petro-based Chemicals,Total,201920,237571,194934,petrochemical_export
+Total - Other Petro-based Chemicals,Total,202021,171468,169127,petrochemical_export
+Total - Other Petro-based Chemicals,Total,202122,212298,249815,petrochemical_export
+Total - Other Petro-based Chemicals,Total,202223,189073,224161,petrochemical_export
+Total - Other Petro-based Chemicals,Total,202324,208633,212881,petrochemical_export
+Total - Other Petro-based Chemicals,Total,202425,216469,215932,petrochemical_export
+Total - Performance Plastics,Total,201516,813967,527737,petrochemical_export
+Total - Performance Plastics,Total,201617,972750,636450,petrochemical_export
+Total - Performance Plastics,Total,201718,1050548,747271,petrochemical_export
+Total - Performance Plastics,Total,201819,1080286,1018773,petrochemical_export
+Total - Performance Plastics,Total,201920,968791,739010,petrochemical_export
+Total - Performance Plastics,Total,202021,217142,198743,petrochemical_export
+Total - Performance Plastics,Total,202122,283722,353686,petrochemical_export
+Total - Performance Plastics,Total,202223,181928,287567,petrochemical_export
+Total - Performance Plastics,Total,202324,157418,231371,petrochemical_export
+Total - Performance Plastics,Total,202425,141716,224729,petrochemical_export
+Total - Polymers,Total,201516,998339,732497,petrochemical_export
+Total - Polymers,Total,201617,912124,667432,petrochemical_export
+Total - Polymers,Total,201718,1188233,891771,petrochemical_export
+Total - Polymers,Total,201819,1934155,1558391,petrochemical_export
+Total - Polymers,Total,201920,1615451,1095332,petrochemical_export
+Total - Polymers,Total,202021,1488512,968069,petrochemical_export
+Total - Polymers,Total,202122,921155,942517,petrochemical_export
+Total - Polymers,Total,202223,586351,622514,petrochemical_export
+Total - Polymers,Total,202324,705293,689804,petrochemical_export
+Total - Polymers,Total,202425,743167,704720,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,201516,9634,7768,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,201617,7058,5941,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,201718,1413,1468,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,201819,1048,1534,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,201920,1044,1479,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,202021,1876,1939,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,202122,7491,8701,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,202223,2523,3107,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,202324,3686,5704,petrochemical_export
+Total - Synthetic Detergent Intermediates,Total,202425,3158,4962,petrochemical_export
+Total - Synthetic Fibres,Total,201516,878358,833783,petrochemical_export
+Total - Synthetic Fibres,Total,201617,1025740,922018,petrochemical_export
+Total - Synthetic Fibres,Total,201718,1001053,977982,petrochemical_export
+Total - Synthetic Fibres,Total,201819,1015666,1172008,petrochemical_export
+Total - Synthetic Fibres,Total,201920,1059348,1054987,petrochemical_export
+Total - Synthetic Fibres,Total,202021,878619,787040,petrochemical_export
+Total - Synthetic Fibres,Total,202122,1202246,1438887,petrochemical_export
+Total - Synthetic Fibres,Total,202223,759004,1026104,petrochemical_export
+Total - Synthetic Fibres,Total,202324,683488,889562,petrochemical_export
+Total - Synthetic Fibres,Total,202425,806398,993853,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,201516,42688,42428,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,201617,38204,46387,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,201718,51889,54589,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,201819,63550,70696,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,201920,74036,73065,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,202021,95037,79421,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,202122,89936,111822,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,202223,70431,97450,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,202324,92441,103915,petrochemical_export
+Total - Synthetic Rubber (Elastomers),Total,202425,111210,132704,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,201516,5301728,3385728,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,201617,5289645,3535453,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,201718,7401474,4927565,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,201819,9618583,7394080,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,201920,8798230,5807927,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,202021,8273603,4358055,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,202122,7534583,6363886,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,202223,4667280,4571674,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,202324,3850778,3645611,petrochemical_export
+Total Export of Major Petro-chemicals,Total Export of Major Petro-chemicals,202425,3944571,3893974,petrochemical_export

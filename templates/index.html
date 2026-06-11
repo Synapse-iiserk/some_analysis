@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block title %}Overview — India Petrochemical Trade Analysis{% endblock %}
+{% block content %}
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">JUNE 2026 ANALYSIS</div>
+        <h1 class="display-xl" style="max-width:800px">India Petrochemical Trade <span style="color:var(--primary)">Analysis & Forecast</span></h1>
+        <p class="body-md" style="max-width:600px;margin-top:16px;color:var(--muted);font-size:17px">Comprehensive analysis of India's petrochemical trade patterns, macroeconomic correlations, and 12-month forecasts under three geopolitical scenarios. 31 datasets, 4 models, 7 sectors.</p>
+        <div style="margin-top:24px;display:flex;gap:12px">
+            <a href="/trade" class="btn-primary">Explore Trade Data</a>
+            <a href="/forecast" class="btn-secondary">View Forecasts</a>
+            <a href="/analysis" class="btn-secondary">Deep Analysis</a>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <div class="grid-4">
+            <div class="cream-card stat-card slide-up" style="animation-delay:0.1s">
+                <div class="stat-value">₹29,370</div>
+                <div class="stat-label">Trade Deficit (Cr)</div>
+                <div class="stat-change negative">FY 2024-25 · 71.5% of imports</div>
+            </div>
+            <div class="cream-card stat-card slide-up" style="animation-delay:0.2s">
+                <div class="stat-value">$90</div>
+                <div class="stat-label">Brent Crude / bbl</div>
+                <div class="stat-change negative">↑ 34% from Jan 2026</div>
+            </div>
+            <div class="cream-card stat-card slide-up" style="animation-delay:0.3s">
+                <div class="stat-value">95.5</div>
+                <div class="stat-label">USD/INR Rate</div>
+                <div class="stat-change negative">Record low</div>
+            </div>
+            <div class="cream-card stat-card slide-up" style="animation-delay:0.4s">
+                <div class="stat-value">7.7%</div>
+                <div class="stat-label">India GDP Growth</div>
+                <div class="stat-change positive">FY2026</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Trade Balance Over Time</h2>
+        <div class="chart-container">
+            <div id="chart-trade-balance" style="height:450px"></div>
+            <div class="chart-caption">
+                <p class="title-sm">Petrochemical Exports vs Imports (₹ Crore)</p>
+                <p class="caption" style="margin-top:4px">Structural deficit widening from ₹14,353 Cr (2015-16) to ₹29,370 Cr (2024-25) — 105% increase in 10 years</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Geographic Trade Partners</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-geo-treemap" style="height:400px"></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-geo-bar" style="height:400px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">CAGR & Growth Trajectories</h2>
+        <div class="chart-container">
+            <div id="chart-growth" style="height:400px"></div>
+            <div class="chart-caption">
+                <p class="caption">Export CAGR: 1.41% · Import CAGR: 5.29% · Gap is widening at ~4% per year</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Key Findings</h2>
+        <div class="grid-3">
+            <div class="feature-card">
+                <div class="badge-error" style="margin-bottom:12px">CRITICAL</div>
+                <p class="title-md" style="margin-bottom:8px">Middle East Dependency</p>
+                <p class="body-md">52.3% of petrochemical imports from Middle East. The 2026 Strait of Hormuz crisis showed how quickly this can disrupt supply.</p>
+            </div>
+            <div class="feature-card">
+                <div class="badge-warning" style="margin-bottom:12px">HIGH RISK</div>
+                <p class="title-md" style="margin-bottom:8px">Currency Feedback Loop</p>
+                <p class="body-md">Weaker INR → costlier crude → wider deficit → weaker INR. Every 5-point INR drop adds ₹3,000-5,000 Cr to import bill.</p>
+            </div>
+            <div class="feature-card">
+                <div class="badge-success" style="margin-bottom:12px">OPPORTUNITY</div>
+                <p class="title-md" style="margin-bottom:8px">Green Petrochemicals</p>
+                <p class="body-md">35.2% demand growth but only ₹5,000 Cr invested vs ₹30,000 Cr needed. ₹25,000 Cr untapped opportunity.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if metrics %}
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Model Performance</h2>
+        <div class="dark-card">
+            <div id="chart-models" style="height:350px"></div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="section-sm">
+    <div class="container">
+        <div class="coral-card" style="text-align:center">
+            <h2 class="display-sm" style="color:var(--on-primary);margin-bottom:12px">12-Month Forecast Under Three Scenarios</h2>
+            <p style="color:rgba(255,255,255,0.85);margin-bottom:20px;font-size:16px">Base Case (tensions persist) · Bull Case (peace dividend) · Bear Case (escalation)</p>
+            <a href="/forecast" class="btn-dark">View Scenario Analysis →</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+fetch('/api/temporal-trends').then(r=>r.json()).then(d=>{
+    if(!d.years||!d.years.length) return;
+    const years = d.years.map(y=>String(y));
+    Plotly.newPlot('chart-trade-balance',[
+        {x:years, y:d.exports, name:'Exports', type:'bar', marker:{color:'#5db8a6'}, hovertemplate:'Exports: ₹%{y:,.0f} Cr<extra></extra>'},
+        {x:years, y:d.imports.map(v=>-v), name:'Imports', type:'bar', marker:{color:'#c64545'}, hovertemplate:'Imports: ₹%{customdata:,.0f} Cr<extra></extra>', customdata:d.imports},
+        {x:years, y:d.balance, name:'Balance', type:'scatter', mode:'lines+markers', line:{color:'#cc785c',width:3}, marker:{size:8}, hovertemplate:'Balance: ₹%{y:,.0f} Cr<extra></extra>'}
+    ],mergeLayout({barmode:'relative',legend:{x:0,y:1.12,orientation:'h'},yaxis:{title:'₹ Crore',zeroline:true,zerolinecolor:'#141413',zerolinewidth:1}}),plotlyConfig);
+});
+
+fetch('/api/geographic-trade').then(r=>r.json()).then(d=>{
+    if(!d.partners) return;
+    const partners = d.partners;
+    Plotly.newPlot('chart-geo-treemap',[{
+        type:'treemap', labels:partners.map(p=>p.country),
+        parents:partners.map(()=>''),
+        values:partners.map(p=>Math.abs(p.imports)),
+        text:partners.map(p=>`${p.country}<br>Imports: ₹${p.imports.toLocaleString()} Cr<br>Balance: ₹${p.balance.toLocaleString()} Cr`),
+        textinfo:'label+value', hovertemplate:'%{text}<extra></extra>',
+        marker:{colors:partners.map(p=>p.balance<0?'#c64545':'#5db8a6')}
+    }],{margin:{l:10,r:10,t:10,b:10}},plotlyConfig);
+
+    Plotly.newPlot('chart-geo-bar',[
+        {y:partners.map(p=>p.country).reverse(), x:partners.map(p=>p.imports).reverse(), name:'Imports', type:'bar', orientation:'h', marker:{color:'#c64545'}, hovertemplate:'Imports: ₹%{x:,.0f} Cr<extra></extra>'},
+        {y:partners.map(p=>p.country).reverse(), x:partners.map(p=>p.exports).reverse(), name:'Exports', type:'bar', orientation:'h', marker:{color:'#5db8a6'}, hovertemplate:'Exports: ₹%{x:,.0f} Cr<extra></extra>'}
+    ],mergeLayout({barmode:'group',xaxis:{title:'₹ Crore'},margin:{l:100}}),plotlyConfig);
+});
+
+fetch('/api/temporal-trends').then(r=>r.json()).then(d=>{
+    if(!d.years||!d.years.length) return;
+    const years = d.years.map(y=>String(y));
+    const expGrowth = d.exports.map((v,i)=>i>0?((v/d.exports[i-1]-1)*100):0);
+    const impGrowth = d.imports.map((v,i)=>i>0?((v/d.imports[i-1]-1)*100):0);
+    Plotly.newPlot('chart-growth',[
+        {x:years.slice(1), y:expGrowth.slice(1), name:'Export Growth %', type:'scatter', mode:'lines+markers', line:{color:'#5db8a6',width:2}, marker:{size:6}, hovertemplate:'Export Growth: %{y:.1f}%<extra></extra>'},
+        {x:years.slice(1), y:impGrowth.slice(1), name:'Import Growth %', type:'scatter', mode:'lines+markers', line:{color:'#c64545',width:2}, marker:{size:6}, hovertemplate:'Import Growth: %{y:.1f}%<extra></extra>'}
+    ],mergeLayout({yaxis:{title:'YoY Growth %',zeroline:true,zerolinecolor:'#141413'},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+});
+
+{% if metrics %}
+const metrics = {{ metrics|tojson }};
+Plotly.newPlot('chart-models',[
+    {x:metrics.map(m=>m.model), y:metrics.map(m=>m.mae), name:'MAE', type:'bar', marker:{color:'#cc785c'}, hovertemplate:'MAE: %{y:.4f}<extra></extra>'},
+    {x:metrics.map(m=>m.model), y:metrics.map(m=>m.rmse), name:'RMSE', type:'bar', marker:{color:'#5db8a6'}, hovertemplate:'RMSE: %{y:.4f}<extra></extra>'}
+],mergeLayout({barmode:'group',yaxis:{title:'Error'},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+{% endif %}
+</script>
+{% endblock %}

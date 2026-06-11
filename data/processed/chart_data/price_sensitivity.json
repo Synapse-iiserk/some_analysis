@@ -1,0 +1,302 @@
+{
+  "crude_sensitivity": [
+    {
+      "crude_price": 40,
+      "import_index": 48.72,
+      "change_pct": -43.3
+    },
+    {
+      "crude_price": 45,
+      "import_index": 52.91,
+      "change_pct": -38.4
+    },
+    {
+      "crude_price": 50,
+      "import_index": 56.96,
+      "change_pct": -33.7
+    },
+    {
+      "crude_price": 55,
+      "import_index": 60.89,
+      "change_pct": -29.2
+    },
+    {
+      "crude_price": 60,
+      "import_index": 64.71,
+      "change_pct": -24.7
+    },
+    {
+      "crude_price": 65,
+      "import_index": 68.44,
+      "change_pct": -20.4
+    },
+    {
+      "crude_price": 70,
+      "import_index": 72.08,
+      "change_pct": -16.1
+    },
+    {
+      "crude_price": 75,
+      "import_index": 75.65,
+      "change_pct": -12.0
+    },
+    {
+      "crude_price": 80,
+      "import_index": 79.15,
+      "change_pct": -7.9
+    },
+    {
+      "crude_price": 85,
+      "import_index": 82.58,
+      "change_pct": -3.9
+    },
+    {
+      "crude_price": 90,
+      "import_index": 85.95,
+      "change_pct": 0.0
+    },
+    {
+      "crude_price": 95,
+      "import_index": 89.27,
+      "change_pct": 3.9
+    },
+    {
+      "crude_price": 100,
+      "import_index": 92.53,
+      "change_pct": 7.7
+    },
+    {
+      "crude_price": 105,
+      "import_index": 95.74,
+      "change_pct": 11.4
+    },
+    {
+      "crude_price": 110,
+      "import_index": 98.91,
+      "change_pct": 15.1
+    },
+    {
+      "crude_price": 115,
+      "import_index": 102.04,
+      "change_pct": 18.7
+    },
+    {
+      "crude_price": 120,
+      "import_index": 105.12,
+      "change_pct": 22.3
+    },
+    {
+      "crude_price": 125,
+      "import_index": 108.17,
+      "change_pct": 25.9
+    }
+  ],
+  "inr_sensitivity": [
+    {
+      "inr_rate": 80,
+      "import_index": 72.0,
+      "change_pct": -16.2
+    },
+    {
+      "inr_rate": 82,
+      "import_index": 73.8,
+      "change_pct": -14.1
+    },
+    {
+      "inr_rate": 84,
+      "import_index": 75.6,
+      "change_pct": -12.0
+    },
+    {
+      "inr_rate": 86,
+      "import_index": 77.4,
+      "change_pct": -9.9
+    },
+    {
+      "inr_rate": 88,
+      "import_index": 79.2,
+      "change_pct": -7.9
+    },
+    {
+      "inr_rate": 90,
+      "import_index": 81.0,
+      "change_pct": -5.8
+    },
+    {
+      "inr_rate": 92,
+      "import_index": 82.8,
+      "change_pct": -3.7
+    },
+    {
+      "inr_rate": 94,
+      "import_index": 84.6,
+      "change_pct": -1.6
+    },
+    {
+      "inr_rate": 96,
+      "import_index": 86.4,
+      "change_pct": 0.5
+    },
+    {
+      "inr_rate": 98,
+      "import_index": 88.2,
+      "change_pct": 2.6
+    },
+    {
+      "inr_rate": 100,
+      "import_index": 90.0,
+      "change_pct": 4.7
+    },
+    {
+      "inr_rate": 102,
+      "import_index": 91.8,
+      "change_pct": 6.8
+    },
+    {
+      "inr_rate": 104,
+      "import_index": 93.6,
+      "change_pct": 8.9
+    },
+    {
+      "inr_rate": 106,
+      "import_index": 95.4,
+      "change_pct": 11.0
+    },
+    {
+      "inr_rate": 108,
+      "import_index": 97.2,
+      "change_pct": 13.1
+    }
+  ],
+  "combined_matrix": [
+    {
+      "crude": 70,
+      "inr": 85,
+      "import_index": 53.55
+    },
+    {
+      "crude": 70,
+      "inr": 90,
+      "import_index": 56.7
+    },
+    {
+      "crude": 70,
+      "inr": 95,
+      "import_index": 59.85
+    },
+    {
+      "crude": 70,
+      "inr": 100,
+      "import_index": 63.0
+    },
+    {
+      "crude": 70,
+      "inr": 105,
+      "import_index": 66.15
+    },
+    {
+      "crude": 80,
+      "inr": 85,
+      "import_index": 61.2
+    },
+    {
+      "crude": 80,
+      "inr": 90,
+      "import_index": 64.8
+    },
+    {
+      "crude": 80,
+      "inr": 95,
+      "import_index": 68.4
+    },
+    {
+      "crude": 80,
+      "inr": 100,
+      "import_index": 72.0
+    },
+    {
+      "crude": 80,
+      "inr": 105,
+      "import_index": 75.6
+    },
+    {
+      "crude": 90,
+      "inr": 85,
+      "import_index": 68.85
+    },
+    {
+      "crude": 90,
+      "inr": 90,
+      "import_index": 72.9
+    },
+    {
+      "crude": 90,
+      "inr": 95,
+      "import_index": 76.95
+    },
+    {
+      "crude": 90,
+      "inr": 100,
+      "import_index": 81.0
+    },
+    {
+      "crude": 90,
+      "inr": 105,
+      "import_index": 85.05
+    },
+    {
+      "crude": 100,
+      "inr": 85,
+      "import_index": 76.5
+    },
+    {
+      "crude": 100,
+      "inr": 90,
+      "import_index": 81.0
+    },
+    {
+      "crude": 100,
+      "inr": 95,
+      "import_index": 85.5
+    },
+    {
+      "crude": 100,
+      "inr": 100,
+      "import_index": 90.0
+    },
+    {
+      "crude": 100,
+      "inr": 105,
+      "import_index": 94.5
+    },
+    {
+      "crude": 110,
+      "inr": 85,
+      "import_index": 84.15
+    },
+    {
+      "crude": 110,
+      "inr": 90,
+      "import_index": 89.1
+    },
+    {
+      "crude": 110,
+      "inr": 95,
+      "import_index": 94.05
+    },
+    {
+      "crude": 110,
+      "inr": 100,
+      "import_index": 99.0
+    },
+    {
+      "crude": 110,
+      "inr": 105,
+      "import_index": 103.95
+    }
+  ],
+  "base_crude": 90,
+  "base_inr": 95.5,
+  "elasticity_crude": 0.7,
+  "elasticity_inr": 1.0
+}

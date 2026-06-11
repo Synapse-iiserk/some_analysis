@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% set active_page = "trade" %}
+{% block title %}Trade Analysis — India Petrochemical Trade{% endblock %}
+{% block content %}
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">TRADE ANALYSIS</div>
+        <h1 class="display-lg">Petrochemical Trade Patterns</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">Product-level analysis across 78 product categories, 20 category groups, spanning 10 fiscal years from 2015-16 to 2024-25.</p>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Trade Balance by Category</h2>
+        <div class="chart-container">
+            <div id="chart-cat-balance" style="height:500px"></div>
+            <div class="chart-caption">
+                <p class="title-sm">Category-wise Trade Balance (Exports - Imports)</p>
+                <p class="caption" style="margin-top:4px">Negative values indicate import dependency · Hover for details</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Export vs Import Share</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-exp-pie" style="height:400px"></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-imp-pie" style="height:400px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Sector Deep Dive</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-sector-radar" style="height:450px"></div>
+            </div>
+            <div>
+                <h3 class="title-lg" style="margin-bottom:16px">Sector Analysis</h3>
+                <div id="sector-cards"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Import Dependency by Product</h2>
+        <div class="chart-container">
+            <div id="chart-import-dep" style="height:400px"></div>
+            <div class="chart-caption">
+                <p class="caption">Higher values = more dependent on imports · Polymers & Fertilizers most vulnerable</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <div class="dark-card">
+            <h2 class="display-sm" style="color:var(--on-dark);margin-bottom:24px">Trade Analysis Verdicts</h2>
+            <div class="grid-2">
+                <div>
+                    <p class="title-sm" style="color:var(--accent-teal);margin-bottom:8px">Where India is Strong</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">Organic chemicals (25.3% export share) and synthetic fibres (18.5%) are India's petrochemical strengths. India is a net exporter in specialty chemicals and catalysts.</p>
+                </div>
+                <div>
+                    <p class="title-sm" style="color:var(--error);margin-bottom:8px">Where India is Vulnerable</p>
+                    <p class="body-md" style="color:var(--on-dark-soft)">Polymers & Plastics (55% import dependency), Fertilizers (65%), and Petrochemical Catalysts (70%) represent critical gaps that expose India to supply chain disruptions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+fetch('/api/product-flows').then(r=>r.json()).then(d=>{
+    if(!d.trade_balance) return;
+    const tb = d.trade_balance;
+    Plotly.newPlot('chart-cat-balance',[{
+        y:tb.map(r=>r.category).reverse(), x:tb.map(r=>r.balance).reverse(),
+        type:'bar', orientation:'h',
+        marker:{color:tb.map(r=>r.balance<0?'#c64545':'#5db8a6').reverse()},
+        hovertemplate:'%{y}<br>Balance: ₹%{x:,.0f}<extra></extra>'
+    }],mergeLayout({margin:{l:200},xaxis:{title:'Trade Balance (₹)',zeroline:true,zerolinecolor:'#141413'}}),plotlyConfig);
+});
+
+fetch('/api/product-flows').then(r=>r.json()).then(d=>{
+    if(!d.trade_balance) return;
+    const tb = d.trade_balance.filter(r=>r.exports>0).sort((a,b)=>b.exports-a.exports).slice(0,12);
+    Plotly.newPlot('chart-exp-pie',[{
+        labels:tb.map(r=>r.category), values:tb.map(r=>r.exports),
+        type:'pie', hole:0.4, textinfo:'label+percent',
+        hovertemplate:'%{label}<br>₹%{value:,.0f}<br>%{percent}<extra></extra>',
+        marker:{colors:['#cc785c','#5db8a6','#e8a55a','#5db872','#c64545','#5db8a6','#e8a55a','#cc785c','#5db872','#c64545','#5db8a6','#e8a55a']}
+    }],mergeLayout({title:{text:'Export Share by Category',font:{size:16}},showlegend:false}),plotlyConfig);
+
+    const tb2 = d.trade_balance.filter(r=>r.imports>0).sort((a,b)=>b.imports-a.imports).slice(0,12);
+    Plotly.newPlot('chart-imp-pie',[{
+        labels:tb2.map(r=>r.category), values:tb2.map(r=>r.imports),
+        type:'pie', hole:0.4, textinfo:'label+percent',
+        hovertemplate:'%{label}<br>₹%{value:,.0f}<br>%{percent}<extra></extra>',
+        marker:{colors:['#c64545','#cc785c','#e8a55a','#5db8a6','#5db872','#c64545','#cc785c','#e8a55a','#5db8a6','#5db872','#c64545','#cc785c']}
+    }],mergeLayout({title:{text:'Import Share by Category',font:{size:16}},showlegend:false}),plotlyConfig);
+});
+
+fetch('/api/sectors').then(r=>r.json()).then(d=>{
+    if(!d.categories) return;
+    const cats = d.categories;
+    const radarCats = cats.slice(0,6);
+    const metrics = ['export_share','import_share','domestic_demand_growth','import_dependency'];
+    const metricLabels = ['Export Share','Import Share','Demand Growth','Import Dependency'];
+    const traces = metrics.map((m,i)=>({
+        type:'scatterpolar', name:metricLabels[i],
+        r:radarCats.map(c=>c[m]),
+        theta:radarCats.map(c=>c.name),
+        fill:'toself', fillcolor:['rgba(204,120,92,0.1)','rgba(93,184,166,0.1)','rgba(232,165,90,0.1)','rgba(198,69,69,0.1)'][i],
+        line:{color:['#cc785c','#5db8a6','#e8a55a','#c64545'][i],width:2}
+    }));
+    Plotly.newPlot('chart-sector-radar',traces,{polar:{radialaxis:{visible:true,range:[0,80]}},showlegend:true,legend:{x:0,y:-0.15,orientation:'h'}},plotlyConfig);
+
+    const cardsHtml = cats.map(c=>{
+        const trend = c.trend==='high_growth'?'badge-success':c.trend==='high_import'?'badge-error':c.trend==='emerging'?'badge-coral':'badge-pill';
+        return `<div class="verdict-card" style="margin-bottom:12px">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <p class="title-sm">${c.name}</p>
+                <span class="${trend}">${c.trend.replace('_',' ')}</span>
+            </div>
+            <p class="body-sm" style="color:var(--muted)">Import dependency: ${c.import_dependency}% · Demand growth: ${c.domestic_demand_growth}%</p>
+        </div>`;
+    }).join('');
+    document.getElementById('sector-cards').innerHTML = cardsHtml;
+});
+
+fetch('/api/sectors').then(r=>r.json()).then(d=>{
+    if(!d.categories) return;
+    const cats = d.categories.sort((a,b)=>b.import_dependency-a.import_dependency);
+    Plotly.newPlot('chart-import-dep',[{
+        y:cats.map(c=>c.name), x:cats.map(c=>c.import_dependency),
+        type:'bar', orientation:'h',
+        marker:{color:cats.map(c=>c.import_dependency>50?'#c64545':c.import_dependency>30?'#e8a55a':'#5db8a6')},
+        text:cats.map(c=>`${c.import_dependency}%`), textposition:'outside',
+        hovertemplate:'%{y}<br>Dependency: %{x}%<br>Growth: %{customdata}%<extra></extra>',
+        customdata:cats.map(c=>c.domestic_demand_growth)
+    }],mergeLayout({margin:{l:200},xaxis:{title:'Import Dependency %',range:[0,85]},yaxis:{autorange:'reversed'}}),plotlyConfig);
+});
+</script>
+{% endblock %}

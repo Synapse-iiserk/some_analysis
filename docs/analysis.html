@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Analysis — India Petrochemical Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        :root {
+            --primary: #cc785c;
+            --primary-active: #a9583e;
+            --primary-disabled: #e6dfd8;
+            --ink: #141413;
+            --body: #3d3d3a;
+            --body-strong: #252523;
+            --muted: #6c6a64;
+            --muted-soft: #8e8b82;
+            --hairline: #e6dfd8;
+            --hairline-soft: #ebe6df;
+            --canvas: #faf9f5;
+            --surface-soft: #f5f0e8;
+            --surface-card: #efe9de;
+            --surface-dark: #181715;
+            --surface-dark-elevated: #252320;
+            --surface-dark-soft: #1f1e1b;
+            --on-primary: #ffffff;
+            --on-dark: #faf9f5;
+            --on-dark-soft: #a09d96;
+            --accent-teal: #5db8a6;
+            --accent-amber: #e8a55a;
+            --success: #5db872;
+            --warning: #d4a017;
+            --error: #c64545;
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            font-size: 16px; line-height: 1.55;
+            color: var(--body); background: var(--canvas);
+            -webkit-font-smoothing: antialiased;
+        }
+        .display-xl { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 52px; font-weight: 400; line-height: 1.05; letter-spacing: -1.5px; color: var(--ink); }
+        .display-lg { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 40px; font-weight: 400; line-height: 1.1; letter-spacing: -1px; color: var(--ink); }
+        .display-md { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 400; line-height: 1.15; letter-spacing: -0.5px; color: var(--ink); }
+        .display-sm { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 400; line-height: 1.2; color: var(--ink); }
+        .title-lg { font-size: 20px; font-weight: 500; color: var(--ink); }
+        .title-md { font-size: 18px; font-weight: 500; color: var(--ink); }
+        .title-sm { font-size: 16px; font-weight: 500; color: var(--ink); }
+        .body-md { font-size: 16px; color: var(--body); }
+        .body-sm { font-size: 14px; color: var(--body); }
+        .caption { font-size: 13px; font-weight: 500; color: var(--muted); }
+        .caption-upper { font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+        .section { padding: 72px 0; }
+        .section-sm { padding: 36px 0; }
+        .top-nav { position: sticky; top: 0; z-index: 100; background: var(--canvas); border-bottom: 1px solid var(--hairline); height: 64px; display: flex; align-items: center; }
+        .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; width: 100%; }
+        .nav-brand { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); }
+        .nav-brand .spike { font-size: 20px; font-weight: 700; }
+        .nav-brand span { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; }
+        .nav-links { display: flex; gap: 24px; margin-left: auto; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--muted); font-size: 14px; font-weight: 500; transition: color 0.15s; padding: 4px 0; }
+        .nav-links a:hover, .nav-links a.active { color: var(--ink); }
+        .nav-links a.active { color: var(--primary); border-bottom: 2px solid var(--primary); }
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; margin-left: auto; }
+        .hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
+        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+        .mobile-menu { display: none; position: fixed; top: 64px; left: 0; right: 0; background: var(--canvas); border-bottom: 1px solid var(--hairline); padding: 16px 32px; z-index: 99; box-shadow: 0 4px 12px rgba(20,20,19,0.08); }
+        .mobile-menu.open { display: block; }
+        .mobile-menu a { display: block; padding: 12px 0; text-decoration: none; color: var(--body); font-size: 16px; font-weight: 500; border-bottom: 1px solid var(--hairline-soft); }
+        .mobile-menu a:last-child { border-bottom: none; }
+        .mobile-menu a.active { color: var(--primary); }
+        .btn-primary { display: inline-flex; align-items: center; background: var(--primary); color: var(--on-primary); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; text-decoration: none; transition: background 0.15s; }
+        .btn-primary:hover { background: var(--primary-active); }
+        .btn-secondary { display: inline-flex; align-items: center; background: var(--canvas); color: var(--ink); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: 1px solid var(--hairline); cursor: pointer; text-decoration: none; }
+        .btn-secondary:hover { background: var(--surface-soft); }
+        .btn-dark { display: inline-flex; align-items: center; background: var(--surface-dark-elevated); color: var(--on-dark); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; text-decoration: none; }
+        .text-link { color: var(--primary); text-decoration: none; font-weight: 500; }
+        .text-link:hover { text-decoration: underline; }
+        .feature-card { background: var(--surface-card); border-radius: 12px; padding: 32px; transition: transform 0.2s, box-shadow 0.2s; }
+        .feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(20,20,19,0.08); }
+        .dark-card { background: var(--surface-dark); color: var(--on-dark); border-radius: 12px; padding: 32px; }
+        .cream-card { background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; padding: 32px; }
+        .coral-card { background: var(--primary); color: var(--on-primary); border-radius: 12px; padding: 48px; }
+        .code-card { background: var(--surface-dark); color: var(--on-dark); border-radius: 12px; padding: 24px; font-family: 'JetBrains Mono', monospace; font-size: 14px; overflow-x: auto; }
+        .badge-pill { display: inline-block; background: var(--surface-card); color: var(--ink); font-size: 13px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-coral { display: inline-block; background: var(--primary); color: var(--on-primary); font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px; border-radius: 9999px; }
+        .badge-success { display: inline-block; background: var(--success); color: white; font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-warning { display: inline-block; background: var(--accent-amber); color: var(--ink); font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-error { display: inline-block; background: var(--error); color: white; font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .data-table { width: 100%; border-collapse: collapse; }
+        .data-table th { text-align: left; padding: 12px 16px; font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--hairline); }
+        .data-table td { padding: 12px 16px; border-bottom: 1px solid var(--hairline-soft); font-size: 14px; color: var(--body); }
+        .data-table tr:hover td { background: var(--surface-soft); }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+        .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 24px; }
+        .stat-card { text-align: center; }
+        .stat-value { font-family: 'Cormorant Garamond', serif; font-size: 44px; font-weight: 400; color: var(--ink); line-height: 1.1; }
+        .stat-label { font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+        .stat-change { font-size: 14px; font-weight: 500; margin-top: 4px; }
+        .stat-change.negative { color: var(--error); }
+        .stat-change.positive { color: var(--success); }
+        .chart-container { background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; overflow: hidden; width: 100%; }
+        .chart-container .js-plotly-plot, .chart-container .plot-container { width: 100% !important; }
+        .chart-header { padding: 20px 24px 0; }
+        .chart-body { padding: 8px 16px 16px; }
+        .chart-caption { padding: 12px 24px; border-top: 1px solid var(--hairline-soft); }
+        .scenario-card { border-radius: 12px; padding: 32px; border: 2px solid transparent; transition: transform 0.2s; }
+        .scenario-card:hover { transform: translateY(-3px); }
+        .scenario-base { border-color: var(--accent-amber); background: #fdf8f0; }
+        .scenario-bull { border-color: var(--success); background: #f0fdf4; }
+        .scenario-bear { border-color: var(--error); background: #fef2f2; }
+        .verdict-card { border-left: 4px solid var(--primary); padding: 20px 24px; background: var(--canvas); border-radius: 0 8px 8px 0; margin-bottom: 16px; transition: transform 0.15s; }
+        .verdict-card:hover { transform: translateX(4px); }
+        .verdict-critical { border-left-color: var(--error); }
+        .verdict-high { border-left-color: var(--accent-amber); }
+        .verdict-opportunity { border-left-color: var(--success); }
+        .verdict-info { border-left-color: var(--accent-teal); }
+        .progress-bar { height: 8px; background: var(--surface-soft); border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+        .tab-bar { display: flex; gap: 4px; background: var(--surface-soft); padding: 4px; border-radius: 8px; margin-bottom: 24px; }
+        .tab-btn { padding: 8px 16px; border-radius: 6px; border: none; background: transparent; color: var(--muted); font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.15s; }
+        .tab-btn.active { background: var(--canvas); color: var(--ink); box-shadow: 0 1px 3px rgba(20,20,19,0.08); }
+        .tab-btn:hover:not(.active) { color: var(--ink); }
+        .footer { background: var(--surface-dark); color: var(--on-dark-soft); padding: 64px 0; }
+        .footer a { color: var(--on-dark-soft); text-decoration: none; }
+        .footer a:hover { color: var(--on-dark); }
+        @media (max-width: 768px) {
+            .display-xl { font-size: 32px; } .display-lg { font-size: 28px; } .display-md { font-size: 24px; }
+            .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .nav-links { display: none; } .hamburger { display: block; } .section { padding: 48px 0; } .stat-value { font-size: 36px; }
+            .container { padding: 0 16px; } .nav-inner { padding: 0 16px; }
+        }
+        @media (min-width: 769px) { .mobile-menu { display: none !important; } }
+        @media (max-width: 1024px) { .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; } }
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .slide-up { animation: slideUp 0.6s ease-out; }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+    
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">
+                <span class="spike">*</span>
+                <span>Petrochem Analytics</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/" class="">Overview</a></li>
+                <li><a href="/trade" class="">Trade</a></li>
+                <li><a href="/forecast" class="">Forecast</a></li>
+                <li><a href="/models" class="">Models</a></li>
+                <li><a href="/analysis" class="active">Analysis</a></li>
+                <li><a href="/datasets" class="">Data</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/" class="">Overview</a>
+        <a href="/trade" class="">Trade Analysis</a>
+        <a href="/forecast" class="">Forecast & Scenarios</a>
+        <a href="/models" class="">Model Performance</a>
+        <a href="/analysis" class="active">Deep Analysis</a>
+        <a href="/datasets" class="">Data Sources</a>
+    </div>
+    <main>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">DEEP ANALYSIS</div>
+        <h1 class="display-lg">Investment Gaps, Sector Verdicts & Actionable Insights</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">Every chart backed by data-driven inferences. Every inference backed by actionable recommendations.</p>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <div class="dark-card">
+            <div class="badge-coral" style="margin-bottom:16px">EXECUTIVE VERDICT</div>
+            <h2 class="display-sm" style="color:var(--on-dark);margin-bottom:20px" id="exec-title"></h2>
+            <div id="exec-summary"></div>
+        </div>
+    </div>
+</section>
+
+<!-- VERDICTS -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">Key Verdicts from the Data</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:32px">Each verdict includes evidence, recommendations, and projected impact.</p>
+        <div id="verdicts-container"></div>
+    </div>
+</section>
+
+<!-- TRADE BALANCE -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Trade Balance Deep Dive</h2>
+        <div class="chart-container" style="margin-bottom:24px"><div id="chart-trade-balance" style="height:450px"></div></div>
+        <div class="cream-card" id="explanation-trade-balance"></div>
+    </div>
+</section>
+
+<!-- GEOGRAPHIC -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Geographic Dependency</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container"><div id="chart-geo-bar" style="height:400px"></div></div>
+            <div class="chart-container"><div id="chart-geo-treemap" style="height:400px"></div></div>
+        </div>
+        <div class="cream-card" id="explanation-geographic"></div>
+    </div>
+</section>
+
+<!-- INVESTMENT GAPS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Investment Gap Analysis</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container"><div id="chart-investment-gap" style="height:450px"></div></div>
+            <div class="chart-container"><div id="chart-investment-scatter" style="height:450px"></div></div>
+        </div>
+        <div class="cream-card" id="explanation-investment"></div>
+    </div>
+</section>
+
+<!-- SECTOR -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Sector Vulnerability Analysis</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container"><div id="chart-import-dep" style="height:400px"></div></div>
+            <div class="chart-container"><div id="chart-sector-radar" style="height:400px"></div></div>
+        </div>
+        <div class="cream-card" id="explanation-sector"></div>
+    </div>
+</section>
+
+<!-- CAPACITY -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Production Capacity & Utilization</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container"><div id="chart-capacity-gap" style="height:400px"></div></div>
+            <div class="chart-container"><div id="chart-utilization" style="height:400px"></div></div>
+        </div>
+        <div class="cream-card" id="explanation-capacity"></div>
+    </div>
+</section>
+
+<!-- SENSITIVITY -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Price Sensitivity Analysis</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container"><div id="chart-crude-sens" style="height:400px"></div></div>
+            <div class="chart-container"><div id="chart-inr-sens" style="height:400px"></div></div>
+        </div>
+        <div class="cream-card" id="explanation-sensitivity"></div>
+    </div>
+</section>
+
+<!-- MODEL PERFORMANCE -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Model Performance Analysis</h2>
+        <div class="chart-container" style="margin-bottom:24px"><div id="chart-models" style="height:400px"></div></div>
+        <div class="cream-card" id="explanation-models"></div>
+    </div>
+</section>
+
+<!-- RISK MATRIX -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Risk vs Impact Matrix</h2>
+        <div class="chart-container" style="margin-bottom:24px"><div id="chart-risk-matrix" style="height:450px"></div></div>
+        <div class="cream-card">
+            <p class="title-md" style="margin-bottom:12px">How to Read This Matrix</p>
+            <p class="body-md" style="color:var(--muted)">Each dot is a key finding. X-axis = risk likelihood, Y-axis = business impact. Top-right = urgent action needed. Green item (Green Petrochemicals) = strategic opportunity.</p>
+        </div>
+    </div>
+</section>
+
+<!-- TRAJECTORY HEADER -->
+<section class="section-sm" style="background:var(--surface-dark);color:var(--on-dark)">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">TRAJECTORY ANALYSIS</div>
+        <h2 class="display-md" style="color:var(--on-dark);margin-bottom:8px">Where Things Are Heading: End-2026 & 2027</h2>
+        <p class="body-md" style="color:var(--on-dark-soft)">Historical data + scenario projections through June 2027.</p>
+    </div>
+</section>
+
+<!-- CRUDE + INR TRAJECTORIES -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Crude Oil & Currency Trajectories</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container">
+                <div id="chart-traj-crude" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">Crude Oil Price Trajectory</p><p class="caption">Actual + 3 scenario forecasts through Dec 2026</p></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-traj-inr" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">USD/INR Trajectory</p><p class="caption">Actual + 3 scenario forecasts through Dec 2026</p></div>
+            </div>
+        </div>
+        <div class="cream-card" id="explanation-trajectory-1"></div>
+    </div>
+</section>
+
+<!-- TRADE TRAJECTORY -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Trade Balance Trajectory</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container">
+                <div id="chart-traj-trade" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">Import & Export Index Trajectories</p></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-traj-deficit" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">Trade Deficit Trajectory (₹ Cr)</p></div>
+            </div>
+        </div>
+        <div class="cream-card" id="explanation-trajectory-2"></div>
+    </div>
+</section>
+
+<!-- MODEL FORECAST + MILESTONES -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Model Forecast & Key Milestones</h2>
+        <div class="grid-2" style="margin-bottom:24px">
+            <div class="chart-container">
+                <div id="chart-model-forecast" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">Ensemble Forecast with 95% CI</p></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-milestones" style="height:420px"></div>
+                <div class="chart-caption"><p class="title-sm">Key Events Timeline</p></div>
+            </div>
+        </div>
+        <div class="cream-card" id="explanation-trajectory-3"></div>
+    </div>
+</section>
+
+<!-- CUMULATIVE IMPACT -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Cumulative Cost Impact (Jul 2026 – Jun 2027)</h2>
+        <div class="grid-4" style="margin-bottom:24px">
+            <div class="cream-card stat-card"><div class="stat-value" style="font-size:36px">₹48,000</div><div class="stat-label">Additional Cost (Cr)</div><div class="stat-change negative">Base case</div></div>
+            <div class="cream-card stat-card"><div class="stat-value" style="font-size:36px">0.18%</div><div class="stat-label">GDP Impact</div><div class="stat-change negative">Base case</div></div>
+            <div class="cream-card stat-card"><div class="stat-value" style="font-size:36px">$5.8B</div><div class="stat-label">Forex Drain</div><div class="stat-change negative">Additional</div></div>
+            <div class="cream-card stat-card"><div class="stat-value" style="font-size:36px">150K</div><div class="stat-label">Jobs at Risk</div><div class="stat-change negative">Base case</div></div>
+        </div>
+        <div class="chart-container"><div id="chart-cumulative" style="height:350px"></div></div>
+    </div>
+</section>
+
+<!-- ACTIONABLE INSIGHTS -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">Actionable Insights</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:32px">Data-backed actions with sources and expected impact.</p>
+        <div id="insights-container"></div>
+    </div>
+</section>
+
+<!-- DATA GAPS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Gaps & Limitations</h2>
+        <div class="grid-3">
+            <div class="feature-card"><div class="badge-error" style="margin-bottom:12px">DATA GAP</div><p class="title-md" style="margin-bottom:8px">Post-2025 Trade Data</p><p class="body-md">data.gov.in petrochemical datasets end at 2024-25. Real-time HS-code level data from DGFT/DGCIS needed.</p></div>
+            <div class="feature-card"><div class="badge-warning" style="margin-bottom:12px">MODEL GAP</div><p class="title-md" style="margin-bottom:8px">Country-Specific Models</p><p class="body-md">Current models use aggregate data. Country-specific models (China, Saudi, USA) would capture bilateral dynamics.</p></div>
+            <div class="feature-card"><div class="badge-coral" style="margin-bottom:12px">ANALYSIS GAP</div><p class="title-md" style="margin-bottom:8px">Real-Time Pricing</p><p class="body-md">Spot prices not publicly available. Platts/Argus data would improve forecasting accuracy 20-30%.</p></div>
+        </div>
+    </div>
+</section>
+
+</main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-4">
+                <div>
+                    <p style="color:var(--on-dark);font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:12px"><span style="font-weight:700">*</span> Petrochem Analytics</p>
+                    <p class="body-sm">India Petrochemical Trade Analysis & Forecast Dashboard</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Data Sources</p>
+                    <p class="body-sm">data.gov.in API (31 datasets)</p>
+                    <p class="body-sm">World Bank (9 indicators)</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Analysis</p>
+                    <p class="body-sm">4 Predictive Models</p>
+                    <p class="body-sm">3 Scenario Forecasts</p>
+                    <p class="body-sm">7 Sector Deep Dives</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Period</p>
+                    <p class="body-sm">July 2026 — June 2027</p>
+                    <p class="body-sm">12-Month Horizon</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.getElementById('mobile-menu').classList.toggle('open');
+        });
+    </script>
+    <script>
+        // Global Plotly config
+        const plotlyConfig = { responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['lasso2d','select2d'], displaylogo: false };
+        const plotlyLayout = {
+            paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
+            font: { family: 'Inter, sans-serif', color: '#3d3d3a' },
+            margin: { l: 60, r: 30, t: 40, b: 60 },
+            xaxis: { gridcolor: '#ebe6df', linecolor: '#e6dfd8' },
+            yaxis: { gridcolor: '#ebe6df', linecolor: '#e6dfd8' },
+            hoverlabel: { bgcolor: '#181715', font: { color: '#faf9f5', size: 13 } }
+        };
+        function mergeLayout(extra) { return Object.assign({}, plotlyLayout, extra); }
+    </script>
+    
+<script>
+// ========== TEXT CONTENT ==========
+fetch('data/processed/chart_data/key_insights.json').then(r=>r.json()).then(insights=>{
+    // Executive Summary
+    if(insights.executive_summary){
+        document.getElementById('exec-title').textContent = insights.executive_summary.title;
+        document.getElementById('exec-summary').innerHTML = insights.executive_summary.paragraphs.map(p=>
+            `<p class="body-md" style="color:var(--on-dark-soft);margin-bottom:16px;line-height:1.7">${p}</p>`
+        ).join('');
+    }
+    // Verdicts
+    if(insights.verdicts){
+        document.getElementById('verdicts-container').innerHTML = insights.verdicts.map(v=>{
+            const cls=v.severity==='critical'?'verdict-critical':v.severity==='high'?'verdict-high':v.severity==='opportunity'?'verdict-opportunity':'verdict-info';
+            const badge=v.severity==='critical'?'badge-error':v.severity==='high'?'badge-warning':v.severity==='opportunity'?'badge-success':'badge-coral';
+            return `<div class="verdict-card ${cls}" style="margin-bottom:16px">
+                <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:8px;flex-wrap:wrap;gap:8px">
+                    <div><span class="badge-pill" style="margin-right:8px">${v.category}</span><p class="title-md">${v.title}</p></div>
+                    <span class="${badge}">${v.severity.toUpperCase()}</span>
+                </div>
+                <p class="body-md" style="margin:12px 0">${v.detail}</p>
+                <div style="background:var(--surface-soft);border-radius:8px;padding:16px;margin:12px 0"><p class="title-sm" style="color:var(--primary);margin-bottom:6px">Evidence</p><p class="body-sm" style="color:var(--muted)">${v.evidence}</p></div>
+                <div style="background:var(--surface-soft);border-radius:8px;padding:16px;margin:12px 0"><p class="title-sm" style="color:var(--accent-teal);margin-bottom:6px">Recommendation</p><p class="body-sm">${v.recommendation}</p></div>
+                <div style="background:#f0fdf4;border-radius:8px;padding:16px;margin:12px 0;border-left:3px solid var(--success)"><p class="title-sm" style="color:var(--success);margin-bottom:6px">Projected Impact</p><p class="body-sm">${v.impact}</p></div>
+            </div>`;
+        }).join('');
+    }
+    // Risk Matrix
+    const riskMap={critical:9,high:7,opportunity:3,info:4};
+    const impactMap={critical:9,high:7,opportunity:8,info:5};
+    Plotly.newPlot('chart-risk-matrix',[{
+        x:insights.verdicts.map(v=>riskMap[v.severity]||5),
+        y:insights.verdicts.map(v=>impactMap[v.severity]||5),
+        text:insights.verdicts.map(v=>v.title),
+        type:'scatter',mode:'markers+text',textposition:'top center',textfont:{size:11},
+        marker:{size:25,color:insights.verdicts.map(v=>v.severity==='critical'?'#c64545':v.severity==='high'?'#e8a55a':v.severity==='opportunity'?'#5db872':'#5db8a6')},
+        hovertemplate:'%{text}<br>Risk: %{x}/10<br>Impact: %{y}/10<extra></extra>'
+    }],mergeLayout({xaxis:{title:'Risk Level →',range:[0,10],dtick:2},yaxis:{title:'Business Impact →',range:[0,10],dtick:2},shapes:[{type:'rect',x0:5,y0:5,x1:10,y1:10,fillcolor:'rgba(198,69,69,0.05)',line:{width:0}}],annotations:[{x:7.5,y:7.5,text:'URGENT',showarrow:false,font:{color:'#c64545',size:12,weight:700}}]}),plotlyConfig);
+    // Actionable Insights
+    if(insights.actionable_insights){
+        document.getElementById('insights-container').innerHTML = insights.actionable_insights.map((ins,i)=>`
+            <div class="cream-card" style="margin-bottom:16px;border-left:4px solid var(--primary)">
+                <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px"><span class="badge-coral">${String(i+1).padStart(2,'0')}</span><p class="title-md">${ins.area}</p></div>
+                <p class="body-md" style="margin-bottom:12px;color:var(--body-strong);line-height:1.7">${ins.insight}</p>
+                <div style="background:var(--surface-soft);border-radius:8px;padding:16px;margin-bottom:8px"><p class="title-sm" style="color:var(--primary);margin-bottom:4px">Action Required</p><p class="body-sm">${ins.action}</p></div>
+                <p class="caption">Source: ${ins.data_source}</p>
+            </div>
+        `).join('');
+    }
+    // Chart explanations
+    const exps=insights.chart_explanations||{};
+    function renderExp(id,key){
+        const el=document.getElementById(id);if(!el)return;const exp=exps[key];if(!exp)return;
+        el.innerHTML=`<p class="title-md" style="margin-bottom:8px">${exp.title}</p><p class="body-md" style="color:var(--body);margin-bottom:12px;line-height:1.7">${exp.explanation}</p><div style="background:var(--surface-soft);border-radius:8px;padding:16px;border-left:3px solid var(--primary)"><p class="title-sm" style="color:var(--primary);margin-bottom:4px">Key Takeaway</p><p class="body-sm">${exp.actionable_takeaway}</p></div>`;
+    }
+    renderExp('explanation-trade-balance','trade_balance');
+    renderExp('explanation-geographic','geographic_trade');
+    renderExp('explanation-investment','investment_gaps');
+    renderExp('explanation-sector','sector_breakdown');
+    renderExp('explanation-capacity','capacity_utilization');
+    renderExp('explanation-sensitivity','price_sensitivity');
+    renderExp('explanation-models','model_performance');
+}).catch(e=>console.error('Text content error:',e));
+
+// ========== CHARTS (each independent) ==========
+fetch('data/processed/chart_data/temporal_trends.json').then(r=>r.json()).then(d=>{
+    const years=d.years.map(y=>String(y));
+    Plotly.newPlot('chart-trade-balance',[
+        {x:years,y:d.exports,name:'Exports',type:'bar',marker:{color:'#5db8a6'},hovertemplate:'Exports: ₹%{y:,.0f} Cr<extra></extra>'},
+        {x:years,y:d.imports.map(v=>-v),name:'Imports',type:'bar',marker:{color:'#c64545'},customdata:d.imports,hovertemplate:'Imports: ₹%{customdata:,.0f} Cr<extra></extra>'},
+        {x:years,y:d.balance,name:'Balance',type:'scatter',mode:'lines+markers',line:{color:'#cc785c',width:3},marker:{size:8},fill:'tozeroy',fillcolor:'rgba(204,120,92,0.08)',hovertemplate:'Balance: ₹%{y:,.0f} Cr<extra></extra>'}
+    ],mergeLayout({barmode:'relative',legend:{x:0,y:1.12,orientation:'h'},yaxis:{title:'₹ Crore',zeroline:true,zerolinecolor:'#141413'}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/geographic_trade.json').then(r=>r.json()).then(d=>{
+    const p=d.partners;
+    Plotly.newPlot('chart-geo-bar',[
+        {y:p.map(r=>r.country).reverse(),x:p.map(r=>r.imports).reverse(),name:'Imports',type:'bar',orientation:'h',marker:{color:'#c64545'},hovertemplate:'Imports: ₹%{x:,.0f} Cr<extra></extra>'},
+        {y:p.map(r=>r.country).reverse(),x:p.map(r=>r.exports).reverse(),name:'Exports',type:'bar',orientation:'h',marker:{color:'#5db8a6'},hovertemplate:'Exports: ₹%{x:,.0f} Cr<extra></extra>'}
+    ],mergeLayout({barmode:'group',xaxis:{title:'₹ Crore'},margin:{l:100},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+    Plotly.newPlot('chart-geo-treemap',[{type:'treemap',labels:p.map(r=>r.country),parents:p.map(()=>''),values:p.map(r=>Math.abs(r.imports)),text:p.map(r=>`${r.country}<br>Imports: ₹${r.imports.toLocaleString()} Cr<br>Balance: ₹${r.balance.toLocaleString()} Cr`),textinfo:'label+value',hovertemplate:'%{text}<extra></extra>',marker:{colors:p.map(r=>r.balance<0?'#c64545':'#5db8a6')}}],{margin:{l:10,r:10,t:10,b:10}},plotlyConfig);
+});
+
+fetch('data/processed/chart_data/investment_gaps.json').then(r=>r.json()).then(d=>{
+    const s=d.sectors.sort((a,b)=>b.gap-a.gap);
+    Plotly.newPlot('chart-investment-gap',[
+        {y:s.map(r=>r.name),x:s.map(r=>r.current_investment),name:'Current',type:'bar',orientation:'h',marker:{color:'#5db8a6'},hovertemplate:'₹%{x:,.0f} Cr<extra></extra>'},
+        {y:s.map(r=>r.name),x:s.map(r=>r.gap),name:'Gap',type:'bar',orientation:'h',marker:{color:'#c64545'},hovertemplate:'₹%{x:,.0f} Cr<extra></extra>'}
+    ],mergeLayout({barmode:'stack',margin:{l:200},xaxis:{title:'₹ Crore'},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+    Plotly.newPlot('chart-investment-scatter',[{x:s.map(r=>r.growth_potential),y:s.map(r=>r.gap),text:s.map(r=>r.name),type:'scatter',mode:'markers+text',textposition:'top center',textfont:{size:11},marker:{size:s.map(r=>Math.sqrt(r.gap/500)),color:s.map(r=>r.growth_potential),colorscale:[[0,'#5db8a6'],[1,'#cc785c']],showscale:true,colorbar:{title:'Growth %'}},hovertemplate:'%{text}<br>Growth: %{x}%<br>Gap: ₹%{y:,.0f} Cr<extra></extra>'}],mergeLayout({title:{text:'Growth Potential vs Investment Gap',font:{size:16}},xaxis:{title:'Growth %'},yaxis:{title:'Gap (₹ Cr)'}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/sector_breakdown.json').then(r=>r.json()).then(d=>{
+    const cats=d.categories.sort((a,b)=>b.import_dependency-a.import_dependency);
+    Plotly.newPlot('chart-import-dep',[{y:cats.map(c=>c.name),x:cats.map(c=>c.import_dependency),type:'bar',orientation:'h',marker:{color:cats.map(c=>c.import_dependency>50?'#c64545':c.import_dependency>30?'#e8a55a':'#5db8a6')},text:cats.map(c=>`${c.import_dependency}%`),textposition:'outside',hovertemplate:'%{y}: %{x}%<extra></extra>'}],mergeLayout({margin:{l:200},xaxis:{title:'Import Dependency %',range:[0,85]},yaxis:{autorange:'reversed'}}),plotlyConfig);
+    const rc=d.categories.slice(0,6);
+    Plotly.newPlot('chart-sector-radar',[
+        {type:'scatterpolar',name:'Export Share',r:rc.map(c=>c.export_share),theta:rc.map(c=>c.name),fill:'toself',fillcolor:'rgba(93,184,166,0.1)',line:{color:'#5db8a6',width:2}},
+        {type:'scatterpolar',name:'Import Share',r:rc.map(c=>c.import_share),theta:rc.map(c=>c.name),fill:'toself',fillcolor:'rgba(198,69,69,0.1)',line:{color:'#c64545',width:2}},
+        {type:'scatterpolar',name:'Dependency',r:rc.map(c=>c.import_dependency),theta:rc.map(c=>c.name),fill:'toself',fillcolor:'rgba(232,165,90,0.1)',line:{color:'#e8a55a',width:2}}
+    ],{polar:{radialaxis:{visible:true,range:[0,80]}},showlegend:true,legend:{x:0,y:-0.15,orientation:'h'}},plotlyConfig);
+});
+
+fetch('data/processed/chart_data/key_insights.json').then(r=>r.json()).then(d=>{
+    if(!d.gap_analysis)return;
+    const gap=d.gap_analysis.production_vs_demand;
+    const prods=Object.keys(gap);
+    Plotly.newPlot('chart-capacity-gap',[
+        {y:prods,x:prods.map(p=>gap[p].production),name:'Production',type:'bar',marker:{color:'#5db8a6'},hovertemplate:'%{x:,.0f} KTA<extra></extra>'},
+        {y:prods,x:prods.map(p=>gap[p].gap),name:'Gap',type:'bar',marker:{color:'#c64545'},hovertemplate:'%{x:,.0f} KTA<extra></extra>'}
+    ],mergeLayout({barmode:'stack',yaxis:{autorange:'reversed'},xaxis:{title:'Kilo Tonnes Annum'}}),plotlyConfig);
+    const util=d.gap_analysis.capacity_utilization;
+    const secs=Object.keys(util);
+    Plotly.newPlot('chart-utilization',[{x:secs,y:secs.map(s=>util[s]),type:'bar',marker:{color:secs.map(s=>util[s]>90?'#5db872':util[s]>75?'#e8a55a':'#c64545')},text:secs.map(s=>`${util[s]}%`),textposition:'outside',hovertemplate:'%{x}: %{y}%<extra></extra>'}],mergeLayout({yaxis:{title:'Utilization %',range:[0,110]}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/price_sensitivity.json').then(r=>r.json()).then(d=>{
+    Plotly.newPlot('chart-crude-sens',[{x:d.crude_sensitivity.map(r=>r.crude_price),y:d.crude_sensitivity.map(r=>r.import_index),type:'scatter',mode:'lines+markers',fill:'tozeroy',line:{color:'#cc785c',width:3},marker:{size:6},fillcolor:'rgba(204,120,92,0.1)',hovertemplate:'$%{x} → Index %{y:.2f}<extra></extra>'}],mergeLayout({title:{text:'Crude Price → Import Cost',font:{size:16}},xaxis:{title:'$/bbl'},yaxis:{title:'Import Index'}}),plotlyConfig);
+    Plotly.newPlot('chart-inr-sens',[{x:d.inr_sensitivity.map(r=>r.inr_rate),y:d.inr_sensitivity.map(r=>r.import_index),type:'scatter',mode:'lines+markers',fill:'tozeroy',line:{color:'#5db8a6',width:3},marker:{size:6},fillcolor:'rgba(93,184,166,0.1)',hovertemplate:'₹%{x} → Index %{y:.2f}<extra></extra>'}],mergeLayout({title:{text:'USD/INR → Import Cost',font:{size:16}},xaxis:{title:'USD/INR'},yaxis:{title:'Import Index'}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/model_performance.json').then(r=>r.json()).then(d=>{
+    const m=d.models;
+    Plotly.newPlot('chart-models',[
+        {x:m.map(r=>r.model),y:m.map(r=>r.mae),name:'MAE',type:'bar',marker:{color:'#cc785c'},hovertemplate:'MAE: %{y:.4f}<extra></extra>'},
+        {x:m.map(r=>r.model),y:m.map(r=>r.rmse),name:'RMSE',type:'bar',marker:{color:'#5db8a6'},hovertemplate:'RMSE: %{y:.4f}<extra></extra>'},
+        {x:m.map(r=>r.model),y:m.map(r=>r.mape/100),name:'MAPE',type:'bar',marker:{color:'#e8a55a'},hovertemplate:'MAPE: %{y:.2%}<extra></extra>'}
+    ],mergeLayout({barmode:'group',yaxis:{title:'Error'},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+});
+
+// ========== TRAJECTORY CHARTS ==========
+fetch('data/processed/chart_data/trajectory_crude.json').then(r=>r.json()).then(d=>{
+    const i=17;
+    Plotly.newPlot('chart-traj-crude',[
+        {x:d.months.slice(0,i),y:d.crude_historical.slice(0,i),name:'Actual',type:'scatter',mode:'lines+markers',line:{color:'#141413',width:3},marker:{size:6}},
+        {x:d.months.slice(i),y:d.crude_base_forecast.slice(i),name:'Base',type:'scatter',mode:'lines+markers',line:{color:'#e8a55a',width:3,dash:'dash'},marker:{size:6,symbol:'diamond'}},
+        {x:d.months.slice(i),y:d.crude_bull_forecast.slice(i),name:'Bull',type:'scatter',mode:'lines+markers',line:{color:'#5db872',width:3,dash:'dash'},marker:{size:6}},
+        {x:d.months.slice(i),y:d.crude_bear_forecast.slice(i),name:'Bear',type:'scatter',mode:'lines+markers',line:{color:'#c64545',width:3,dash:'dash'},marker:{size:6,symbol:'triangle-up'}}
+    ],mergeLayout({yaxis:{title:'$/bbl'},legend:{x:0,y:1.15,orientation:'h'},shapes:[{type:'line',x0:d.months[i-1],x1:d.months[i-1],y0:55,y1:115,line:{color:'#cc785c',width:1,dash:'dot'}}],annotations:[{x:d.months[i-1],y:112,text:'Now',showarrow:false,font:{color:'#cc785c',size:11}}]}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/trajectory_inr.json').then(r=>r.json()).then(d=>{
+    const i=17;
+    Plotly.newPlot('chart-traj-inr',[
+        {x:d.months.slice(0,i),y:d.inr_historical.slice(0,i),name:'Actual',type:'scatter',mode:'lines+markers',line:{color:'#141413',width:3},marker:{size:6}},
+        {x:d.months.slice(i),y:d.inr_base_forecast.slice(i),name:'Base',type:'scatter',mode:'lines+markers',line:{color:'#e8a55a',width:3,dash:'dash'},marker:{size:6,symbol:'diamond'}},
+        {x:d.months.slice(i),y:d.inr_bull_forecast.slice(i),name:'Bull',type:'scatter',mode:'lines+markers',line:{color:'#5db872',width:3,dash:'dash'},marker:{size:6}},
+        {x:d.months.slice(i),y:d.inr_bear_forecast.slice(i),name:'Bear',type:'scatter',mode:'lines+markers',line:{color:'#c64545',width:3,dash:'dash'},marker:{size:6,symbol:'triangle-up'}}
+    ],mergeLayout({yaxis:{title:'INR/USD',autorange:'reversed'},legend:{x:0,y:1.15,orientation:'h'},shapes:[{type:'line',x0:d.months[i-1],x1:d.months[i-1],y0:82,y1:106,line:{color:'#cc785c',width:1,dash:'dot'}}],annotations:[{x:d.months[i-1],y:83,text:'Now',showarrow:false,font:{color:'#cc785c',size:11}}]}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/trajectory_trade.json').then(r=>r.json()).then(d=>{
+    const i=17;
+    Plotly.newPlot('chart-traj-trade',[
+        {x:d.months.slice(0,i),y:d.import_index_hist.slice(0,i),name:'Import (Actual)',type:'scatter',mode:'lines',line:{color:'#c64545',width:3}},
+        {x:d.months.slice(i),y:d.import_index_base.slice(i),name:'Import Base',type:'scatter',mode:'lines',line:{color:'#e8a55a',width:2,dash:'dash'}},
+        {x:d.months.slice(i),y:d.import_index_bull.slice(i),name:'Import Bull',type:'scatter',mode:'lines',line:{color:'#5db872',width:2,dash:'dash'}},
+        {x:d.months.slice(i),y:d.import_index_bear.slice(i),name:'Import Bear',type:'scatter',mode:'lines',line:{color:'#c64545',width:2,dash:'dot'}},
+        {x:d.months.slice(0,i),y:d.export_index_hist.slice(0,i),name:'Export (Actual)',type:'scatter',mode:'lines',line:{color:'#5db8a6',width:3}},
+        {x:d.months.slice(i),y:d.export_index_base.slice(i),name:'Export Base',type:'scatter',mode:'lines',line:{color:'#5db8a6',width:2,dash:'dash'}}
+    ],mergeLayout({yaxis:{title:'Index'},legend:{x:0,y:1.18,orientation:'h',font:{size:10}},shapes:[{type:'line',x0:d.months[i-1],x1:d.months[i-1],y0:35,y1:110,line:{color:'#cc785c',width:1,dash:'dot'}}],annotations:[{x:d.months[i-1],y:37,text:'Now',showarrow:false,font:{color:'#cc785c',size:11}}]}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/trajectory_deficit.json').then(r=>r.json()).then(d=>{
+    const i=10;
+    Plotly.newPlot('chart-traj-deficit',[
+        {x:d.months.slice(0,i),y:d.deficit_historical.slice(0,i),name:'Actual',type:'bar',marker:{color:'#c64545'},hovertemplate:'₹%{y:,.0f} Cr<extra></extra>'},
+        {x:d.months.slice(i),y:d.deficit_base.slice(i),name:'Base',type:'scatter',mode:'lines+markers',line:{color:'#e8a55a',width:3},marker:{size:8,symbol:'diamond'}},
+        {x:d.months.slice(i),y:d.deficit_bull.slice(i),name:'Bull',type:'scatter',mode:'lines+markers',line:{color:'#5db872',width:3},marker:{size:8}},
+        {x:d.months.slice(i),y:d.deficit_bear.slice(i),name:'Bear',type:'scatter',mode:'lines+markers',line:{color:'#c64545',width:3,dash:'dash'},marker:{size:8,symbol:'triangle-up'}}
+    ],mergeLayout({yaxis:{title:'₹ Crore',zeroline:true,zerolinecolor:'#141413'},legend:{x:0,y:1.15,orientation:'h'}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/model_forecast.json').then(r=>r.json()).then(d=>{
+    Plotly.newPlot('chart-model-forecast',[
+        {x:d.months,y:d.confidence_upper,name:'Upper',type:'scatter',mode:'lines',line:{width:0},showlegend:false,hoverinfo:'skip'},
+        {x:d.months,y:d.confidence_lower,name:'95% CI',type:'scatter',mode:'lines',fill:'tonexty',fillcolor:'rgba(204,120,92,0.12)',line:{width:0},hovertemplate:'CI: %{y:.2f}<extra></extra>'},
+        {x:d.months,y:d.sarimax,name:'SARIMAX',type:'scatter',mode:'lines+markers',line:{color:'#cc785c',width:3},marker:{size:7}},
+        {x:d.months,y:d.xgboost,name:'XGBoost',type:'scatter',mode:'lines+markers',line:{color:'#5db8a6',width:2,dash:'dash'},marker:{size:6,symbol:'diamond'}},
+        {x:d.months,y:d.ensemble,name:'Ensemble',type:'scatter',mode:'lines+markers',line:{color:'#e8a55a',width:3},marker:{size:8,symbol:'star'}}
+    ],mergeLayout({yaxis:{title:'Index'},legend:{x:0,y:1.15,orientation:'h'}}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/milestones.json').then(r=>r.json()).then(d=>{
+    const colors=d.events.map(e=>e.type==='positive'?'#5db872':e.type==='negative'?'#c64545':'#e8a55a');
+    Plotly.newPlot('chart-milestones',[{x:d.events.map(e=>e.date),y:d.events.map((_,i)=>i),text:d.events.map(e=>e.event),mode:'markers+text',textposition:'middle right',textfont:{size:11},marker:{size:20,color:colors,line:{color:'#141413',width:1}},hovertemplate:'%{x}<br>%{text}<extra></extra>',type:'scatter'}],mergeLayout({xaxis:{title:''},yaxis:{visible:false,range:[-0.5,d.events.length-0.5]},margin:{l:10,r:200},showlegend:false}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/cumulative_impact.json').then(r=>r.json()).then(d=>{
+    Plotly.newPlot('chart-cumulative',[{x:d.scenarios,y:d.additional_cost_cr,name:'Additional Cost',type:'bar',marker:{color:['#e8a55a','#5db872','#c64545']},text:d.scenarios.map((_,i)=>`₹${d.additional_cost_cr[i]>=0?'+':''}${d.additional_cost_cr[i].toLocaleString()} Cr`),textposition:'outside',hovertemplate:'%{x}: ₹%{y:,.0f} Cr<extra></extra>'}],mergeLayout({yaxis:{title:'₹ Crore',zeroline:true,zerolinecolor:'#141413'},showlegend:false}),plotlyConfig);
+});
+
+// Trajectory explanations
+Promise.all([
+    fetch('data/processed/chart_data/key_insights.json').then(r=>r.json())
+]).then(([insights])=>{
+    const exps=insights.chart_explanations||{};
+    const trajectoryExp={
+        'explanation-trajectory-1':{title:'What the Trajectories Tell Us',text:'Crude has risen from $67 to $90 (34% surge) driven by Hormuz. Base case: $84-88 through end-2026. Bull ($65-70) needs peace deal. Bear ($95-110) if conflict widens. INR follows inversely as import bill widens.',takeaway:'Every month of hedging delay exposes importers to ₹700-800 Cr in additional risk.'},
+        'explanation-trajectory-2':{title:'Trade Balance Divergence',text:'Base case deficit reaches -₹39,780 Cr by Jun 2027. Bull case improves to -₹7,830 Cr. Bear case explodes to -₹56,670 Cr. Gap between best and worst: ₹64,500 Cr ($7.7B).',takeaway:'The gap between bull and bear is ₹64,500 Cr — the cost of geopolitical risk.'},
+        'explanation-trajectory-3':{title:'Model Forecasts & Event Risk',text:'SARIMAX ensemble shows import index stabilizing at 45-47 with 95% CI of 36-55. Key events: OPEC+ (Jul), monsoon peak (Sep), budget cycle (Dec), Union Budget FY28 (Mar).',takeaway:'Front-load purchases before budget peaks. Use OPEC+ meetings as hedging checkpoints.'}
+    };
+    Object.entries(trajectoryExp).forEach(([id,d])=>{
+        const el=document.getElementById(id);if(!el)return;
+        el.innerHTML=`<p class="title-md" style="margin-bottom:8px">${d.title}</p><p class="body-md" style="color:var(--body);margin-bottom:12px;line-height:1.7">${d.text}</p><div style="background:var(--surface-soft);border-radius:8px;padding:16px;border-left:3px solid var(--primary)"><p class="title-sm" style="color:var(--primary);margin-bottom:4px">Key Takeaway</p><p class="body-sm">${d.takeaway}</p></div>`;
+    });
+}).catch(e=>console.error('Trajectory explanations error:',e));
+</script>
+
+</body>
+</html>

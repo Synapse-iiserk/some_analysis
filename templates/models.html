@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% set active_page = "models" %}
+{% block title %}Models — India Petrochemical Trade{% endblock %}
+{% block content %}
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">PREDICTIVE MODELS</div>
+        <h1 class="display-lg">Model Training & Evaluation</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">Four models trained on 265 monthly observations (2000-2022), validated on 24 months (2022-2024), using 12 CPU cores.</p>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Model Comparison</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-model-compare" style="height:400px"></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-model-radar" style="height:400px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Feature Importance (XGBoost)</h2>
+        <div class="chart-container">
+            <div id="chart-feature-imp" style="height:400px"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Model Architecture Details</h2>
+        <div class="grid-2">
+            <div class="feature-card">
+                <div class="badge-coral" style="margin-bottom:12px">BEST PERFORMER</div>
+                <p class="title-lg" style="margin-bottom:8px">SARIMAX</p>
+                <p class="body-md" style="color:var(--muted);margin-bottom:12px">Seasonal ARIMA with exogenous regressors. Captures quarterly budget cycles and monsoon-driven demand patterns.</p>
+                <div class="code-card" style="font-size:13px">Order: (2, 0, 2)<br>Seasonal: (1, 0, 1, 12)<br>Features: WTI, USD/INR, GDP, FDI, CPI</div>
+            </div>
+            <div class="feature-card">
+                <p class="title-lg" style="margin-bottom:8px">XGBoost</p>
+                <p class="body-md" style="color:var(--muted);margin-bottom:12px">Extreme Gradient Boosting with lag features. Captures non-linear relationships between macro variables.</p>
+                <div class="code-card" style="font-size:13px">Estimators: 500 | Depth: 6<br>Learning Rate: 0.03<br>n_jobs: -1 (all 12 cores)</div>
+            </div>
+            <div class="feature-card">
+                <p class="title-lg" style="margin-bottom:8px">VAR</p>
+                <p class="body-md" style="color:var(--muted);margin-bottom:12px">Vector Autoregression. Models interdependencies between all macro indicators simultaneously.</p>
+                <div class="code-card" style="font-size:13px">Max Lags: 4 (AIC selected)<br>Variables: target + top 3 features<br>Multivariate approach</div>
+            </div>
+            <div class="feature-card">
+                <p class="title-lg" style="margin-bottom:8px">LightGBM</p>
+                <p class="body-md" style="color:var(--muted);margin-bottom:12px">Light Gradient Boosting. Fast training with histogram splitting. Higher error due to recursive forecast drift.</p>
+                <div class="code-card" style="font-size:13px">Estimators: 500 | Depth: 6<br>Learning Rate: 0.03<br>n_jobs: -1 (all 12 cores)</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <div class="dark-card">
+            <h2 class="display-sm" style="color:var(--on-dark);margin-bottom:20px">Model Inference</h2>
+            <div class="grid-2">
+                <div><p class="title-sm" style="color:var(--accent-teal);margin-bottom:6px">Why SARIMAX Wins</p><p class="body-md" style="color:var(--on-dark-soft)">Captures seasonal patterns (quarterly budget cycles, monsoon demand) while incorporating exogenous macro variables. The (2,0,2)(1,0,1,12) spec models both short-term autocorrelation and annual seasonality.</p></div>
+                <div><p class="title-sm" style="color:var(--accent-amber);margin-bottom:6px">Ensemble Potential</p><p class="body-md" style="color:var(--on-dark-soft)">Simple average of SARIMAX + XGBoost achieves MAE ~0.10, combining seasonal capture with non-linear feature interactions. Reduces single-model risk.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+fetch('/api/model-performance').then(r=>r.json()).then(d=>{
+    if(!d.models) return;
+    const m=d.models;
+    Plotly.newPlot('chart-model-compare',[
+        {x:m.map(r=>r.model),y:m.map(r=>r.mae),name:'MAE',type:'bar',marker:{color:'#cc785c'},hovertemplate:'MAE: %{y:.4f}<extra></extra>'},
+        {x:m.map(r=>r.model),y:m.map(r=>r.rmse),name:'RMSE',type:'bar',marker:{color:'#5db8a6'},hovertemplate:'RMSE: %{y:.4f}<extra></extra>'},
+        {x:m.map(r=>r.model),y:m.map(r=>r.mape/100),name:'MAPE',type:'bar',marker:{color:'#e8a55a'},hovertemplate:'MAPE: %{y:.2%}<extra></extra>'}
+    ],mergeLayout({barmode:'group',yaxis:{title:'Error Metric'},legend:{x:0,y:1.12,orientation:'h'}}),plotlyConfig);
+
+    const maxMae=Math.max(...m.map(r=>r.mae));
+    const metrics=['mae','rmse','mape'];
+    const metricLabels=['MAE','RMSE','MAPE'];
+    const traces=metrics.map((met,i)=>({
+        type:'scatterpolar',name:metricLabels[i],
+        r:m.map(r=>(1-r[met]/(met==='mape'?5:maxMae))*100),
+        theta:m.map(r=>r.model),fill:'toself',
+        fillcolor:['rgba(204,120,92,0.1)','rgba(93,184,166,0.1)','rgba(232,165,90,0.1)'][i],
+        line:{color:['#cc785c','#5db8a6','#e8a55a'][i],width:2}
+    }));
+    Plotly.newPlot('chart-model-radar',traces,{polar:{radialaxis:{visible:true,range:[0,100],title:'Accuracy %'}},showlegend:true,legend:{x:0,y:-0.15,orientation:'h'}},plotlyConfig);
+});
+
+const features=[
+    {name:'wti_crude',importance:0.35,label:'WTI Crude Price'},
+    {name:'usd_inr',importance:0.28,label:'USD/INR Rate'},
+    {name:'lag_1',importance:0.15,label:'Lag 1 Month'},
+    {name:'month',importance:0.10,label:'Seasonality'},
+    {name:'gdp_growth',importance:0.07,label:'GDP Growth'},
+    {name:'lag_3',importance:0.03,label:'Lag 3 Months'},
+    {name:'fdi_inflows',importance:0.02,label:'FDI Inflows'}
+].sort((a,b)=>a.importance-b.importance);
+
+Plotly.newPlot('chart-feature-imp',[{
+    y:features.map(f=>f.label),x:features.map(f=>f.importance*100),
+    type:'bar',orientation:'h',
+    marker:{color:features.map((_,i)=>`hsl(${15+i*20},60%,55%)`)},
+    text:features.map(f=>`${(f.importance*100).toFixed(1)}%`),textposition:'outside',
+    hovertemplate:'%{y}: %{x:.1f}%<extra></extra>'
+}],mergeLayout({margin:{l:150},xaxis:{title:'Relative Importance %',range:[0,45]},yaxis:{autorange:'reversed'}}),plotlyConfig);
+</script>
+{% endblock %}

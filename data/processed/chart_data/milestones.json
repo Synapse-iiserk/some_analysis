@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "date": "2026-01",
+      "event": "Crude at 7/bbl",
+      "type": "positive"
+    },
+    {
+      "date": "2026-03",
+      "event": "Strait of Hormuz tensions begin",
+      "type": "negative"
+    },
+    {
+      "date": "2026-04",
+      "event": "Crude spikes to 04/bbl",
+      "type": "negative"
+    },
+    {
+      "date": "2026-05",
+      "event": "INR hits record low 95.5",
+      "type": "negative"
+    },
+    {
+      "date": "2026-06",
+      "event": "Trade deficit hits 8.4B",
+      "type": "negative"
+    },
+    {
+      "date": "2026-07",
+      "event": "OPEC+ meeting (output decision)",
+      "type": "neutral"
+    },
+    {
+      "date": "2026-09",
+      "event": "India monsoon peak (demand shift)",
+      "type": "neutral"
+    },
+    {
+      "date": "2026-12",
+      "event": "Year-end budget cycle peak",
+      "type": "neutral"
+    },
+    {
+      "date": "2027-03",
+      "event": "Union Budget FY28",
+      "type": "positive"
+    },
+    {
+      "date": "2027-06",
+      "event": "Forecast horizon end",
+      "type": "neutral"
+    }
+  ]
+}

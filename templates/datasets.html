@@ -1,0 +1,495 @@
+{% extends "base.html" %}
+{% set active_page = "datasets" %}
+{% block title %}Data Sources — India Petrochemical Trade Analysis{% endblock %}
+{% block content %}
+
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">DATA SOURCES</div>
+        <h1 class="display-lg">All Datasets Used in This Analysis</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">
+            This analysis is built from 31 datasets downloaded from India's Open Government Data Platform (data.gov.in),
+            9 World Bank indicators, and additional web-scraped economic data. Every chart and inference is backed by these sources.
+        </p>
+    </div>
+</section>
+
+<!-- SUMMARY STATS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <div class="grid-4">
+            <div class="cream-card stat-card">
+                <div class="stat-value" style="font-size:36px">31</div>
+                <div class="stat-label">data.gov.in Datasets</div>
+            </div>
+            <div class="cream-card stat-card">
+                <div class="stat-value" style="font-size:36px">9</div>
+                <div class="stat-label">World Bank Indicators</div>
+            </div>
+            <div class="cream-card stat-card">
+                <div class="stat-value" style="font-size:36px">15</div>
+                <div class="stat-label">Processed Data Files</div>
+            </div>
+            <div class="cream-card stat-card">
+                <div class="stat-value" style="font-size:36px">7</div>
+                <div class="stat-label">Analysis Categories</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DATA.GOV.IN DATASETS -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">data.gov.in — Petrochemical & Trade Data</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Core datasets for India's petrochemical trade analysis. All fetched via the data.gov.in API.</p>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Resource ID</th>
+                        <th>Coverage</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td style="font-weight:500">Petrochemical Exports (78 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">cb525a11-6cb1...</code></td>
+                        <td>2015-16 to 2024-25</td>
+                        <td>Export share, product trade flows, category analysis</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td style="font-weight:500">Petrochemical Imports (79 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">b32764bf-dcb1...</code></td>
+                        <td>2015-16 to 2024-25</td>
+                        <td>Import share, dependency analysis, trade balance</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td style="font-weight:500">Chemical Exports (71 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">179671b5-9e73...</code></td>
+                        <td>2015-16 to 2024-25</td>
+                        <td>Broader chemical trade patterns</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td style="font-weight:500">Chemical Imports (70 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">1cdd0a0b-2355...</code></td>
+                        <td>2015-16 to 2024-25</td>
+                        <td>Broader chemical trade patterns</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td style="font-weight:500">Crude Oil Import/Export (28 items)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">44f0d912-df6f...</code></td>
+                        <td>2012-2017</td>
+                        <td>Crude trade data, input cost analysis</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td style="font-weight:500">International Crude Oil Prices</td>
+                        <td><code style="font-size:12px;color:var(--primary)">26136e8d-a085...</code></td>
+                        <td>2004-2012</td>
+                        <td>Historical crude price reference</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td style="font-weight:500">WPI Petroleum Products (45 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">38d8b72c-44d3...</code></td>
+                        <td>2005-2017</td>
+                        <td>Wholesale price index for petroleum</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td style="font-weight:500">WPI All Commodities (2011 Series)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">239ac3d0-f08d...</code></td>
+                        <td>Monthly</td>
+                        <td>Broad wholesale price trends</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td style="font-weight:500">LPG Retail Selling Price (4 metros)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">578fd3e8-b099...</code></td>
+                        <td>2019-2021</td>
+                        <td>Domestic price signals</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td style="font-weight:500">State-wise Petroleum Consumption</td>
+                        <td><code style="font-size:12px;color:var(--primary)">0a1af4a7-c6c8...</code></td>
+                        <td>2012-2020</td>
+                        <td>State-level demand proxy</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td style="font-weight:500">Crude Oil & Gas Production</td>
+                        <td><code style="font-size:12px;color:var(--primary)">db1b2527-6549...</code></td>
+                        <td>1980-2015</td>
+                        <td>Domestic crude supply analysis</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td style="font-weight:500">Natural Gas Production</td>
+                        <td><code style="font-size:12px;color:var(--primary)">76ae5010-629d...</code></td>
+                        <td>2013-2020</td>
+                        <td>Feedstock availability</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- DATA.GOV.IN MACRO -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">data.gov.in — Macroeconomic Data</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">GDP, IIP, FDI, CPI, and other macroeconomic indicators used as model features and context.</p>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Resource ID</th>
+                        <th>Coverage</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13</td>
+                        <td style="font-weight:500">Quarterly GDP (Current Prices)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">f338e1f1-b527...</code></td>
+                        <td>2011-2023</td>
+                        <td>Macro feature for predictive models</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td style="font-weight:500">Quarterly GDP (Constant 2011-12 Prices)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">a56b86d1-f00e...</code></td>
+                        <td>2011-2023</td>
+                        <td>Real GDP growth rate for models</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td style="font-weight:500">GDP by Economic Activity</td>
+                        <td><code style="font-size:12px;color:var(--primary)">4a587f38-f69d...</code></td>
+                        <td>1950-2014</td>
+                        <td>Historical GDP structure</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td style="font-weight:500">Eight Core Industries Index</td>
+                        <td><code style="font-size:12px;color:var(--primary)">cc473f03-4db1...</code></td>
+                        <td>2011-2023</td>
+                        <td>Industrial activity proxy, seasonal decomposition</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td style="font-weight:500">Index of Industrial Production (IIP)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">31d53713-46c6...</code></td>
+                        <td>2012-2023</td>
+                        <td>Manufacturing output, macro feature</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td style="font-weight:500">FDI Equity Inflows by Sector</td>
+                        <td><code style="font-size:12px;color:var(--primary)">b0842d7b-2f7d...</code></td>
+                        <td>2000-2016</td>
+                        <td>Investment trends, macro feature</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td style="font-weight:500">FDI Equity Inflows (Updated)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">8f9755dd-14ea...</code></td>
+                        <td>2000-2017</td>
+                        <td>Investment trends</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td style="font-weight:500">State Level CPI (Rural/Urban)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">d792b73e-961d...</code></td>
+                        <td>Monthly</td>
+                        <td>Inflation context, macro feature</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td style="font-weight:500">Merchandise Trade (USA/Russia/UK/China)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">316ea4dc-aef6...</code></td>
+                        <td>Multi-year</td>
+                        <td>Geopolitical trade analysis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- DATA.GOV.IN SECTOR -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">data.gov.in — Sector-Specific Data</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Fertilizer, steel, textiles, and other sector data for cross-industry analysis.</p>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dataset</th>
+                        <th>Resource ID</th>
+                        <th>Coverage</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>22</td>
+                        <td style="font-weight:500">Port-wise Fertilizer Import</td>
+                        <td><code style="font-size:12px;color:var(--primary)">18553bcf-7703...</code></td>
+                        <td>2017-2022</td>
+                        <td>Chemical industry input analysis</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td style="font-size:500">Country-wise Fertilizer Import</td>
+                        <td><code style="font-size:12px;color:var(--primary)">cd5141b6-b77a...</code></td>
+                        <td>2020-2023</td>
+                        <td>Source country diversification</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td style="font-weight:500">Fertilizer Demand Supply</td>
+                        <td><code style="font-size:12px;color:var(--primary)">c7c7d147-5635...</code></td>
+                        <td>2019-2024</td>
+                        <td>Domestic demand analysis</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td style="font-weight:500">Steel Prices Delhi Market (50 items)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">93ab92b0-f010...</code></td>
+                        <td>2012+</td>
+                        <td>Industrial input cost comparison</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td style="font-weight:500">Textile Product Prices (66 products)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">0be00b95-8871...</code></td>
+                        <td>Up to May 2014</td>
+                        <td>Cross-sector price comparison</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td style="font-weight:500">Oil & Gas CPSU Summary</td>
+                        <td><code style="font-size:12px;color:var(--primary)">4ec8fa64-ec26...</code></td>
+                        <td>2017-2020</td>
+                        <td>Government investment analysis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- WORLD BANK -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">World Bank Indicators</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">International macroeconomic data for context and model features.</p>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Indicator</th>
+                        <th>Code</th>
+                        <th>Coverage</th>
+                        <th>Use In Analysis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td style="font-weight:500">GDP Growth Rate</td>
+                        <td><code style="font-size:12px;color:var(--primary)">NY.GDP.MKTP.KD.ZG</code></td>
+                        <td>2000-2024</td>
+                        <td>Macro feature, model input</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td style="font-weight:500">Current Account Balance</td>
+                        <td><code style="font-size:12px;color:var(--primary)">BN.CAB.XOKA.CD</code></td>
+                        <td>2000-2024</td>
+                        <td>External balance context</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td style="font-weight:500">FDI Net Inflows</td>
+                        <td><code style="font-size:12px;color:var(--primary)">BX.KLT.DINV.CD.WD</code></td>
+                        <td>2000-2024</td>
+                        <td>Investment trends, macro feature</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td style="font-weight:500">Trade (% of GDP)</td>
+                        <td><code style="font-size:12px;color:var(--primary)">NE.TRD.GNFS.ZS</code></td>
+                        <td>2000-2024</td>
+                        <td>Trade openness context</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td style="font-weight:500">Consumer Price Inflation</td>
+                        <td><code style="font-size:12px;color:var(--primary)">FP.CPI.TOTL.ZG</code></td>
+                        <td>2000-2024</td>
+                        <td>Inflation context, macro feature</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td style="font-weight:500">Unemployment Rate</td>
+                        <td><code style="font-size:12px;color:var(--primary)">SL.UEM.TOTL.ZS</code></td>
+                        <td>2000-2024</td>
+                        <td>Labor market context</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td style="font-weight:500">Population Total</td>
+                        <td><code style="font-size:12px;color:var(--primary)">SP.POP.TOTL</code></td>
+                        <td>2000-2024</td>
+                        <td>Demographic context</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td style="font-weight:500">Life Expectancy</td>
+                        <td><code style="font-size:12px;color:var(--primary)">SP.DYN.LE00.IN</code></td>
+                        <td>2000-2024</td>
+                        <td>Human development context</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td style="font-weight:500">Literacy Rate</td>
+                        <td><code style="font-size:12px;color:var(--primary)">SE.ADT.LITR.ZS</code></td>
+                        <td>2000-2024</td>
+                        <td>Skill availability context</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESSED DATA -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">Processed Data Files</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Cleaned, merged, and feature-engineered data generated during analysis.</p>
+        <div class="grid-3">
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Raw Downloads</p>
+                <p class="body-sm" style="color:var(--muted)">31 JSON files from data.gov.in + 9 World Bank indicator files. Total: ~15 MB</p>
+                <p class="caption" style="margin-top:8px">Location: data/raw/</p>
+            </div>
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Processed CSVs</p>
+                <p class="body-sm" style="color:var(--muted)">14 cleaned CSV files: trade balance, exports, imports, macro features (WTI, USD/INR, GDP, FDI, CPI)</p>
+                <p class="caption" style="margin-top:8px">Location: data/processed/</p>
+            </div>
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Chart Data (JSON)</p>
+                <p class="body-sm" style="color:var(--muted)">8 JSON files: product flows, investment gaps, geographic trade, sector breakdown, price sensitivity, trajectories, milestones, cumulative impact</p>
+                <p class="caption" style="margin-top:8px">Location: data/processed/chart_data/</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MODEL OUTPUTS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:8px">Model Outputs & Results</h2>
+        <p class="body-md" style="color:var(--muted);margin-bottom:24px">Trained models, forecasts, and scenario analysis outputs.</p>
+        <div class="grid-3">
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Trained Models</p>
+                <p class="body-sm" style="color:var(--muted)">4 serialized model files (pickle): SARIMAX, XGBoost, LightGBM, VAR</p>
+                <p class="caption" style="margin-top:8px">Location: models/</p>
+            </div>
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Forecast Results</p>
+                <p class="body-sm" style="color:var(--muted)">Model metrics CSV, forecast CSV, scenario forecasts CSV (3 scenarios × 12 months)</p>
+                <p class="caption" style="margin-top:8px">Location: results/</p>
+            </div>
+            <div class="feature-card">
+                <p class="title-md" style="margin-bottom:8px">Visualizations</p>
+                <p class="body-sm" style="color:var(--muted)">10 static PDF figures + 10 PNG conversions for browser display</p>
+                <p class="caption" style="margin-top:8px">Location: figures/</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Methodology & Data Pipeline</h2>
+        <div class="dark-card">
+            <div class="grid-2">
+                <div>
+                    <p class="title-md" style="color:var(--on-dark);margin-bottom:12px">Data Collection</p>
+                    <p class="body-sm" style="color:var(--on-dark-soft);line-height:1.7">31 datasets fetched via data.gov.in API using curl (Python requests times out on this API). 9 World Bank indicators via REST API. All data saved as JSON, processed to CSV.</p>
+                    <p class="title-md" style="color:var(--on-dark);margin-top:16px;margin-bottom:12px">Feature Engineering</p>
+                    <p class="body-sm" style="color:var(--on-dark-soft);line-height:1.7">Macro features aligned to monthly frequency. Lag features (1-12 months). Rolling statistics. Seasonal decomposition. Trade balance computed from export/import totals.</p>
+                </div>
+                <div>
+                    <p class="title-md" style="color:var(--on-dark);margin-bottom:12px">Model Training</p>
+                    <p class="body-sm" style="color:var(--on-dark-soft);line-height:1.7">Train/test split: 265 months training, 24 months test. 5 models: SARIMAX (auto-ARIMA), XGBoost (500 trees), LightGBM (500 trees), VAR (4 lags), ensemble average. All trained on 12 CPU cores.</p>
+                    <p class="title-md" style="color:var(--on-dark);margin-top:16px;margin-bottom:12px">Scenario Analysis</p>
+                    <p class="body-sm" style="color:var(--on-dark-soft);line-height:1.7">3 scenarios: Base (crude $84-88, INR 96-100), Bull (crude $65-70, INR 85-86), Bear (crude $95-110, INR 97-105). 12-month projections with monthly granularity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- API ENDPOINTS -->
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Available API Endpoints</h2>
+        <div class="cream-card" style="overflow-x:auto">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Endpoint</th>
+                        <th>Description</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>/api/trade-balance</code></td><td>Petrochemical trade balance by fiscal year</td><td>CSV data</td></tr>
+                    <tr><td><code>/api/temporal-trends</code></td><td>Exports, imports, balance, CAGR</td><td>Time series</td></tr>
+                    <tr><td><code>/api/product-flows</code></td><td>Category-level trade flows</td><td>JSON</td></tr>
+                    <tr><td><code>/api/investment-gaps</code></td><td>7 sectors: current vs required investment</td><td>JSON</td></tr>
+                    <tr><td><code>/api/geographic-trade</code></td><td>Top 10 trade partners, import/export, balance</td><td>JSON</td></tr>
+                    <tr><td><code>/api/sensitivity</code></td><td>Crude/INR sensitivity curves + combined matrix</td><td>JSON</td></tr>
+                    <tr><td><code>/api/sectors</code></td><td>7 sectors: growth, dependency, trend analysis</td><td>JSON</td></tr>
+                    <tr><td><code>/api/insights</code></td><td>Verdicts, gap analysis, chart explanations, executive summary</td><td>JSON</td></tr>
+                    <tr><td><code>/api/model-performance</code></td><td>4 models: MAE, RMSE, MAPE, training config</td><td>JSON</td></tr>
+                    <tr><td><code>/api/scenarios</code></td><td>3 scenarios × 12 months: crude, INR, import/export index</td><td>CSV</td></tr>
+                    <tr><td><code>/api/trajectory-crude</code></td><td>Crude price trajectory: historical + 3 forecasts</td><td>JSON</td></tr>
+                    <tr><td><code>/api/trajectory-inr</code></td><td>USD/INR trajectory: historical + 3 forecasts</td><td>JSON</td></tr>
+                    <tr><td><code>/api/trajectory-trade</code></td><td>Import/export index trajectories</td><td>JSON</td></tr>
+                    <tr><td><code>/api/trajectory-deficit</code></td><td>Trade deficit trajectory: fiscal years + forecasts</td><td>JSON</td></tr>
+                    <tr><td><code>/api/model-forecast</code></td><td>12-month ensemble forecast with confidence interval</td><td>JSON</td></tr>
+                    <tr><td><code>/api/milestones</code></td><td>Key upcoming events timeline</td><td>JSON</td></tr>
+                    <tr><td><code>/api/cumulative-impact</code></td><td>12-month cost/GDP/forex/jobs impact per scenario</td><td>JSON</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

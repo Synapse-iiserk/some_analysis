@@ -1,0 +1,103 @@
+{
+  "categories": [
+    {
+      "name": "Synthetic Fibres",
+      "export_share": 18.5,
+      "import_share": 12.3,
+      "domestic_demand_growth": 8.2,
+      "import_dependency": 35,
+      "key_products": [
+        "Acrylic Fibre",
+        "Nylon Yarn",
+        "Polyester Staple"
+      ],
+      "trend": "growing"
+    },
+    {
+      "name": "Polymers & Plastics",
+      "export_share": 22.1,
+      "import_share": 28.7,
+      "domestic_demand_growth": 12.5,
+      "import_dependency": 55,
+      "key_products": [
+        "PE",
+        "PP",
+        "PVC",
+        "PET"
+      ],
+      "trend": "high_import"
+    },
+    {
+      "name": "Organic Chemicals",
+      "export_share": 25.3,
+      "import_share": 18.9,
+      "domestic_demand_growth": 10.1,
+      "import_dependency": 40,
+      "key_products": [
+        "Benzene",
+        "Toluene",
+        "Xylene",
+        "Methanol"
+      ],
+      "trend": "balanced"
+    },
+    {
+      "name": "Inorganic Chemicals",
+      "export_share": 15.2,
+      "import_share": 14.5,
+      "domestic_demand_growth": 6.8,
+      "import_dependency": 30,
+      "key_products": [
+        "Soda Ash",
+        "Caustic Soda",
+        "Chlorine"
+      ],
+      "trend": "stable"
+    },
+    {
+      "name": "Fertilizers",
+      "export_share": 8.5,
+      "import_share": 20.1,
+      "domestic_demand_growth": 4.2,
+      "import_dependency": 65,
+      "key_products": [
+        "Urea",
+        "DAP",
+        "MOP",
+        "NPK"
+      ],
+      "trend": "high_import"
+    },
+    {
+      "name": "Petrochemical Catalysts",
+      "export_share": 3.2,
+      "import_share": 4.1,
+      "domestic_demand_growth": 15.8,
+      "import_dependency": 70,
+      "key_products": [
+        "Zeolites",
+        "Metal Catalysts"
+      ],
+      "trend": "high_growth"
+    },
+    {
+      "name": "Green Chemicals",
+      "export_share": 1.2,
+      "import_share": 1.4,
+      "domestic_demand_growth": 35.2,
+      "import_dependency": 45,
+      "key_products": [
+        "Bio-based Polymers",
+        "Green Solvents"
+      ],
+      "trend": "emerging"
+    }
+  ],
+  "summary": {
+    "total_export_share": 94,
+    "total_import_share": 100,
+    "avg_import_dependency": 42.9,
+    "fastest_growing": "Green Chemicals (35.2%)",
+    "highest_gap": "Polymers & Plastics"
+  }
+}

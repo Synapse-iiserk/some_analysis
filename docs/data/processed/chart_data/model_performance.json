@@ -1,0 +1,56 @@
+{
+  "models": [
+    {
+      "model": "SARIMAX",
+      "mae": 0.0575971341367598,
+      "rmse": 0.1995156603456671,
+      "mape": 0.120694618528261
+    },
+    {
+      "model": "XGBoost",
+      "mae": 0.1419959323180908,
+      "rmse": 0.2384812131859725,
+      "mape": 0.2999515803491054
+    },
+    {
+      "model": "LightGBM",
+      "mae": 1.089724245478374,
+      "rmse": 1.1096981138713966,
+      "mape": 2.312548578189953
+    },
+    {
+      "model": "VAR",
+      "mae": 0.3419739216525699,
+      "rmse": 0.4248172221967727,
+      "mape": 0.7242717842000446
+    }
+  ],
+  "comparison": {
+    "best_mae": {
+      "model": "SARIMAX",
+      "mae": 0.0575971341367598,
+      "rmse": 0.1995156603456671,
+      "mape": 0.120694618528261
+    },
+    "best_rmse": {
+      "model": "SARIMAX",
+      "mae": 0.0575971341367598,
+      "rmse": 0.1995156603456671,
+      "mape": 0.120694618528261
+    },
+    "ensemble_note": "Simple average of SARIMAX + XGBoost achieves MAE ~0.10"
+  },
+  "training_config": {
+    "train_size": 265,
+    "test_size": 24,
+    "cpu_cores": 12,
+    "features": [
+      "wti_crude",
+      "usd_inr",
+      "gdp_growth",
+      "fdi_inflows",
+      "cpi_inflation"
+    ],
+    "forecast_horizon": 12
+  }
+}

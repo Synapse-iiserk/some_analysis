@@ -1,0 +1,168 @@
+{
+  "trade_balance": [
+    {
+      "category": "Total Import of Major Petro-chemicals",
+      "exports": 0,
+      "imports": 128297308.0,
+      "balance": -128297308.0,
+      "deficit_pct": -100.0
+    },
+    {
+      "category": "Other Petro-based Chemicals",
+      "exports": 1848957.0,
+      "imports": 32148892.0,
+      "balance": -30299935.0,
+      "deficit_pct": -94.2
+    },
+    {
+      "category": "Total - Other Petro-based Chemicals",
+      "exports": 1848957.0,
+      "imports": 32148892.0,
+      "balance": -30299935.0,
+      "deficit_pct": -94.2
+    },
+    {
+      "category": "Polymers",
+      "exports": 11092780.0,
+      "imports": 41203645.0,
+      "balance": -30110865.0,
+      "deficit_pct": -73.1
+    },
+    {
+      "category": "Total - Polymers",
+      "exports": 11092780.0,
+      "imports": 41203645.0,
+      "balance": -30110865.0,
+      "deficit_pct": -73.1
+    },
+    {
+      "category": "Fibre Intermediates",
+      "exports": 2344961.0,
+      "imports": 22880269.0,
+      "balance": -20535308.0,
+      "deficit_pct": -89.8
+    },
+    {
+      "category": "Total - Fibre Intermediates",
+      "exports": 2344961.0,
+      "imports": 22880269.0,
+      "balance": -20535308.0,
+      "deficit_pct": -89.8
+    },
+    {
+      "category": "Synthetic Rubber (Elastomers)",
+      "exports": 729422.0,
+      "imports": 6566444.0,
+      "balance": -5837022.0,
+      "deficit_pct": -88.9
+    },
+    {
+      "category": "Total - Synthetic Rubber (Elastomers)",
+      "exports": 729422.0,
+      "imports": 6566444.0,
+      "balance": -5837022.0,
+      "deficit_pct": -88.9
+    },
+    {
+      "category": "Synthetic Detergent Intermediates",
+      "exports": 38931.0,
+      "imports": 2568594.0,
+      "balance": -2529663.0,
+      "deficit_pct": -98.5
+    },
+    {
+      "category": "Total - Synthetic Detergent Intermediates",
+      "exports": 38931.0,
+      "imports": 2568594.0,
+      "balance": -2529663.0,
+      "deficit_pct": -98.5
+    },
+    {
+      "category": "Performance Plastics",
+      "exports": 5868268.0,
+      "imports": 4531648.0,
+      "balance": 1336620.0,
+      "deficit_pct": 29.5
+    },
+    {
+      "category": "Total - Performance Plastics",
+      "exports": 5868268.0,
+      "imports": 4531648.0,
+      "balance": 1336620.0,
+      "deficit_pct": 29.5
+    },
+    {
+      "category": "Olefins",
+      "exports": 2311988.0,
+      "imports": 666518.0,
+      "balance": 1645470.0,
+      "deficit_pct": 246.9
+    },
+    {
+      "category": "Total - Olefins",
+      "exports": 2311988.0,
+      "imports": 666518.0,
+      "balance": 1645470.0,
+      "deficit_pct": 246.9
+    },
+    {
+      "category": "Synthetic Fibres",
+      "exports": 9309920.0,
+      "imports": 3968128.0,
+      "balance": 5341792.0,
+      "deficit_pct": 134.6
+    },
+    {
+      "category": "Total - Synthetic Fibres",
+      "exports": 9309920.0,
+      "imports": 3968128.0,
+      "balance": 5341792.0,
+      "deficit_pct": 134.6
+    },
+    {
+      "category": "Aromatics",
+      "exports": 31135248.0,
+      "imports": 13763170.0,
+      "balance": 17372078.0,
+      "deficit_pct": 126.2
+    },
+    {
+      "category": "Total - Aromatics",
+      "exports": 31135248.0,
+      "imports": 13763170.0,
+      "balance": 17372078.0,
+      "deficit_pct": 126.2
+    },
+    {
+      "category": "Total Export of Major Petro-chemicals",
+      "exports": 64680475.0,
+      "imports": 0,
+      "balance": 64680475.0,
+      "deficit_pct": 0
+    }
+  ],
+  "total_export_records": 780,
+  "total_import_records": 790,
+  "categories": [
+    "Aromatics",
+    "Fibre Intermediates",
+    "Olefins",
+    "Other Petro-based Chemicals",
+    "Performance Plastics",
+    "Polymers",
+    "Synthetic Detergent Intermediates",
+    "Synthetic Fibres",
+    "Synthetic Rubber (Elastomers)",
+    "Total - Aromatics",
+    "Total - Fibre Intermediates",
+    "Total - Olefins",
+    "Total - Other Petro-based Chemicals",
+    "Total - Performance Plastics",
+    "Total - Polymers",
+    "Total - Synthetic Detergent Intermediates",
+    "Total - Synthetic Fibres",
+    "Total - Synthetic Rubber (Elastomers)",
+    "Total Export of Major Petro-chemicals",
+    "Total Import of Major Petro-chemicals"
+  ]
+}

@@ -1,0 +1,791 @@
+category,product,fiscal_year,quantity,value,metric_type
+Aromatics,Benzene,201516,0,5,petrochemical_import
+Aromatics,Benzene,201617,0,8,petrochemical_import
+Aromatics,Benzene,201718,60,66,petrochemical_import
+Aromatics,Benzene,201819,22264,12820,petrochemical_import
+Aromatics,Benzene,201920,11153,5330,petrochemical_import
+Aromatics,Benzene,202021,19212,8254,petrochemical_import
+Aromatics,Benzene,202122,4195,2724,petrochemical_import
+Aromatics,Benzene,202223,11073,7764,petrochemical_import
+Aromatics,Benzene,202324,4861,2679,petrochemical_import
+Aromatics,Benzene,202425,0,28,petrochemical_import
+Aromatics,Mixed Xylene,201516,108,96,petrochemical_import
+Aromatics,Mixed Xylene,201617,113,125,petrochemical_import
+Aromatics,Mixed Xylene,201718,2424,1200,petrochemical_import
+Aromatics,Mixed Xylene,201819,641,433,petrochemical_import
+Aromatics,Mixed Xylene,201920,122,139,petrochemical_import
+Aromatics,Mixed Xylene,202021,524,293,petrochemical_import
+Aromatics,Mixed Xylene,202122,40,60,petrochemical_import
+Aromatics,Mixed Xylene,202223,2077,1865,petrochemical_import
+Aromatics,Mixed Xylene,202324,22,53,petrochemical_import
+Aromatics,Mixed Xylene,202425,57,92,petrochemical_import
+Aromatics,Ortho-xylene,201516,34502,16871,petrochemical_import
+Aromatics,Ortho-xylene,201617,26275,14609,petrochemical_import
+Aromatics,Ortho-xylene,201718,15730,8337,petrochemical_import
+Aromatics,Ortho-xylene,201819,22974,15464,petrochemical_import
+Aromatics,Ortho-xylene,201920,16382,9962,petrochemical_import
+Aromatics,Ortho-xylene,202021,25136,11309,petrochemical_import
+Aromatics,Ortho-xylene,202122,16390,11452,petrochemical_import
+Aromatics,Ortho-xylene,202223,50955,49532,petrochemical_import
+Aromatics,Ortho-xylene,202324,64537,59079,petrochemical_import
+Aromatics,Ortho-xylene,202425,243730,222732,petrochemical_import
+Aromatics,Paraxylene,201516,826053,452311,petrochemical_import
+Aromatics,Paraxylene,201617,1195515,667002,petrochemical_import
+Aromatics,Paraxylene,201718,888660,504091,petrochemical_import
+Aromatics,Paraxylene,201819,836490,646003,petrochemical_import
+Aromatics,Paraxylene,201920,835381,519284,petrochemical_import
+Aromatics,Paraxylene,202021,653779,283883,petrochemical_import
+Aromatics,Paraxylene,202122,603417,412965,petrochemical_import
+Aromatics,Paraxylene,202223,597100,549727,petrochemical_import
+Aromatics,Paraxylene,202324,844939,762454,petrochemical_import
+Aromatics,Paraxylene,202425,964809,796541,petrochemical_import
+Aromatics,Toluene,201516,343662,163765,petrochemical_import
+Aromatics,Toluene,201617,392749,183101,petrochemical_import
+Aromatics,Toluene,201718,414144,194854,petrochemical_import
+Aromatics,Toluene,201819,438055,235492,petrochemical_import
+Aromatics,Toluene,201920,464497,238119,petrochemical_import
+Aromatics,Toluene,202021,601835,238357,petrochemical_import
+Aromatics,Toluene,202122,500323,315330,petrochemical_import
+Aromatics,Toluene,202223,584524,514839,petrochemical_import
+Aromatics,Toluene,202324,594852,503148,petrochemical_import
+Aromatics,Toluene,202425,586829,466936,petrochemical_import
+Fibre Intermediates,Acrylonitrile,201516,160202,121692,petrochemical_import
+Fibre Intermediates,Acrylonitrile,201617,139709,108192,petrochemical_import
+Fibre Intermediates,Acrylonitrile,201718,159778,172707,petrochemical_import
+Fibre Intermediates,Acrylonitrile,201819,182234,244043,petrochemical_import
+Fibre Intermediates,Acrylonitrile,201920,175867,200713,petrochemical_import
+Fibre Intermediates,Acrylonitrile,202021,135230,121075,petrochemical_import
+Fibre Intermediates,Acrylonitrile,202122,175763,298158,petrochemical_import
+Fibre Intermediates,Acrylonitrile,202223,233759,302358,petrochemical_import
+Fibre Intermediates,Acrylonitrile,202324,180891,183030,petrochemical_import
+Fibre Intermediates,Acrylonitrile,202425,210456,228330,petrochemical_import
+Fibre Intermediates,Caprolactum,201516,44577,45299,petrochemical_import
+Fibre Intermediates,Caprolactum,201617,52906,50601,petrochemical_import
+Fibre Intermediates,Caprolactum,201718,58413,75965,petrochemical_import
+Fibre Intermediates,Caprolactum,201819,66497,99336,petrochemical_import
+Fibre Intermediates,Caprolactum,201920,68049,75256,petrochemical_import
+Fibre Intermediates,Caprolactum,202021,57649,55553,petrochemical_import
+Fibre Intermediates,Caprolactum,202122,60061,94382,petrochemical_import
+Fibre Intermediates,Caprolactum,202223,22757,36652,petrochemical_import
+Fibre Intermediates,Caprolactum,202324,20987,29435,petrochemical_import
+Fibre Intermediates,Caprolactum,202425,61700,86705,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,201516,2216,1400,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,201617,1761,1051,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,201718,2256,1520,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,201819,1455,1137,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,201920,1807,1199,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,202021,1766,982,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,202122,1973,1567,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,202223,1934,2217,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,202324,1510,1953,petrochemical_import
+Fibre Intermediates,Dimethyl Terephthalate,202425,2191,2930,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,201516,1111582,539689,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,201617,1235385,604838,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,201718,1066477,584695,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,201819,634714,371592,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,201920,787574,312149,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,202021,621221,226286,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,202122,917787,471777,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,202223,1500812,666600,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,202324,1102661,462698,petrochemical_import
+Fibre Intermediates,Mono Ehylene Glycol,202425,1119022,523908,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,201516,696842,318046,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,201617,412468,178454,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,201718,521501,237444,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,201819,569756,340774,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,201920,886358,470167,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,202021,625460,245629,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,202122,1471142,847400,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,202223,1596467,1168377,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,202324,1623242,1094477,petrochemical_import
+Fibre Intermediates,Purified Terephthalic Acid,202425,2093444,1350100,petrochemical_import
+Olefins,Butadiene,201516,994,706,petrochemical_import
+Olefins,Butadiene,201617,2105,1657,petrochemical_import
+Olefins,Butadiene,201718,2859,3104,petrochemical_import
+Olefins,Butadiene,201819,1048,1363,petrochemical_import
+Olefins,Butadiene,201920,14,82,petrochemical_import
+Olefins,Butadiene,202021,29,108,petrochemical_import
+Olefins,Butadiene,202122,24,138,petrochemical_import
+Olefins,Butadiene,202223,8803,9232,petrochemical_import
+Olefins,Butadiene,202324,17,40,petrochemical_import
+Olefins,Butadiene,202425,22,66,petrochemical_import
+Olefins,Ethylene,201516,21050,14753,petrochemical_import
+Olefins,Ethylene,201617,80917,57116,petrochemical_import
+Olefins,Ethylene,201718,39119,32795,petrochemical_import
+Olefins,Ethylene,201819,60583,50604,petrochemical_import
+Olefins,Ethylene,201920,64816,43283,petrochemical_import
+Olefins,Ethylene,202021,39902,28526,petrochemical_import
+Olefins,Ethylene,202122,62387,49807,petrochemical_import
+Olefins,Ethylene,202223,76690,85887,petrochemical_import
+Olefins,Ethylene,202324,61766,52224,petrochemical_import
+Olefins,Ethylene,202425,63051,57045,petrochemical_import
+Olefins,Propylene,201516,3354,4718,petrochemical_import
+Olefins,Propylene,201617,431,1878,petrochemical_import
+Olefins,Propylene,201718,8813,7384,petrochemical_import
+Olefins,Propylene,201819,8069,5879,petrochemical_import
+Olefins,Propylene,201920,11027,7646,petrochemical_import
+Olefins,Propylene,202021,3944,5324,petrochemical_import
+Olefins,Propylene,202122,29469,26248,petrochemical_import
+Olefins,Propylene,202223,8738,7720,petrochemical_import
+Olefins,Propylene,202324,6376,5082,petrochemical_import
+Olefins,Propylene,202425,101,250,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,201516,109095,66012,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,201617,66867,37312,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,201718,58129,39652,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,201819,54107,44522,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,201920,81656,56216,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,202021,56250,38505,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,202122,13840,19050,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,202223,54665,63018,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,202324,32236,33549,petrochemical_import
+Other Petro-based Chemicals,2-ethyl Hexanol,202425,85672,93988,petrochemical_import
+Other Petro-based Chemicals,Butanol,201516,62512,31380,petrochemical_import
+Other Petro-based Chemicals,Butanol,201617,57959,26234,petrochemical_import
+Other Petro-based Chemicals,Butanol,201718,53679,30719,petrochemical_import
+Other Petro-based Chemicals,Butanol,201819,48955,35342,petrochemical_import
+Other Petro-based Chemicals,Butanol,201920,58865,33488,petrochemical_import
+Other Petro-based Chemicals,Butanol,202021,43270,27054,petrochemical_import
+Other Petro-based Chemicals,Butanol,202122,29060,35970,petrochemical_import
+Other Petro-based Chemicals,Butanol,202223,39170,35136,petrochemical_import
+Other Petro-based Chemicals,Butanol,202324,60184,46646,petrochemical_import
+Other Petro-based Chemicals,Butanol,202425,69574,57319,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201516,2,12,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201617,3,18,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201718,3,10,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201819,0,0,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,201920,12,18,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202021,19,14,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202122,57,106,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202223,4,254,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202324,10,20,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Butyrate,202425,0,3,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201516,1295,775,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201617,1066,564,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201718,1346,921,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201819,1516,1122,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,201920,1356,1013,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202021,1311,1059,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202122,1645,1632,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202223,1572,1649,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202324,1204,1661,petrochemical_import
+Other Petro-based Chemicals,Cellulose Acetate Sheet,202425,1856,1934,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201516,88,260,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201617,75,250,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201718,99,327,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201819,106,396,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,201920,75,270,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202021,1243,538,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202122,521,366,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202223,134,276,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202324,103,453,petrochemical_import
+Other Petro-based Chemicals,Cellulose Nitrate Sheet,202425,103,274,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,201516,43383,37643,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,201617,48112,34563,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,201718,56024,51446,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,201819,65013,83311,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,201920,61163,72337,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,202021,55202,58174,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,202122,66405,118899,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,202223,71546,121208,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,202324,65402,65780,petrochemical_import
+Other Petro-based Chemicals,Epichlohydrine,202425,58309,59406,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,201516,150,146,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,201617,308,267,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,201718,351,320,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,201819,719,806,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,201920,463,471,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,202021,500,490,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,202122,947,1247,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,202223,666,1050,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,202324,867,1184,petrochemical_import
+Other Petro-based Chemicals,Ethyl Benzene,202425,1052,1510,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,201516,600033,104976,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,201617,503987,86304,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,201718,713334,108450,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,201819,581677,141440,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,201920,780433,182591,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,202021,632881,150504,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,202122,625955,379706,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,202223,663234,262323,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,202324,577528,164090,petrochemical_import
+Other Petro-based Chemicals,Ethylene Dichloride,202425,609141,167875,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,201516,15853,10526,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,201617,20051,14133,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,201718,48702,36009,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,201819,44558,40254,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,201920,10787,7475,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,202021,1806,1231,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,202122,54,143,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,202223,13,81,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,202324,58,112,petrochemical_import
+Other Petro-based Chemicals,ISO Butylene,202425,66,166,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,201516,87606,47646,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,201617,97262,55519,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,201718,110464,71816,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,201819,141113,98531,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,201920,154095,83539,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,202021,186792,164736,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,202122,135446,112481,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,202223,145915,122885,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,202324,108756,94551,petrochemical_import
+Other Petro-based Chemicals,Isopropanol,202425,164105,151599,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,201516,11872,13961,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,201617,12997,15304,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,201718,14699,16993,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,201819,15280,20127,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,201920,14945,18772,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,202021,11992,15425,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,202122,13559,23132,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,202223,15827,28395,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,202324,18512,28405,petrochemical_import
+Other Petro-based Chemicals,Melamine Moulding Powder,202425,18554,27446,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,201516,3064,2755,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,201617,2667,2600,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,201718,2078,2064,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,201819,2943,3306,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,201920,1910,1991,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,202021,2711,2492,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,202122,4726,4208,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,202223,3033,4713,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,202324,4575,6107,petrochemical_import
+Other Petro-based Chemicals,Metaxylene,202425,1826,2354,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201516,27576,22104,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201617,22487,17388,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201718,34684,31270,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201819,33932,29589,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,201920,29977,18245,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202021,30744,31945,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202122,37198,62842,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202223,31195,36790,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202324,45652,61990,petrochemical_import
+Other Petro-based Chemicals,Methyl Isobutyl Ketone,202425,46969,61472,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,201516,1270,4347,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,201617,3186,6713,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,201718,2272,6324,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,201819,2696,7376,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,201920,2873,6210,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,202021,2798,4355,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,202122,3088,5707,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,202223,2283,7831,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,202324,4435,9652,petrochemical_import
+Other Petro-based Chemicals,OXO Alcohol,202425,5658,11736,petrochemical_import
+Other Petro-based Chemicals,PIB,201516,14367,17322,petrochemical_import
+Other Petro-based Chemicals,PIB,201617,16034,16949,petrochemical_import
+Other Petro-based Chemicals,PIB,201718,15041,16964,petrochemical_import
+Other Petro-based Chemicals,PIB,201819,16287,20089,petrochemical_import
+Other Petro-based Chemicals,PIB,201920,16125,19857,petrochemical_import
+Other Petro-based Chemicals,PIB,202021,16396,18107,petrochemical_import
+Other Petro-based Chemicals,PIB,202122,18485,24889,petrochemical_import
+Other Petro-based Chemicals,PIB,202223,19902,33102,petrochemical_import
+Other Petro-based Chemicals,PIB,202324,18736,29218,petrochemical_import
+Other Petro-based Chemicals,PIB,202425,22681,39241,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,201516,79803,44118,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,201617,92058,53567,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,201718,130440,86282,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,201819,144801,107477,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,201920,174482,110039,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,202021,140781,80887,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,202122,121211,91699,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,202223,94250,88182,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,202324,79821,72552,petrochemical_import
+Other Petro-based Chemicals,Phthalic Anhydride,202425,60405,55427,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,201516,35212,34173,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,201617,37883,37829,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,201718,43672,43617,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,201819,48759,59046,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,201920,47673,53004,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,202021,49011,56158,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,202122,48878,72046,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,202223,61732,121350,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,202324,63872,107068,petrochemical_import
+Other Petro-based Chemicals,Polyacetal Resin,202425,65700,110403,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,201516,138535,207756,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,201617,138365,204195,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,201718,158944,256209,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,201819,190435,369272,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,201920,175692,263317,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,202021,179111,267899,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,202122,211794,475954,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,202223,224233,503033,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,202324,280334,506948,petrochemical_import
+Other Petro-based Chemicals,Polycarbonate,202425,324811,554508,petrochemical_import
+Other Petro-based Chemicals,Polyol,201516,186239,243011,petrochemical_import
+Other Petro-based Chemicals,Polyol,201617,175766,225387,petrochemical_import
+Other Petro-based Chemicals,Polyol,201718,218541,281622,petrochemical_import
+Other Petro-based Chemicals,Polyol,201819,248491,350672,petrochemical_import
+Other Petro-based Chemicals,Polyol,201920,239755,330380,petrochemical_import
+Other Petro-based Chemicals,Polyol,202021,169499,228580,petrochemical_import
+Other Petro-based Chemicals,Polyol,202122,174008,352016,petrochemical_import
+Other Petro-based Chemicals,Polyol,202223,0,0,petrochemical_import
+Other Petro-based Chemicals,Polyol,202324,0,0,petrochemical_import
+Other Petro-based Chemicals,Polyol,202425,0,0,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201516,3209,5941,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201617,3043,3829,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201718,3448,5059,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201819,2713,3894,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,201920,3578,4955,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202021,3818,4871,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202122,4451,7998,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202223,5402,11596,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202324,2218,4788,petrochemical_import
+Other Petro-based Chemicals,Polyvinyl Acetate Resin,202425,2895,4645,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,201516,54045,46881,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,201617,51339,39956,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,201718,57333,49579,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,201819,66498,69089,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,201920,67372,54615,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,202021,59532,55321,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,202122,62175,129778,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,202223,69814,105480,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,202324,82296,87130,petrochemical_import
+Other Petro-based Chemicals,Propylene Glycol,202425,89922,92752,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,201516,25552,25697,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,201617,23064,21699,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,201718,23446,23594,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,201819,26800,30694,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,201920,20160,20127,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,202021,17361,22038,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,202122,20504,32293,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,202223,24821,34135,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,202324,28267,33184,petrochemical_import
+Other Petro-based Chemicals,Propylene Oxide,202425,41565,49251,petrochemical_import
+Other Petro-based Chemicals,Styrene,201516,717696,516539,petrochemical_import
+Other Petro-based Chemicals,Styrene,201617,729627,557571,petrochemical_import
+Other Petro-based Chemicals,Styrene,201718,789273,654655,petrochemical_import
+Other Petro-based Chemicals,Styrene,201819,817779,744118,petrochemical_import
+Other Petro-based Chemicals,Styrene,201920,876922,610879,petrochemical_import
+Other Petro-based Chemicals,Styrene,202021,738149,459419,petrochemical_import
+Other Petro-based Chemicals,Styrene,202122,888499,799875,petrochemical_import
+Other Petro-based Chemicals,Styrene,202223,1093429,1015028,petrochemical_import
+Other Petro-based Chemicals,Styrene,202324,1064752,931586,petrochemical_import
+Other Petro-based Chemicals,Styrene,202425,1136773,1110463,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,201516,30303,36568,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,201617,39975,42255,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,201718,49888,53751,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,201819,42954,59992,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,201920,48616,58735,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,202021,49482,58712,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,202122,48099,98713,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,202223,54046,114548,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,202324,69758,107589,petrochemical_import
+Other Petro-based Chemicals,Unsaturated Poleyster Resin,202425,69648,107180,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,201516,141649,88260,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,201617,162004,87159,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,201718,184964,117193,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,201819,171353,135851,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,201920,162866,98977,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,202021,138364,88247,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,202122,178958,252872,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,202223,211731,281602,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,202324,208704,153405,petrochemical_import
+Other Petro-based Chemicals,Vinyl Acetate Monomer,202425,226119,159751,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201516,349371,167169,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201617,344423,177368,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201718,484390,247256,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201819,457532,252913,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,201920,511166,280807,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202021,479876,315306,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202122,581809,552782,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202223,537183,410677,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202324,508296,304495,petrochemical_import
+Other Petro-based Chemicals,Vinyl Chloride Monomer,202425,517175,298679,petrochemical_import
+Performance Plastics,ABS Resin,201516,90081,100935,petrochemical_import
+Performance Plastics,ABS Resin,201617,102685,114201,petrochemical_import
+Performance Plastics,ABS Resin,201718,98026,131230,petrochemical_import
+Performance Plastics,ABS Resin,201819,119398,173631,petrochemical_import
+Performance Plastics,ABS Resin,201920,104643,126833,petrochemical_import
+Performance Plastics,ABS Resin,202021,98848,129553,petrochemical_import
+Performance Plastics,ABS Resin,202122,112791,210059,petrochemical_import
+Performance Plastics,ABS Resin,202223,115165,195968,petrochemical_import
+Performance Plastics,ABS Resin,202324,128502,176444,petrochemical_import
+Performance Plastics,ABS Resin,202425,156615,231084,petrochemical_import
+Performance Plastics,Nylon-6,201516,144545,218291,petrochemical_import
+Performance Plastics,Nylon-6,201617,158810,233711,petrochemical_import
+Performance Plastics,Nylon-6,201718,175945,299915,petrochemical_import
+Performance Plastics,Nylon-6,201819,215718,430268,petrochemical_import
+Performance Plastics,Nylon-6,201920,217382,345202,petrochemical_import
+Performance Plastics,Nylon-6,202021,0,0,petrochemical_import
+Performance Plastics,Nylon-6,202122,0,0,petrochemical_import
+Performance Plastics,Nylon-6,202223,0,0,petrochemical_import
+Performance Plastics,Nylon-6,202324,0,0,petrochemical_import
+Performance Plastics,Nylon-6,202425,0,0,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,201516,122206,74948,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,201617,117996,68960,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,201718,266358,113614,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,201819,307111,199059,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,201920,375865,233917,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,202021,151926,85030,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,202122,120110,80693,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,202223,116151,87603,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,202324,223870,167835,petrochemical_import
+Performance Plastics,Polyester Chips/Pet Chips,202425,175511,124622,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,201516,20309,30401,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,201617,27175,35588,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,201718,29994,47445,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,201819,29540,55142,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,201920,29331,45525,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,202021,31774,44980,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,202122,25928,51293,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,202223,33196,65329,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,202324,35529,62843,petrochemical_import
+Performance Plastics,Polymethyl Methacrylate,202425,40401,84479,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),201516,2086,12211,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),201617,2234,11511,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),201718,2939,18213,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),201819,2896,22190,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),201920,2904,19880,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),202021,3063,19623,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),202122,3226,23817,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),202223,4013,33234,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),202324,4716,34745,petrochemical_import
+Performance Plastics,Polytetrafluoroethylene(PTFE),202425,5253,32501,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,201516,9569,9061,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,201617,8542,8299,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,201718,9430,10630,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,201819,9188,11431,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,201920,10452,11103,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,202021,13347,14631,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,202122,20468,29048,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,202223,23791,32202,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,202324,25262,28956,petrochemical_import
+Performance Plastics,Styrene Acrylonitrile,202425,48834,60145,petrochemical_import
+Polymers,Expandable Polyestyrene,201516,2981,2723,petrochemical_import
+Polymers,Expandable Polyestyrene,201617,3779,3554,petrochemical_import
+Polymers,Expandable Polyestyrene,201718,2644,2744,petrochemical_import
+Polymers,Expandable Polyestyrene,201819,1241,1611,petrochemical_import
+Polymers,Expandable Polyestyrene,201920,1037,1184,petrochemical_import
+Polymers,Expandable Polyestyrene,202021,4684,4308,petrochemical_import
+Polymers,Expandable Polyestyrene,202122,5511,6709,petrochemical_import
+Polymers,Expandable Polyestyrene,202223,1822,2705,petrochemical_import
+Polymers,Expandable Polyestyrene,202324,1327,1920,petrochemical_import
+Polymers,Expandable Polyestyrene,202425,1827,2447,petrochemical_import
+Polymers,High Density Polythylene,201516,921743,798927,petrochemical_import
+Polymers,High Density Polythylene,201617,1000457,824364,petrochemical_import
+Polymers,High Density Polythylene,201718,993072,840665,petrochemical_import
+Polymers,High Density Polythylene,201819,902265,872720,petrochemical_import
+Polymers,High Density Polythylene,201920,787964,634354,petrochemical_import
+Polymers,High Density Polythylene,202021,810467,648402,petrochemical_import
+Polymers,High Density Polythylene,202122,827307,863139,petrochemical_import
+Polymers,High Density Polythylene,202223,1628435,1690936,petrochemical_import
+Polymers,High Density Polythylene,202324,2055552,1882968,petrochemical_import
+Polymers,High Density Polythylene,202425,1306283,1218651,petrochemical_import
+Polymers,Linear Low Density Polythylene,201516,590015,459471,petrochemical_import
+Polymers,Linear Low Density Polythylene,201617,469075,381387,petrochemical_import
+Polymers,Linear Low Density Polythylene,201718,425112,335698,petrochemical_import
+Polymers,Linear Low Density Polythylene,201819,276313,228745,petrochemical_import
+Polymers,Linear Low Density Polythylene,201920,311445,217054,petrochemical_import
+Polymers,Linear Low Density Polythylene,202021,226310,151723,petrochemical_import
+Polymers,Linear Low Density Polythylene,202122,223153,208037,petrochemical_import
+Polymers,Linear Low Density Polythylene,202223,476089,439494,petrochemical_import
+Polymers,Linear Low Density Polythylene,202324,433524,358058,petrochemical_import
+Polymers,Linear Low Density Polythylene,202425,209554,175098,petrochemical_import
+Polymers,Low Density Polyethylene,201516,374761,313547,petrochemical_import
+Polymers,Low Density Polyethylene,201617,391501,330125,petrochemical_import
+Polymers,Low Density Polyethylene,201718,464591,398992,petrochemical_import
+Polymers,Low Density Polyethylene,201819,341063,310441,petrochemical_import
+Polymers,Low Density Polyethylene,201920,352372,282510,petrochemical_import
+Polymers,Low Density Polyethylene,202021,256287,208489,petrochemical_import
+Polymers,Low Density Polyethylene,202122,222431,268779,petrochemical_import
+Polymers,Low Density Polyethylene,202223,278393,331845,petrochemical_import
+Polymers,Low Density Polyethylene,202324,307929,307019,petrochemical_import
+Polymers,Low Density Polyethylene,202425,314526,352873,petrochemical_import
+Polymers,PVC Compound,201516,79783,57368,petrochemical_import
+Polymers,PVC Compound,201617,59032,45858,petrochemical_import
+Polymers,PVC Compound,201718,27975,21140,petrochemical_import
+Polymers,PVC Compound,201819,9537,10363,petrochemical_import
+Polymers,PVC Compound,201920,0,0,petrochemical_import
+Polymers,PVC Compound,202021,0,0,petrochemical_import
+Polymers,PVC Compound,202122,177,53,petrochemical_import
+Polymers,PVC Compound,202223,26,30,petrochemical_import
+Polymers,PVC Compound,202324,32,59,petrochemical_import
+Polymers,PVC Compound,202425,12,17,petrochemical_import
+Polymers,Poly vinyl Chloride,201516,1501311,878823,petrochemical_import
+Polymers,Poly vinyl Chloride,201617,1702852,1015835,petrochemical_import
+Polymers,Poly vinyl Chloride,201718,1846296,1123738,petrochemical_import
+Polymers,Poly vinyl Chloride,201819,2037570,1354121,petrochemical_import
+Polymers,Poly vinyl Chloride,201920,928376,587544,petrochemical_import
+Polymers,Poly vinyl Chloride,202021,419309,300980,petrochemical_import
+Polymers,Poly vinyl Chloride,202122,460352,508138,petrochemical_import
+Polymers,Poly vinyl Chloride,202223,590624,534672,petrochemical_import
+Polymers,Poly vinyl Chloride,202324,688297,471250,petrochemical_import
+Polymers,Poly vinyl Chloride,202425,670758,455779,petrochemical_import
+Polymers,Polyestyrene,201516,42514,47364,petrochemical_import
+Polymers,Polyestyrene,201617,44374,54225,petrochemical_import
+Polymers,Polyestyrene,201718,52790,64224,petrochemical_import
+Polymers,Polyestyrene,201819,56312,69827,petrochemical_import
+Polymers,Polyestyrene,201920,54371,62759,petrochemical_import
+Polymers,Polyestyrene,202021,69916,81878,petrochemical_import
+Polymers,Polyestyrene,202122,65664,121494,petrochemical_import
+Polymers,Polyestyrene,202223,112718,178082,petrochemical_import
+Polymers,Polyestyrene,202324,107697,147992,petrochemical_import
+Polymers,Polyestyrene,202425,106478,164620,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),201516,700914,574265,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),201617,781188,611882,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),201718,938998,762085,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),201819,854828,837001,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),201920,994615,853958,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),202021,854399,746492,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),202122,1136898,1290866,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),202223,1701271,1778886,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),202324,1718627,1587887,petrochemical_import
+Polymers,Polypropylene (inc. Co-polymer),202425,1581912,1562738,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,201516,100,952,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,201617,137,1328,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,201718,74,785,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,201819,25,416,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,201920,32,655,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,202021,14,331,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,202122,104,2882,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,202223,197,1674,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,202324,182,1887,petrochemical_import
+Synthetic Detergent Intermediates,Ethylene Oxide,202425,37,1417,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201516,217997,176537,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201617,228092,177675,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201718,205910,163748,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201819,227111,210012,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,201920,264026,236771,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202021,265392,215927,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202122,277724,333278,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202223,342695,521880,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202324,251354,337041,petrochemical_import
+Synthetic Detergent Intermediates,Linear Alkyl Benzene,202425,287391,366978,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,201516,39238,53809,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,201617,36771,44394,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,201718,32184,46549,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,201819,40475,71158,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,201920,56316,84841,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,202021,41928,53586,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,202122,35164,76074,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,202223,26049,57635,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,202324,15921,26370,petrochemical_import
+Synthetic Fibres,Acrylic Fibre,202425,17831,31824,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201516,16247,68750,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201617,17531,69364,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201718,21753,86241,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201819,23351,100187,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,201920,22121,86629,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202021,8956,42041,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202122,11141,83304,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202223,8758,60333,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202324,6796,38261,petrochemical_import
+Synthetic Fibres,Elastomeric/Spandex Filament Yarn,202425,9271,46486,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,201516,28972,54485,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,201617,31063,53352,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,201718,22731,43317,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,201819,23259,52088,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,201920,24476,49669,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,202021,17058,34533,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,202122,25307,60951,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,202223,38680,82278,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,202324,28859,60294,petrochemical_import
+Synthetic Fibres,Nylon Filament Yarn,202425,48312,101112,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,201516,4411,6803,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,201617,7741,10247,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,201718,6566,10070,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,201819,8108,16323,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,201920,6893,11802,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,202021,9459,15174,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,202122,11445,31261,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,202223,8720,20790,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,202324,4002,8643,petrochemical_import
+Synthetic Fibres,Nylon industrial yarn/tyre cord,202425,4358,10556,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,201516,72605,86166,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,201617,84367,92492,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,201718,82784,100756,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,201819,83954,118045,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,201920,115170,129162,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,202021,238680,197017,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,202122,295709,343248,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,202223,487693,540875,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,202324,493203,508672,petrochemical_import
+Synthetic Fibres,Polyester Filament Yarn,202425,241598,307183,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,201516,99719,73357,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,201617,99809,70113,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,201718,88990,71053,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,201819,91775,89685,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,201920,118176,94729,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,202021,84273,64616,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,202122,78310,78489,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,202223,95480,95660,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,202324,54707,54635,petrochemical_import
+Synthetic Fibres,Polyester Staple Fibre,202425,70376,71960,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,201516,697,1001,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,201617,695,850,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,201718,1343,1715,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,201819,1362,2007,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,201920,670,954,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,202021,755,1418,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,202122,315,975,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,202223,164,1092,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,202324,263,391,petrochemical_import
+Synthetic Fibres,Polypropylene Filament Yarn,202425,322,498,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,201516,1885,1997,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,201617,2016,2181,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,201718,3281,3378,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,201819,3333,3863,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,201920,2778,3097,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,202021,2164,2316,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,202122,2986,4218,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,202223,4706,5998,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,202324,7045,7636,petrochemical_import
+Synthetic Fibres,Polypropylene Staple Fibre,202425,5748,6463,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,201516,92082,126683,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,201617,100984,136910,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,201718,111349,151035,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,201819,120816,200157,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,201920,94067,151010,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,202021,90043,138841,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,202122,86078,156123,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,202223,64839,153952,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,202324,63433,134599,petrochemical_import
+Synthetic Rubber (Elastomers),Butyl Rubber,202425,60196,128653,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201516,39370,60759,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201617,43411,54947,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201718,45099,59035,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201819,52800,80061,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,201920,45465,59429,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202021,41810,52572,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202122,48943,101663,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202223,54585,130656,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202324,65697,121152,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Propylene Dimers,202425,68403,131233,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201516,165264,162033,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201617,144604,141686,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201718,183348,184503,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201819,178684,202884,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,201920,193671,212988,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202021,189581,212461,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202122,182004,383881,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202223,206182,406974,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202324,235318,317919,petrochemical_import
+Synthetic Rubber (Elastomers),Ethyl Vinyl Acetate,202425,297581,360128,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201516,51937,44391,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201617,36451,45999,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201718,40310,63203,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201819,38519,73014,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,201920,41179,60140,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202021,158510,52408,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202122,38508,78806,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202223,46436,108043,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202324,54323,97486,petrochemical_import
+Synthetic Rubber (Elastomers),Nitrile Butadiene Rubber,202425,47372,91521,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201516,74646,63210,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201617,84910,93064,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201718,94772,122673,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201819,104671,138315,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,201920,97712,107321,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202021,114961,113497,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202122,109987,167151,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202223,134822,233641,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202324,124579,173138,petrochemical_import
+Synthetic Rubber (Elastomers),Poly Butadiene Rubber,202425,152166,256191,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201516,172802,155614,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201617,149559,155436,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201718,132989,161301,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201819,123010,156987,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,201920,102738,118659,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202021,152373,149081,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202122,169618,256501,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202223,166616,287301,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202324,180487,267764,petrochemical_import
+Synthetic Rubber (Elastomers),Styrene Butadiene Rubber,202425,203774,351517,petrochemical_import
+Total - Aromatics,Total,201516,1204325,633048,petrochemical_import
+Total - Aromatics,Total,201617,1614652,864845,petrochemical_import
+Total - Aromatics,Total,201718,1321018,708548,petrochemical_import
+Total - Aromatics,Total,201819,1320424,910212,petrochemical_import
+Total - Aromatics,Total,201920,1327535,772834,petrochemical_import
+Total - Aromatics,Total,202021,1300486,542096,petrochemical_import
+Total - Aromatics,Total,202122,1124365,742531,petrochemical_import
+Total - Aromatics,Total,202223,1245729,1123727,petrochemical_import
+Total - Aromatics,Total,202324,1509211,1327413,petrochemical_import
+Total - Aromatics,Total,202425,1795425,1486329,petrochemical_import
+Total - Fibre Intermediates,Total,201516,2015419,1026126,petrochemical_import
+Total - Fibre Intermediates,Total,201617,1842229,943136,petrochemical_import
+Total - Fibre Intermediates,Total,201718,1808425,1072331,petrochemical_import
+Total - Fibre Intermediates,Total,201819,1454656,1056882,petrochemical_import
+Total - Fibre Intermediates,Total,201920,1919655,1059484,petrochemical_import
+Total - Fibre Intermediates,Total,202021,1441326,649525,petrochemical_import
+Total - Fibre Intermediates,Total,202122,2626726,1713284,petrochemical_import
+Total - Fibre Intermediates,Total,202223,3355729,2176204,petrochemical_import
+Total - Fibre Intermediates,Total,202324,2929291,1771593,petrochemical_import
+Total - Fibre Intermediates,Total,202425,3486813,2191973,petrochemical_import
+Total - Olefins,Total,201516,25398,20177,petrochemical_import
+Total - Olefins,Total,201617,83453,60651,petrochemical_import
+Total - Olefins,Total,201718,50791,43283,petrochemical_import
+Total - Olefins,Total,201819,69700,57846,petrochemical_import
+Total - Olefins,Total,201920,75857,51011,petrochemical_import
+Total - Olefins,Total,202021,43875,33958,petrochemical_import
+Total - Olefins,Total,202122,91880,76193,petrochemical_import
+Total - Olefins,Total,202223,94231,102839,petrochemical_import
+Total - Olefins,Total,202324,68159,57346,petrochemical_import
+Total - Olefins,Total,202425,63174,57361,petrochemical_import
+Total - Other Petro-based Chemicals,Total,201516,2739780,1775978,petrochemical_import
+Total - Other Petro-based Chemicals,Total,201617,2650608,1764933,petrochemical_import
+Total - Other Petro-based Chemicals,Total,201718,3255244,2232102,petrochemical_import
+Total - Other Petro-based Chemicals,Total,201819,3227017,2709229,petrochemical_import
+Total - Other Petro-based Chemicals,Total,201920,3543017,2388328,petrochemical_import
+Total - Other Petro-based Chemicals,Total,202021,3068899,2152067,petrochemical_import
+Total - Other Petro-based Chemicals,Total,202122,3291372,3656404,petrochemical_import
+Total - Other Petro-based Chemicals,Total,202223,3425800,3404342,petrochemical_import
+Total - Other Petro-based Chemicals,Total,202324,3326576,2852163,petrochemical_import
+Total - Other Petro-based Chemicals,Total,202425,3620579,3219382,petrochemical_import
+Total - Performance Plastics,Total,201516,388796,445847,petrochemical_import
+Total - Performance Plastics,Total,201617,417442,472270,petrochemical_import
+Total - Performance Plastics,Total,201718,582692,621047,petrochemical_import
+Total - Performance Plastics,Total,201819,683851,891721,petrochemical_import
+Total - Performance Plastics,Total,201920,740577,782460,petrochemical_import
+Total - Performance Plastics,Total,202021,298958,293817,petrochemical_import
+Total - Performance Plastics,Total,202122,282523,394910,petrochemical_import
+Total - Performance Plastics,Total,202223,292316,414336,petrochemical_import
+Total - Performance Plastics,Total,202324,417879,470823,petrochemical_import
+Total - Performance Plastics,Total,202425,426614,532831,petrochemical_import
+Total - Polymers,Total,201516,4214022,3132488,petrochemical_import
+Total - Polymers,Total,201617,4452258,3267230,petrochemical_import
+Total - Polymers,Total,201718,4751478,3549286,petrochemical_import
+Total - Polymers,Total,201819,4479129,3684829,petrochemical_import
+Total - Polymers,Total,201920,3430180,2639363,petrochemical_import
+Total - Polymers,Total,202021,2641372,2142272,petrochemical_import
+Total - Polymers,Total,202122,2941493,3267215,petrochemical_import
+Total - Polymers,Total,202223,4789378,4956650,petrochemical_import
+Total - Polymers,Total,202324,5312985,4757153,petrochemical_import
+Total - Polymers,Total,202425,4191350,3932223,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,201516,218097,177489,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,201617,228229,179003,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,201718,205984,164533,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,201819,227136,210428,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,201920,264058,237426,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,202021,265406,216258,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,202122,277828,336160,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,202223,342892,523554,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,202324,251536,338928,petrochemical_import
+Total - Synthetic Detergent Intermediates,Total,202425,287428,368395,petrochemical_import
+Total - Synthetic Fibres,Total,201516,263774,346368,petrochemical_import
+Total - Synthetic Fibres,Total,201617,279993,342993,petrochemical_import
+Total - Synthetic Fibres,Total,201718,259632,363079,petrochemical_import
+Total - Synthetic Fibres,Total,201819,275617,453356,petrochemical_import
+Total - Synthetic Fibres,Total,201920,346600,460883,petrochemical_import
+Total - Synthetic Fibres,Total,202021,403273,410701,petrochemical_import
+Total - Synthetic Fibres,Total,202122,460377,678520,petrochemical_import
+Total - Synthetic Fibres,Total,202223,670250,864661,petrochemical_import
+Total - Synthetic Fibres,Total,202324,610796,704902,petrochemical_import
+Total - Synthetic Fibres,Total,202425,397816,576082,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,201516,596101,612690,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,201617,559919,628042,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,201718,607867,741750,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,201819,618500,851418,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,201920,574832,709547,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,202021,747278,718860,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,202122,635138,1144125,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,202223,673480,1320567,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,202324,723837,1112058,petrochemical_import
+Total - Synthetic Rubber (Elastomers),Total,202425,829492,1319243,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,201516,11665712,8170211,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,201617,12128783,8523103,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,201718,12843131,9495959,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,201819,12356030,10825921,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,201920,12222311,9101336,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,202021,10210873,7159554,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,202122,11731702,12009342,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,202223,14889805,14886880,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,202324,15150270,13392379,petrochemical_import
+Total Import of Major Petro-chemicals,Total Import of Major Petro-chemicals,202425,15098691,13683819,petrochemical_import

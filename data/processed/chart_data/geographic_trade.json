@@ -1,0 +1,76 @@
+{
+  "partners": [
+    {
+      "country": "USA",
+      "exports": 8500,
+      "imports": 12000,
+      "balance": -3500,
+      "share": 15.2
+    },
+    {
+      "country": "China",
+      "exports": 5200,
+      "imports": 18500,
+      "balance": -13300,
+      "share": 22.1
+    },
+    {
+      "country": "UAE",
+      "exports": 7800,
+      "imports": 9200,
+      "balance": -1400,
+      "share": 11.3
+    },
+    {
+      "country": "Saudi Arabia",
+      "exports": 3200,
+      "imports": 15800,
+      "balance": -12600,
+      "share": 18.5
+    },
+    {
+      "country": "Russia",
+      "exports": 2800,
+      "imports": 11500,
+      "balance": -8700,
+      "share": 13.7
+    },
+    {
+      "country": "Germany",
+      "exports": 4100,
+      "imports": 6800,
+      "balance": -2700,
+      "share": 8.1
+    },
+    {
+      "country": "Japan",
+      "exports": 3500,
+      "imports": 5200,
+      "balance": -1700,
+      "share": 6.2
+    },
+    {
+      "country": "South Korea",
+      "exports": 2900,
+      "imports": 4800,
+      "balance": -1900,
+      "share": 5.7
+    },
+    {
+      "country": "Singapore",
+      "exports": 4200,
+      "imports": 3800,
+      "balance": 400,
+      "share": 4.5
+    },
+    {
+      "country": "Nigeria",
+      "exports": 1800,
+      "imports": 2900,
+      "balance": -1100,
+      "share": 3.4
+    }
+  ],
+  "middle_east_dependency": 52.3,
+  "total_trade_volume": 86400
+}

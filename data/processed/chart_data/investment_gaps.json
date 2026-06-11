@@ -1,0 +1,57 @@
+{
+  "sectors": [
+    {
+      "name": "Petrochemical Refining",
+      "current_investment": 45000,
+      "required": 85000,
+      "gap": 40000,
+      "growth_potential": 12
+    },
+    {
+      "name": "Specialty Chemicals",
+      "current_investment": 18000,
+      "required": 35000,
+      "gap": 17000,
+      "growth_potential": 18
+    },
+    {
+      "name": "Polymer Manufacturing",
+      "current_investment": 22000,
+      "required": 42000,
+      "gap": 20000,
+      "growth_potential": 15
+    },
+    {
+      "name": "Fertilizer Production",
+      "current_investment": 32000,
+      "required": 48000,
+      "gap": 16000,
+      "growth_potential": 8
+    },
+    {
+      "name": "Synthetic Fibres",
+      "current_investment": 12000,
+      "required": 25000,
+      "gap": 13000,
+      "growth_potential": 14
+    },
+    {
+      "name": "Petrochemical Catalysts",
+      "current_investment": 8000,
+      "required": 18000,
+      "gap": 10000,
+      "growth_potential": 22
+    },
+    {
+      "name": "Green Petrochemicals",
+      "current_investment": 5000,
+      "required": 30000,
+      "gap": 25000,
+      "growth_potential": 35
+    }
+  ],
+  "total_current": 142000,
+  "total_required": 283000,
+  "total_gap": 141000,
+  "unit": "\u20b9 Crore"
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast — India Petrochemical Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        :root {
+            --primary: #cc785c;
+            --primary-active: #a9583e;
+            --primary-disabled: #e6dfd8;
+            --ink: #141413;
+            --body: #3d3d3a;
+            --body-strong: #252523;
+            --muted: #6c6a64;
+            --muted-soft: #8e8b82;
+            --hairline: #e6dfd8;
+            --hairline-soft: #ebe6df;
+            --canvas: #faf9f5;
+            --surface-soft: #f5f0e8;
+            --surface-card: #efe9de;
+            --surface-dark: #181715;
+            --surface-dark-elevated: #252320;
+            --surface-dark-soft: #1f1e1b;
+            --on-primary: #ffffff;
+            --on-dark: #faf9f5;
+            --on-dark-soft: #a09d96;
+            --accent-teal: #5db8a6;
+            --accent-amber: #e8a55a;
+            --success: #5db872;
+            --warning: #d4a017;
+            --error: #c64545;
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            font-size: 16px; line-height: 1.55;
+            color: var(--body); background: var(--canvas);
+            -webkit-font-smoothing: antialiased;
+        }
+        .display-xl { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 52px; font-weight: 400; line-height: 1.05; letter-spacing: -1.5px; color: var(--ink); }
+        .display-lg { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 40px; font-weight: 400; line-height: 1.1; letter-spacing: -1px; color: var(--ink); }
+        .display-md { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 400; line-height: 1.15; letter-spacing: -0.5px; color: var(--ink); }
+        .display-sm { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 24px; font-weight: 400; line-height: 1.2; color: var(--ink); }
+        .title-lg { font-size: 20px; font-weight: 500; color: var(--ink); }
+        .title-md { font-size: 18px; font-weight: 500; color: var(--ink); }
+        .title-sm { font-size: 16px; font-weight: 500; color: var(--ink); }
+        .body-md { font-size: 16px; color: var(--body); }
+        .body-sm { font-size: 14px; color: var(--body); }
+        .caption { font-size: 13px; font-weight: 500; color: var(--muted); }
+        .caption-upper { font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+        .section { padding: 72px 0; }
+        .section-sm { padding: 36px 0; }
+        .top-nav { position: sticky; top: 0; z-index: 100; background: var(--canvas); border-bottom: 1px solid var(--hairline); height: 64px; display: flex; align-items: center; }
+        .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; width: 100%; }
+        .nav-brand { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); }
+        .nav-brand .spike { font-size: 20px; font-weight: 700; }
+        .nav-brand span { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; }
+        .nav-links { display: flex; gap: 24px; margin-left: auto; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--muted); font-size: 14px; font-weight: 500; transition: color 0.15s; padding: 4px 0; }
+        .nav-links a:hover, .nav-links a.active { color: var(--ink); }
+        .nav-links a.active { color: var(--primary); border-bottom: 2px solid var(--primary); }
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; margin-left: auto; }
+        .hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
+        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+        .mobile-menu { display: none; position: fixed; top: 64px; left: 0; right: 0; background: var(--canvas); border-bottom: 1px solid var(--hairline); padding: 16px 32px; z-index: 99; box-shadow: 0 4px 12px rgba(20,20,19,0.08); }
+        .mobile-menu.open { display: block; }
+        .mobile-menu a { display: block; padding: 12px 0; text-decoration: none; color: var(--body); font-size: 16px; font-weight: 500; border-bottom: 1px solid var(--hairline-soft); }
+        .mobile-menu a:last-child { border-bottom: none; }
+        .mobile-menu a.active { color: var(--primary); }
+        .btn-primary { display: inline-flex; align-items: center; background: var(--primary); color: var(--on-primary); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; text-decoration: none; transition: background 0.15s; }
+        .btn-primary:hover { background: var(--primary-active); }
+        .btn-secondary { display: inline-flex; align-items: center; background: var(--canvas); color: var(--ink); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: 1px solid var(--hairline); cursor: pointer; text-decoration: none; }
+        .btn-secondary:hover { background: var(--surface-soft); }
+        .btn-dark { display: inline-flex; align-items: center; background: var(--surface-dark-elevated); color: var(--on-dark); font-size: 14px; font-weight: 500; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; text-decoration: none; }
+        .text-link { color: var(--primary); text-decoration: none; font-weight: 500; }
+        .text-link:hover { text-decoration: underline; }
+        .feature-card { background: var(--surface-card); border-radius: 12px; padding: 32px; transition: transform 0.2s, box-shadow 0.2s; }
+        .feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(20,20,19,0.08); }
+        .dark-card { background: var(--surface-dark); color: var(--on-dark); border-radius: 12px; padding: 32px; }
+        .cream-card { background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; padding: 32px; }
+        .coral-card { background: var(--primary); color: var(--on-primary); border-radius: 12px; padding: 48px; }
+        .code-card { background: var(--surface-dark); color: var(--on-dark); border-radius: 12px; padding: 24px; font-family: 'JetBrains Mono', monospace; font-size: 14px; overflow-x: auto; }
+        .badge-pill { display: inline-block; background: var(--surface-card); color: var(--ink); font-size: 13px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-coral { display: inline-block; background: var(--primary); color: var(--on-primary); font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px; border-radius: 9999px; }
+        .badge-success { display: inline-block; background: var(--success); color: white; font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-warning { display: inline-block; background: var(--accent-amber); color: var(--ink); font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .badge-error { display: inline-block; background: var(--error); color: white; font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 9999px; }
+        .data-table { width: 100%; border-collapse: collapse; }
+        .data-table th { text-align: left; padding: 12px 16px; font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--hairline); }
+        .data-table td { padding: 12px 16px; border-bottom: 1px solid var(--hairline-soft); font-size: 14px; color: var(--body); }
+        .data-table tr:hover td { background: var(--surface-soft); }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+        .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 24px; }
+        .stat-card { text-align: center; }
+        .stat-value { font-family: 'Cormorant Garamond', serif; font-size: 44px; font-weight: 400; color: var(--ink); line-height: 1.1; }
+        .stat-label { font-size: 12px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+        .stat-change { font-size: 14px; font-weight: 500; margin-top: 4px; }
+        .stat-change.negative { color: var(--error); }
+        .stat-change.positive { color: var(--success); }
+        .chart-container { background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; overflow: hidden; width: 100%; }
+        .chart-container .js-plotly-plot, .chart-container .plot-container { width: 100% !important; }
+        .chart-header { padding: 20px 24px 0; }
+        .chart-body { padding: 8px 16px 16px; }
+        .chart-caption { padding: 12px 24px; border-top: 1px solid var(--hairline-soft); }
+        .scenario-card { border-radius: 12px; padding: 32px; border: 2px solid transparent; transition: transform 0.2s; }
+        .scenario-card:hover { transform: translateY(-3px); }
+        .scenario-base { border-color: var(--accent-amber); background: #fdf8f0; }
+        .scenario-bull { border-color: var(--success); background: #f0fdf4; }
+        .scenario-bear { border-color: var(--error); background: #fef2f2; }
+        .verdict-card { border-left: 4px solid var(--primary); padding: 20px 24px; background: var(--canvas); border-radius: 0 8px 8px 0; margin-bottom: 16px; transition: transform 0.15s; }
+        .verdict-card:hover { transform: translateX(4px); }
+        .verdict-critical { border-left-color: var(--error); }
+        .verdict-high { border-left-color: var(--accent-amber); }
+        .verdict-opportunity { border-left-color: var(--success); }
+        .verdict-info { border-left-color: var(--accent-teal); }
+        .progress-bar { height: 8px; background: var(--surface-soft); border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+        .tab-bar { display: flex; gap: 4px; background: var(--surface-soft); padding: 4px; border-radius: 8px; margin-bottom: 24px; }
+        .tab-btn { padding: 8px 16px; border-radius: 6px; border: none; background: transparent; color: var(--muted); font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.15s; }
+        .tab-btn.active { background: var(--canvas); color: var(--ink); box-shadow: 0 1px 3px rgba(20,20,19,0.08); }
+        .tab-btn:hover:not(.active) { color: var(--ink); }
+        .footer { background: var(--surface-dark); color: var(--on-dark-soft); padding: 64px 0; }
+        .footer a { color: var(--on-dark-soft); text-decoration: none; }
+        .footer a:hover { color: var(--on-dark); }
+        @media (max-width: 768px) {
+            .display-xl { font-size: 32px; } .display-lg { font-size: 28px; } .display-md { font-size: 24px; }
+            .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .nav-links { display: none; } .hamburger { display: block; } .section { padding: 48px 0; } .stat-value { font-size: 36px; }
+            .container { padding: 0 16px; } .nav-inner { padding: 0 16px; }
+        }
+        @media (min-width: 769px) { .mobile-menu { display: none !important; } }
+        @media (max-width: 1024px) { .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; } }
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .slide-up { animation: slideUp 0.6s ease-out; }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+    
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">
+                <span class="spike">*</span>
+                <span>Petrochem Analytics</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/" class="">Overview</a></li>
+                <li><a href="/trade" class="">Trade</a></li>
+                <li><a href="/forecast" class="active">Forecast</a></li>
+                <li><a href="/models" class="">Models</a></li>
+                <li><a href="/analysis" class="">Analysis</a></li>
+                <li><a href="/datasets" class="">Data</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="/" class="">Overview</a>
+        <a href="/trade" class="">Trade Analysis</a>
+        <a href="/forecast" class="active">Forecast & Scenarios</a>
+        <a href="/models" class="">Model Performance</a>
+        <a href="/analysis" class="">Deep Analysis</a>
+        <a href="/datasets" class="">Data Sources</a>
+    </div>
+    <main>
+<section class="section" style="padding-bottom:32px">
+    <div class="container">
+        <div class="badge-coral" style="margin-bottom:16px">12-MONTH FORECAST</div>
+        <h1 class="display-lg">Scenario Analysis: Jul 2026 — Jun 2027</h1>
+        <p class="body-md" style="max-width:700px;margin-top:16px;color:var(--muted);font-size:17px">Three geopolitical scenarios modeling India's petrochemical trade trajectory under varying crude oil prices and exchange rate assumptions.</p>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <div class="grid-3">
+            <div class="scenario-card scenario-base">
+                <div class="badge-warning" style="margin-bottom:12px">BASE CASE</div>
+                <p class="title-md" style="margin-bottom:8px">Tensions Persist</p>
+                <p class="body-sm" style="color:var(--muted);margin-bottom:16px">Geopolitical tensions continue. Crude stays $84-91. INR weakens to 100.</p>
+                <div style="display:flex;gap:20px"><div><p class="caption-upper">Crude</p><p class="title-lg">$84-91</p></div><div><p class="caption-upper">INR</p><p class="title-lg">96-100</p></div></div>
+            </div>
+            <div class="scenario-card scenario-bull">
+                <div class="badge-success" style="margin-bottom:12px">BULL CASE</div>
+                <p class="title-md" style="margin-bottom:8px">Peace Dividend</p>
+                <p class="body-sm" style="color:var(--muted);margin-bottom:16px">Hormuz reopens. Crude drops to $65-70. INR strengthens to 85-86.</p>
+                <div style="display:flex;gap:20px"><div><p class="caption-upper">Crude</p><p class="title-lg">$65-70</p></div><div><p class="caption-upper">INR</p><p class="title-lg">85-86</p></div></div>
+            </div>
+            <div class="scenario-card scenario-bear">
+                <div class="badge-error" style="margin-bottom:12px">BEAR CASE</div>
+                <p class="title-md" style="margin-bottom:8px">Escalation</p>
+                <p class="body-sm" style="color:var(--muted);margin-bottom:16px">Full conflict. Crude spikes $100-110. INR weakens past 105.</p>
+                <div style="display:flex;gap:20px"><div><p class="caption-upper">Crude</p><p class="title-lg">$90-110</p></div><div><p class="caption-upper">INR</p><p class="title-lg">97-105</p></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Scenario Comparison</h2>
+        <div class="chart-container">
+            <div id="chart-scenarios" style="height:500px"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Sensitivity Analysis</h2>
+        <div class="grid-2">
+            <div class="chart-container">
+                <div id="chart-crude-sens" style="height:400px"></div>
+            </div>
+            <div class="chart-container">
+                <div id="chart-inr-sens" style="height:400px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-sm" style="background:var(--surface-soft)">
+    <div class="container">
+        <h2 class="display-md" style="margin-bottom:24px">Monthly Forecast Data</h2>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</section>
+
+<section class="section-sm">
+    <div class="container">
+        <div class="dark-card">
+            <h2 class="display-sm" style="color:var(--on-dark);margin-bottom:20px">Policy Implications</h2>
+            <div class="grid-2">
+                <div><p class="title-sm" style="color:var(--accent-teal);margin-bottom:6px">Currency Hedging</p><p class="body-md" style="color:var(--on-dark-soft)">Lock in forward contracts now. Unhedged imports could cost ₹3,000-5,000 Cr more annually under base case.</p></div>
+                <div><p class="title-sm" style="color:var(--accent-amber);margin-bottom:6px">Supply Diversification</p><p class="body-md" style="color:var(--on-dark-soft)">Reduce Middle East dependency from 52% to 30% by expanding Russian and African sourcing. Reduces geopolitical risk by 30-40%.</p></div>
+                <div><p class="title-sm" style="color:var(--primary);margin-bottom:6px">Value Addition</p><p class="body-md" style="color:var(--on-dark-soft)">Shift from raw petrochemical exports to specialty chemicals. Could improve trade balance by 15-20%.</p></div>
+                <div><p class="title-sm" style="color:var(--error);margin-bottom:6px">Strategic Reserves</p><p class="body-md" style="color:var(--on-dark-soft)">Build 2-3 month petrochemical strategic reserves to buffer supply shocks and reduce price volatility.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-4">
+                <div>
+                    <p style="color:var(--on-dark);font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:12px"><span style="font-weight:700">*</span> Petrochem Analytics</p>
+                    <p class="body-sm">India Petrochemical Trade Analysis & Forecast Dashboard</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Data Sources</p>
+                    <p class="body-sm">data.gov.in API (31 datasets)</p>
+                    <p class="body-sm">World Bank (9 indicators)</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Analysis</p>
+                    <p class="body-sm">4 Predictive Models</p>
+                    <p class="body-sm">3 Scenario Forecasts</p>
+                    <p class="body-sm">7 Sector Deep Dives</p>
+                </div>
+                <div>
+                    <p class="caption-upper" style="color:var(--on-dark);margin-bottom:8px">Period</p>
+                    <p class="body-sm">July 2026 — June 2027</p>
+                    <p class="body-sm">12-Month Horizon</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.getElementById('mobile-menu').classList.toggle('open');
+        });
+    </script>
+    <script>
+        // Global Plotly config
+        const plotlyConfig = { responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['lasso2d','select2d'], displaylogo: false };
+        const plotlyLayout = {
+            paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
+            font: { family: 'Inter, sans-serif', color: '#3d3d3a' },
+            margin: { l: 60, r: 30, t: 40, b: 60 },
+            xaxis: { gridcolor: '#ebe6df', linecolor: '#e6dfd8' },
+            yaxis: { gridcolor: '#ebe6df', linecolor: '#e6dfd8' },
+            hoverlabel: { bgcolor: '#181715', font: { color: '#faf9f5', size: 13 } }
+        };
+        function mergeLayout(extra) { return Object.assign({}, plotlyLayout, extra); }
+    </script>
+    
+<script>
+fetch('results/04_scenario_forecasts.csv').then(r=>r.json()).then(d=>{
+    if(!d||!d.length) return;
+    const base=d.filter(r=>r.scenario==='base_case');
+    const bull=d.filter(r=>r.scenario==='bull_case');
+    const bear=d.filter(r=>r.scenario==='bear_case');
+    const months=base.map(r=>r.date?r.date.substring(0,7):'');
+
+    Plotly.newPlot('chart-scenarios',[
+        {x:months,y:base.map(r=>r.import_index),name:'Base Import',line:{color:'#e8a55a',width:3},mode:'lines+markers',marker:{size:7}},
+        {x:months,y:base.map(r=>r.export_index),name:'Base Export',line:{color:'#e8a55a',width:2,dash:'dot'},mode:'lines+markers',marker:{size:5}},
+        {x:months,y:bull.map(r=>r.import_index),name:'Bull Import',line:{color:'#5db872',width:3},mode:'lines+markers',marker:{size:7}},
+        {x:months,y:bull.map(r=>r.export_index),name:'Bull Export',line:{color:'#5db872',width:2,dash:'dot'},mode:'lines+markers',marker:{size:5}},
+        {x:months,y:bear.map(r=>r.import_index),name:'Bear Import',line:{color:'#c64545',width:3},mode:'lines+markers',marker:{size:7}},
+        {x:months,y:bear.map(r=>r.export_index),name:'Bear Export',line:{color:'#c64545',width:2,dash:'dot'},mode:'lines+markers',marker:{size:5}},
+    ],mergeLayout({yaxis:{title:'Index Value'},legend:{x:0,y:1.15,orientation:'h'},hovermode:'x unified'}),plotlyConfig);
+});
+
+fetch('data/processed/chart_data/price_sensitivity.json').then(r=>r.json()).then(d=>{
+    if(!d.crude_sensitivity) return;
+    const cs=d.crude_sensitivity;
+    Plotly.newPlot('chart-crude-sens',[{
+        x:cs.map(r=>r.crude_price), y:cs.map(r=>r.import_index),
+        type:'scatter', mode:'lines+markers', fill:'tozeroy',
+        line:{color:'#cc785c',width:3}, marker:{size:6},
+        fillcolor:'rgba(204,120,92,0.1)',
+        hovertemplate:'Crude: $%{x}<br>Import Index: %{y:.2f}<br>Change: %{customdata}%<extra></extra>',
+        customdata:cs.map(r=>r.change_pct)
+    }],mergeLayout({title:{text:'Crude Price vs Import Index',font:{size:16}},xaxis:{title:'Brent Crude ($/bbl)'},yaxis:{title:'Import Index'}}),plotlyConfig);
+
+    const ins=d.inr_sensitivity;
+    Plotly.newPlot('chart-inr-sens',[{
+        x:ins.map(r=>r.inr_rate), y:ins.map(r=>r.import_index),
+        type:'scatter', mode:'lines+markers', fill:'tozeroy',
+        line:{color:'#5db8a6',width:3}, marker:{size:6},
+        fillcolor:'rgba(93,184,166,0.1)',
+        hovertemplate:'USD/INR: %{x}<br>Import Index: %{y:.2f}<br>Change: %{customdata}%<extra></extra>',
+        customdata:ins.map(r=>r.change_pct)
+    }],mergeLayout({title:{text:'USD/INR vs Import Index',font:{size:16}},xaxis:{title:'USD/INR Rate'},yaxis:{title:'Import Index'}}),plotlyConfig);
+});
+</script>
+
+</body>
+</html>

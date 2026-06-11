@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for git)
+data/raw/
+data/raw/external/
+
+# Model files
+models/
+*.pkl
+*.h5
+*.hdf5
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+tmp/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# uv
+.uv/
+
+# Temporary
+*.tmp
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output files that can be regenerated
+catalogue_basic.jsonl
+catalogue_full.jsonl
+catalogue_enriched_slow.jsonl
+enrich_*.json

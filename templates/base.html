@@ -150,17 +150,17 @@
 <body>
     <nav class="top-nav">
         <div class="nav-inner">
-            <a href="/" class="nav-brand">
+            <a href="index.html" class="nav-brand">
                 <span class="spike">*</span>
                 <span>Petrochem Analytics</span>
             </a>
             <ul class="nav-links">
-                <li><a href="/" class="{% if active_page == 'home' %}active{% endif %}">Overview</a></li>
-                <li><a href="/trade" class="{% if active_page == 'trade' %}active{% endif %}">Trade</a></li>
-                <li><a href="/forecast" class="{% if active_page == 'forecast' %}active{% endif %}">Forecast</a></li>
-                <li><a href="/models" class="{% if active_page == 'models' %}active{% endif %}">Models</a></li>
-                <li><a href="/analysis" class="{% if active_page == 'analysis' %}active{% endif %}">Analysis</a></li>
-                <li><a href="/datasets" class="{% if active_page == 'datasets' %}active{% endif %}">Data</a></li>
+                <li><a href="index.html" class="{% if active_page == 'home' %}active{% endif %}">Overview</a></li>
+                <li><a href="trade.html" class="{% if active_page == 'trade' %}active{% endif %}">Trade</a></li>
+                <li><a href="forecast.html" class="{% if active_page == 'forecast' %}active{% endif %}">Forecast</a></li>
+                <li><a href="models.html" class="{% if active_page == 'models' %}active{% endif %}">Models</a></li>
+                <li><a href="analysis.html" class="{% if active_page == 'analysis' %}active{% endif %}">Analysis</a></li>
+                <li><a href="datasets.html" class="{% if active_page == 'datasets' %}active{% endif %}">Data</a></li>
             </ul>
             <button class="hamburger" id="hamburger-btn" aria-label="Menu">
                 <span></span><span></span><span></span>
@@ -168,12 +168,12 @@
         </div>
     </nav>
     <div class="mobile-menu" id="mobile-menu">
-        <a href="/" class="{% if active_page == 'home' %}active{% endif %}">Overview</a>
-        <a href="/trade" class="{% if active_page == 'trade' %}active{% endif %}">Trade Analysis</a>
-        <a href="/forecast" class="{% if active_page == 'forecast' %}active{% endif %}">Forecast & Scenarios</a>
-        <a href="/models" class="{% if active_page == 'models' %}active{% endif %}">Model Performance</a>
-        <a href="/analysis" class="{% if active_page == 'analysis' %}active{% endif %}">Deep Analysis</a>
-        <a href="/datasets" class="{% if active_page == 'datasets' %}active{% endif %}">Data Sources</a>
+        <a href="index.html" class="{% if active_page == 'home' %}active{% endif %}">Overview</a>
+        <a href="trade.html" class="{% if active_page == 'trade' %}active{% endif %}">Trade Analysis</a>
+        <a href="forecast.html" class="{% if active_page == 'forecast' %}active{% endif %}">Forecast & Scenarios</a>
+        <a href="models.html" class="{% if active_page == 'models' %}active{% endif %}">Model Performance</a>
+        <a href="analysis.html" class="{% if active_page == 'analysis' %}active{% endif %}">Deep Analysis</a>
+        <a href="datasets.html" class="{% if active_page == 'datasets' %}active{% endif %}">Data Sources</a>
     </div>
     <main>{% block content %}{% endblock %}</main>
     <footer class="footer">
